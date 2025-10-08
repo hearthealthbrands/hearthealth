@@ -20,9 +20,7 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
 
     <script type="application/ld+json">
     {
@@ -36,73 +34,31 @@
       "description": "A simple, week-by-week plan to lower your LDL cholesterol with practical, science-backed advice.",
       "author": {
         "@type": "Organization",
-        "name": "Heart Health Brands"
+        "name": "HeartHealth Brands"
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Heart Health Brands",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://www.hearthealthbrands.com/logo.png" 
-        }
+        "name": "HeartHealth Brands"
       },
       "datePublished": "2025-10-08"
     }
     </script>
-
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        /* Style for the article content */
-        .article-content h2 {
-            font-size: 1.875rem; /* 30px */
-            font-weight: 700;
-            margin-top: 2.5rem; /* 40px */
-            margin-bottom: 1rem; /* 16px */
-            color: #1f2937; /* gray-800 */
-        }
-        .article-content h3 {
-            font-size: 1.5rem; /* 24px */
-            font-weight: 600;
-            margin-top: 2rem; /* 32px */
-            margin-bottom: 0.75rem; /* 12px */
-            color: #1f2937; /* gray-800 */
-        }
-        .article-content p {
-            font-size: 1.125rem; /* 18px */
-            line-height: 1.75;
-            margin-bottom: 1.5rem; /* 24px */
-            color: #374151; /* gray-700 */
-        }
-        .article-content ul {
-            list-style-type: disc;
-            margin-left: 1.5rem;
-            margin-bottom: 1.5rem;
-            font-size: 1.125rem; /* 18px */
-            line-height: 1.75;
-            color: #374151; /* gray-700 */
-        }
-         .article-content strong {
-            color: #1f2937; /* gray-800 */
-         }
-    </style>
 </head>
-<body class="bg-white text-gray-800">
+<body class="bg-white">
 
     <header class="bg-white shadow-sm sticky top-0 z-50">
         <div class="container mx-auto px-6 py-4">
             <nav class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-green-700">HeartHealth</a>
+                <a href="/" class="text-2xl font-bold text-green-700">HeartHealth Brands</a>
                 
                 <div class="hidden md:flex items-center space-x-6">
                     <a href="/guide/first-30-days-with-high-cholesterol.html" class="font-semibold text-green-700">The 30-Day Guide</a>
-                    <a href="/about.html" class="text-gray-600 hover:text-green-700">About</a>
-                    <a href="/system.html" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition">Join the Waitlist</a>
+                    <a href="/about.html" class="text-slate-600 hover:text-green-700">About</a>
+                    <a href="/system.html" class="btn btn-primary">Join the Waitlist</a>
                 </div>
 
                 <div class="md:hidden">
-                    <button id="menu-btn" type="button" class="text-gray-600 hover:text-green-700 focus:outline-none">
+                    <button id="menu-btn" type="button" class="text-slate-600 hover:text-green-700 focus:outline-none">
                         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
                         </svg>
@@ -111,110 +67,72 @@
             </nav>
             
             <div id="mobile-menu" class="hidden md:hidden pt-4">
-                <a href="/guide/first-30-days-with-high-cholesterol.html" class="block py-2 px-4 text-sm text-green-700 font-semibold bg-gray-100">The 30-Day Guide</a>
-                <a href="/about.html" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-100">About</a>
-                <a href="/system.html" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-100">Join the Waitlist</a>
+                <a href="/guide/first-30-days-with-high-cholesterol.html" class="block py-2 px-4 text-sm text-green-700 font-semibold bg-slate-100">The 30-Day Guide</a>
+                <a href="/about.html" class="block py-2 px-4 text-sm text-slate-600 hover:bg-slate-100">About</a>
+                <a href="/system.html" class="block py-2 px-4 text-sm text-green-600 hover:bg-slate-100">Join the Waitlist</a>
             </div>
         </div>
     </header>
 
     <main class="py-12 sm:py-16">
-        <article class="container mx-auto px-6 max-w-4xl">
+        <article class="container mx-auto px-6 max-w-4xl prose lg:prose-xl">
             <header class="text-center mb-12">
-                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">The No-Stress Guide to Your First 30 Days with High Cholesterol</h1>
-                <p class="mt-4 text-lg text-gray-600">Published on October 8, 2025</p>
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight">The No-Stress Guide to Your First 30 Days with High Cholesterol</h1>
+                <p class="mt-4 text-lg text-slate-600">Published on October 8, 2025</p>
             </header>
 
-            <div class="article-content">
+            <div class="text-lg text-slate-700 leading-relaxed">
                 <p>Getting the news that you have high cholesterol can feel overwhelming. It’s a moment that often comes with a mix of confusion, anxiety, and a flood of questions. You might be worried about what this means for your future, frustrated by the lack of clear guidance, and stressed about the changes you'll have to make.</p>
-                
                 <p><strong>Take a deep breath. You are in the right place.</strong></p>
-                
                 <p>This guide is designed to cut through the noise. It’s not a list of a hundred different rules you have to memorize. It’s a simple, week-by-week plan to help you take meaningful, positive steps in your first 30 days. We’ll focus on small, sustainable changes that make a big impact, drawing directly from the most trusted science.</p>
                 
-                <p>Our goal is simple: to help you feel in control and confident on this new path.</p>
-
                 <div class="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg my-12">
-                    <h4 class="font-bold text-xl text-gray-900 mb-2">Want More Actionable Tips?</h4>
+                    <h4 class="font-bold text-xl text-slate-900 mb-2">Want More Actionable Tips?</h4>
                     <p class="text-base mb-4">Join our community to get weekly, science-backed advice delivered straight to your inbox. No spam, just clarity.</p>
-                    <form action="#" method="POST" class="flex flex-col sm:flex-row gap-3">
-                        <input type="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" placeholder="Enter your email">
-                        <button type="submit" class="bg-green-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-green-700 transition w-full sm:w-auto">Subscribe</button>
+                    <form name="subscribe-guide" method="POST" data-netlify="true" class="flex flex-col sm:flex-row gap-3">
+                        <input type="email" name="email" required class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-green-500 focus:border-green-500" placeholder="Enter your email">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
                     </form>
                 </div>
 
                 <h2>Week 1: Focus on Addition, Not Subtraction</h2>
                 <p>Your first week is not about deprivation. It's about adding powerful, LDL-lowering foods into your diet. This mental shift is crucial for avoiding the "Taste Fatigue" that trips so many people up.</p>
-                
                 <h3>Your Key Goal: Add <strong>Soluble Fiber</strong> to your daily routine.</h3>
                 <p><strong>Why it Works:</strong> Soluble fiber acts like a sponge. As it moves through your digestive tract, it binds to cholesterol and pulls it out of your body before it can enter your bloodstream.</p>
                 
-                <h3>How to Do It (The Easy Way):</h3>
-                <ul>
-                    <li><strong>Breakfast Power-Up:</strong> Start your day with a bowl of oatmeal or a handful of barley. These are packed with a type of soluble fiber called beta-glucan, a proven LDL-buster.</li>
-                    <li><strong>Snack Smart:</strong> Swap chips or cookies for an apple, a pear, or a handful of edamame. These are easy, portable, and require no prep.</li>
-                    <li><strong>Dinner Boost:</strong> Add a side of Brussels sprouts or asparagus to your evening meal.</li>
-                </ul>
-
-                <h3>What to Limit (Not Eliminate):</h3>
-                <p>This week, just be mindful of <strong>Saturated Fats.</strong> These are typically found in red meat, butter, and full-fat dairy. They signal your liver to produce more LDL cholesterol. A simple swap is to replace red meat with chicken or fish once this week.</p>
-                
                 <h2>Week 2: Master the Fats</h2>
                 <p>Fat isn't the enemy—the <em>type</em> of fat is what matters. This week, we'll focus on replacing "bad" fats with heart-healthy "good" fats.</p>
-                
                 <h3>Your Key Goal: Incorporate <strong>Monounsaturated and Polyunsaturated Fats.</strong></h3>
                 <p><strong>Why it Works:</strong> These healthy fats help reduce the amount of LDL cholesterol circulating in your blood and can even help raise your "good" HDL cholesterol.</p>
-
-                <h3>How to Do It (The Easy Way):</h3>
-                <ul>
-                    <li><strong>The Avocado Hack:</strong> Add a quarter of an avocado to your toast or salad.</li>
-                    <li><strong>Cook Smarter:</strong> Switch from using butter to using olive oil for cooking.</li>
-                    <li><strong>Nutrient-Dense Snacking:</strong> A small handful of almonds or walnuts makes for a powerful, cholesterol-lowering snack.</li>
-                </ul>
-                
-                <h3>What to Avoid (The Real Culprit):</h3>
-                <p>This week, your focus is on eliminating <strong>Trans Fats</strong> (often listed as "partially hydrogenated oils" on ingredient labels). They hide in commercially baked goods, fried foods, and some margarines.</p>
                 
                 <h2>Week 3: The Power of Plants</h2>
                 <p>You don't need to become a vegetarian, but incorporating more plant-based foods is one of the most effective strategies for lowering LDL.</p>
-                
                 <h3>Your Key Goal: Introduce <strong>Plant Sterols/Stanols and Soy Protein.</strong></h3>
                 <p><strong>Why it Works:</strong> Plant Sterols & Stanols are structurally similar to cholesterol. They block your body from absorbing the cholesterol in your food. Soy protein has also been shown to have a modest but meaningful effect on lowering LDL.</p>
-
-                <h3>How to Do It (The Easy Way):</h3>
-                <ul>
-                    <li><strong>Fortified Foods:</strong> Look for products like certain orange juices or margarines that are fortified with plant sterols.</li>
-                    <li><strong>Meatless Monday (The Simple Version):</strong> Try swapping ground beef for tofu or lentils in a chili or pasta sauce.</li>
-                    <li><strong>Easy Edamame:</strong> A cup of steamed, salted edamame is a fantastic, protein-rich snack.</li>
-                </ul>
                 
                 <h2>Week 4: Build Your Go-To Meals & Reflect</h2>
                 <p>You've spent three weeks building powerful new habits. Now it’s time to put them together and create a sustainable routine that works for <em>you</em>.</p>
-                
                 <h3>Your Key Goal: Identify 2-3 "go-to" meals for breakfast, lunch, and dinner.</h3>
                 <p><strong>Why it Works:</strong> The biggest reason people fail is "Information Overload" and "Time Constraints." By having a small number of trusted, easy meals, you eliminate daily decision-making and stress.</p>
-                
-                <h3>Your 30-Day Reflection:</h3>
-                <p>Look back at the last month. You've taken incredible steps to protect your heart. This is not about perfection; it’s about progress. You are now equipped with the foundational knowledge and habits to manage your cholesterol and take control of your health for the long term.</p>
             </div>
 
-             <div class="bg-gray-800 text-white p-8 rounded-lg my-12 text-center">
+             <div class="bg-slate-800 text-white p-8 rounded-lg my-12 text-center">
                 <h4 class="font-bold text-2xl mb-2">Ready for the Next Step?</h4>
                 <p class="mb-6 max-w-xl mx-auto">Our upcoming digital platform will provide personalized meal plans, video tutorials, and a complete system to make this journey even easier.</p>
-                <a href="/system.html" class="inline-block bg-green-600 text-white text-lg font-semibold px-8 py-4 rounded-lg hover:bg-green-700 transition shadow-lg">
+                <a href="/system.html" class="btn btn-primary text-lg">
                     Join the Waitlist
                 </a>
             </div>
         </article>
     </main>
 
-    <footer class="bg-gray-800 text-white">
+    <footer class="bg-slate-800 text-white">
         <div class="container mx-auto px-6 py-8 text-center">
-            <p>&copy; 2025 Heart Health Brands. All Rights Reserved.</p>
+            <p>&copy; 2025 HeartHealth Brands. All Rights Reserved.</p>
             <div class="mt-4 flex justify-center space-x-6">
-                 <a href="/about.html" class="text-gray-400 hover:text-white">About</a>
-                 <a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a>
-                 <a href="#" class="text-gray-400 hover:text-white">Terms of Service</a>
+                 <a href="/about.html" class="text-slate-400 hover:text-white">About</a>
+                 <a href="#" class="text-slate-400 hover:text-white">Privacy Policy</a>
+                 <a href="#" class="text-slate-400 hover:text-white">Terms of Service</a>
             </div>
         </div>
     </footer>
@@ -224,6 +142,5 @@
             document.getElementById('mobile-menu').classList.toggle('hidden');
         });
     </script>
-
 </body>
 </html>
