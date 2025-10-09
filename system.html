@@ -7,6 +7,7 @@
     <title>The System - The Culinary Cholesterol Solution</title>
     <meta name="description" content="Join the waitlist for a new, all-in-one digital platform to manage cholesterol with personalized meal plans, video tutorials, and a proven system.">
 
+    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H54D596811"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -16,25 +17,34 @@
       gtag('config', 'G-H54D596811');
     </script>
 
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❤️</text></svg>">
+    <!-- New Favicon -->
+    <link rel="icon" href="/logo.png" type="image/png">
 
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
+    <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-slate-50">
 
+    <!-- Header -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
-        <div class="container mx-auto px-6 py-4">
+        <div class="container mx-auto px-6 py-3">
             <nav class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-green-700">HeartHealth Brands</a>
+                <a href="/" class="flex items-center space-x-2">
+                    <img src="/logo.png" alt="HeartHealth Brands Logo" class="h-8 w-auto">
+                    <span class="text-2xl font-bold text-green-700">HeartHealth Brands</span>
+                </a>
                 
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-6">
                     <a href="/guide/first-30-days-with-high-cholesterol.html" class="text-slate-600 hover:text-green-700">The 30-Day Guide</a>
                     <a href="/about.html" class="text-slate-600 hover:text-green-700">About</a>
                     <a href="/system.html" class="btn btn-primary">Join the Waitlist</a>
                 </div>
 
+                <!-- Mobile Menu Button (Hamburger) -->
                 <div class="md:hidden">
                     <button id="menu-btn" type="button" class="text-slate-600 hover:text-green-700 focus:outline-none">
                         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -44,6 +54,7 @@
                 </div>
             </nav>
             
+            <!-- Mobile Menu -->
             <div id="mobile-menu" class="hidden md:hidden pt-4">
                 <a href="/guide/first-30-days-with-high-cholesterol.html" class="block py-2 px-4 text-sm text-slate-600 hover:bg-slate-100">The 30-Day Guide</a>
                 <a href="/about.html" class="block py-2 px-4 text-sm text-slate-600 hover:bg-slate-100">About</a>
@@ -52,7 +63,9 @@
         </div>
     </header>
 
+    <!-- Main Content -->
     <main>
+        <!-- Hero Section -->
         <section class="bg-white py-20 sm:py-24">
             <div class="container mx-auto px-6 text-center">
                 <h1 class="text-4xl md:text-5xl font-bold leading-tight">
@@ -64,6 +77,7 @@
             </div>
         </section>
 
+        <!-- Features Section -->
         <section class="py-16 sm:py-20">
             <div class="container mx-auto px-6 max-w-5xl">
                 <div class="text-center mb-12">
@@ -96,7 +110,8 @@
             </div>
         </section>
 
-         <section class="bg-slate-800 text-white py-16 sm:py-20">
+         <!-- Waitlist Form -->
+        <section class="bg-slate-800 text-white py-16 sm:py-20">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl md:text-4xl font-bold">Be the First to Know</h2>
                 <p class="mt-4 text-lg text-slate-300 max-w-2xl mx-auto">We are launching soon. Join the waitlist to get exclusive early access, a special launch discount, and be a part of our founding community.</p>
@@ -111,6 +126,7 @@
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="bg-slate-800 text-white">
         <div class="container mx-auto px-6 py-8 text-center">
             <p>&copy; 2025 HeartHealth Brands. All Rights Reserved.</p>
@@ -122,6 +138,7 @@
         </div>
     </footer>
 
+    <!-- JavaScript for Mobile Menu -->
     <script>
         document.getElementById('menu-btn').addEventListener('click', function() {
             document.getElementById('mobile-menu').classList.toggle('hidden');
