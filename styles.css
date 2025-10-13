@@ -67,8 +67,9 @@ body {
     color: var(--slate-900);
 }
 
-/* --- Main Content --- */
-.container {
+/* --- Hero Section with Background Image --- */
+.hero-section {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,9 +77,25 @@ body {
     min-height: 100vh;
     padding: 2rem;
     text-align: center;
+    background: url('hero-background.png') no-repeat center center;
+    background-size: cover;
+}
+
+/* Subtle overlay for text readability */
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 1;
 }
 
 .content {
+    position: relative;
+    z-index: 2;
     max-width: 650px;
 }
 
@@ -157,6 +174,7 @@ button:hover {
 .footer {
     position: absolute;
     bottom: 1.5rem;
+    z-index: 2;
     font-size: 0.875rem;
     color: var(--slate-400);
 }
