@@ -29,7 +29,7 @@
 
     <style>
         body { font-family: 'Inter', sans-serif; }
-        .guide-content h2 { @apply text-2xl font-bold text-slate-800 mt-10 mb-3; }
+        .guide-content h2 { @apply text-2xl font-bold text-slate-800 mt-10 mb-3 border-b pb-2; }
         .guide-content h3 { @apply text-xl font-semibold text-green-700 mt-6 mb-2; }
         .guide-content p { @apply text-lg leading-relaxed mb-4; }
         .guide-content strong { @apply text-slate-900; }
@@ -38,7 +38,7 @@
 <body class="bg-slate-50 text-slate-700">
 
     <!-- Unified Header -->
-    <header class="bg-white shadow-sm sticky top-0 z-50">
+    <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
         <div class="container mx-auto px-6 py-3">
             <nav class="flex items-center justify-between">
                 <a href="/" class="flex items-center space-x-3">
@@ -48,8 +48,8 @@
                 
                 <div class="hidden md:flex items-center space-x-2">
                     <a href="/guide/first-30-days-with-high-cholesterol.html" class="font-semibold bg-green-50 text-green-700 px-3 py-2 rounded-md">The Guide</a>
-                    <a href="/about.html" class="text-slate-600 hover:bg-slate-100 px-3 py-2 rounded-md">About</a>
-                    <a href="/system.html" class="text-slate-600 hover:bg-slate-100 px-3 py-2 rounded-md">The System</a>
+                    <a href="/about.html" class="text-slate-600 hover:bg-slate-100 px-3 py-2 rounded-md transition-colors">About</a>
+                    <a href="/system.html" class="text-slate-600 hover:bg-slate-100 px-3 py-2 rounded-md transition-colors">The System</a>
                 </div>
 
                 <!-- Mobile Menu Button (Hamburger) -->
@@ -64,9 +64,9 @@
             
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="hidden md:hidden pt-4">
-                <a href="/guide/first-30-days-with-high-cholesterol.html" class="block py-2 px-4 text-sm font-semibold text-green-700 bg-green-50">The Guide</a>
-                <a href="/about.html" class="block py-2 px-4 text-sm text-slate-600 hover:bg-slate-100">About</a>
-                <a href="/system.html" class="block py-2 px-4 text-sm text-slate-600 hover:bg-slate-100">The System</a>
+                <a href="/guide/first-30-days-with-high-cholesterol.html" class="block py-2 px-4 text-sm font-semibold text-green-700 bg-green-50 rounded-md">The Guide</a>
+                <a href="/about.html" class="block py-2 px-4 text-sm text-slate-600 hover:bg-slate-100 rounded-md">About</a>
+                <a href="/system.html" class="block py-2 px-4 text-sm text-slate-600 hover:bg-slate-100 rounded-md">The System</a>
             </div>
         </div>
     </header>
@@ -79,7 +79,7 @@
                 <p class="mt-4 text-lg text-slate-600">This isn't a list of rules. It's a clear plan to help you take control with confidence.</p>
             </header>
 
-            <div class="guide-content bg-white p-8 md:p-12 rounded-lg shadow-md">
+            <div class="guide-content bg-white p-8 md:p-12 rounded-lg shadow-lg">
                 <!-- Week 1 -->
                 <h2>Week 1: Focus on Addition, Not Subtraction</h2>
                 <p>Your first week is not about deprivation. It's about adding powerful, LDL-lowering foods into your diet. This simple shift is crucial for long-term success.</p>

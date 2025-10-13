@@ -10,8 +10,13 @@
     <!-- Favicon -->
     <link rel="icon" href="/favicon.png" type="image/png">
     
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="styles.css">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H54D596811"></script>
@@ -21,37 +26,74 @@
       gtag('js', new Date());
       gtag('config', 'G-H54D596811');
     </script>
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
 </head>
-<body>
+<body class="bg-slate-50 text-slate-700">
 
-    <header class="header animate-on-load">
-        <a href="/" class="header-logo">
-            <img src="/logo.png" alt="HeartHealth Brands Logo">
-            <span>HeartHealth Brands</span>
-        </a>
-        <nav class="header-nav">
-            <a href="/guide/first-30-days-with-high-cholesterol.html">Read the Guide</a>
-        </nav>
+    <!-- Unified Header -->
+    <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3">
+            <nav class="flex items-center justify-between">
+                <a href="/" class="flex items-center space-x-3">
+                    <img src="/logo.png" alt="HeartHealth Brands Logo" class="h-8 w-auto">
+                    <span class="text-xl font-bold text-slate-800">HeartHealth Brands</span>
+                </a>
+                
+                <div class="hidden md:flex items-center space-x-2">
+                    <a href="/guide/first-30-days-with-high-cholesterol.html" class="text-slate-600 hover:bg-slate-100 px-3 py-2 rounded-md transition-colors">The Guide</a>
+                    <a href="/about.html" class="text-slate-600 hover:bg-slate-100 px-3 py-2 rounded-md transition-colors">About</a>
+                    <a href="/system.html" class="text-slate-600 hover:bg-slate-100 px-3 py-2 rounded-md transition-colors">The System</a>
+                </div>
+
+                <!-- Mobile Menu Button (Hamburger) -->
+                <div class="md:hidden">
+                    <button id="menu-btn" type="button" class="text-slate-600 hover:text-slate-900 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden pt-4">
+                <a href="/guide/first-30-days-with-high-cholesterol.html" class="block py-2 px-4 text-sm text-slate-600 hover:bg-slate-100 rounded-md">The Guide</a>
+                <a href="/about.html" class="block py-2 px-4 text-sm text-slate-600 hover:bg-slate-100 rounded-md">About</a>
+                <a href="/system.html" class="block py-2 px-4 text-sm text-slate-600 hover:bg-slate-100 rounded-md">The System</a>
+            </div>
+        </div>
     </header>
 
-    <main class="hero-section">
-        <div class="content">
-            <h1 class="animate-on-load">Lower Your Cholesterol Through Diet</h1>
-            <p class="animate-on-load">Your trusted hub for practical tips that cut through the confusion and fit your busy life.</p>
+    <!-- Main Content -->
+    <main class="flex flex-col items-center justify-center min-h-screen text-center px-6" style="background: url('hero-background.png') no-repeat center center; background-size: cover;">
+        <div class="absolute inset-0 bg-white/70"></div>
+        <div class="relative z-10 max-w-2xl">
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-900 leading-tight">Lower Your Cholesterol Through Diet</h1>
+            <p class="mt-4 text-lg md:text-xl text-slate-600">Your trusted hub for practical tips that cut through the confusion and fit your busy life.</p>
             
-            <form id="email-form" name="subscribe-minimal" method="POST" data-netlify="true" class="animate-on-load">
-                <input id="email-input" type="email" name="email" placeholder="Enter your email address" required aria-label="Email Address">
-                <button type="submit">Follow Along</button>
+            <form name="subscribe-homepage" method="POST" data-netlify="true" class="mt-8 flex flex-col sm:flex-row gap-2 max-w-lg mx-auto">
+                <input type="email" name="email" placeholder="Enter your email address" required aria-label="Email Address" class="flex-grow w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-green-500 focus:outline-none shadow-sm">
+                <button type="submit" class="bg-green-600 text-white font-semibold px-6 py-3 rounded-md hover:bg-green-700 transition shadow-sm">Follow Along</button>
             </form>
         </div>
-        
-        <footer class="footer">
-            &copy; 2025 HeartHealth Brands. All Rights Reserved.
-        </footer>
     </main>
+    
+    <!-- Unified Footer -->
+    <footer class="bg-white relative z-10">
+        <div class="container mx-auto px-6 py-6 text-center text-slate-500">
+            <p>&copy; 2025 HeartHealth Brands. All Rights Reserved.</p>
+        </div>
+    </footer>
 
-    <!-- Custom JavaScript -->
-    <script src="script.js"></script>
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+        document.getElementById('menu-btn').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
 
 </body>
 </html>
