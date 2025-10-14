@@ -1,73 +1,30 @@
-/* === HeartHealth Brands - Professional Minimalist Stylesheet === */
+/* === HeartHealth Brands - Main Stylesheet === */
 
+/* --- Google Font Import --- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
-:root {
-    --brand-green: #16a34a;
-    --brand-green-dark: #15803d;
-    --slate-900: #0f172a;
-    --slate-700: #334155;
-    --slate-600: #475569;
-    --slate-400: #94a3b8;
-    --slate-300: #cbd5e1;
-    --slate-50: #f8fafc;
-    --white: #ffffff;
+/* --- Base Styles --- */
+body { 
+    font-family: 'Inter', sans-serif; 
+    background-color: #f8fafc; /* slate-50 */
+    color: #334155; /* slate-700 */
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: var(--slate-50);
-    color: var(--slate-700);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    margin: 0;
-}
-
-/* --- Header --- */
-.header {
-    position: absolute;
+/* --- Reusable Components --- */
+.unified-header {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
-    padding: 1.5rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    z-index: 50;
 }
 
-.header-logo {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    text-decoration: none;
+.unified-footer {
+    background-color: #ffffff;
 }
 
-.header-logo img {
-    height: 32px;
-    width: auto;
-}
-
-.header-logo span {
-    font-weight: 700;
-    font-size: 1.25rem;
-    color: var(--slate-900);
-}
-
-.header-nav a {
-    font-weight: 500;
-    color: var(--slate-600);
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-.header-nav a:hover {
-    background-color: #f1f5f9; /* slate-100 */
-    color: var(--slate-900);
-}
-
-/* --- Hero Section with Background Image --- */
+/* --- Homepage Hero Section --- */
 .hero-section {
     position: relative;
     display: flex;
@@ -75,106 +32,73 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding: 2rem;
     text-align: center;
-    background: url('hero-background.png') no-repeat center center;
+    padding: 1.5rem;
+    background: url('/images/hero-background.png') no-repeat center center;
     background-size: cover;
 }
 
-/* Subtle overlay for text readability */
-.hero-section::before {
-    content: '';
+.hero-overlay {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(255, 255, 255, 0.6);
-    z-index: 1;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
-.content {
+.hero-content {
     position: relative;
-    z-index: 2;
-    max-width: 650px;
+    z-index: 10;
 }
 
-h1 {
-    font-size: 3rem; /* 48px */
+/* --- Guide Page Specific Styles --- */
+.guide-content h2 {
+    font-size: 1.5rem; /* 24px */
     font-weight: 700;
-    color: var(--slate-900);
-    margin: 0 0 1rem 0;
-    line-height: 1.2;
+    color: #1e293b; /* slate-800 */
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e2e8f0; /* slate-200 */
 }
-
-p {
+.guide-content h3 {
     font-size: 1.25rem; /* 20px */
-    line-height: 1.6;
-    color: var(--slate-600);
-    margin: 0 0 3rem 0;
-    max-width: 550px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* --- Professional Form --- */
-#email-form {
-    position: relative;
-    display: flex;
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-    border-radius: 0.75rem;
-    transition: box-shadow 0.25s ease;
-}
-
-#email-form.focused {
-    box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.2), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-}
-
-#email-input {
-    flex-grow: 1;
-    padding: 1rem 1.25rem;
-    font-size: 1rem;
-    border: 1px solid var(--slate-300);
-    border-radius: 0.75rem 0 0 0.75rem;
-    outline: none;
-    transition: border-color 0.2s ease-in-out;
-    -webkit-appearance: none;
-}
-
-button {
     font-weight: 600;
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 0 0.75rem 0.75rem 0;
-    background-color: var(--brand-green);
-    color: var(--white);
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
+    color: #16a34a; /* green-600 */
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.guide-content p {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75;
+    margin-bottom: 1rem;
+}
+.guide-content strong {
+    color: #0f172a; /* slate-900 */
+}
+.action-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+}
+.action-item svg {
+    flex-shrink: 0;
+    margin-top: 5px;
 }
 
-button:hover {
-    background-color: var(--brand-green-dark);
-}
-
-/* --- Animation --- */
-.animate-on-load {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-.animate-on-load.loaded {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* --- Footer --- */
-.footer {
-    position: absolute;
-    bottom: 1.5rem;
-    z-index: 2;
-    font-size: 0.875rem;
-    color: var(--slate-400);
+/* --- Print-Friendly Styles for Guide --- */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .printable-area, .printable-area * {
+        visibility: visible;
+    }
+    .printable-area {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    header, footer, .tools-section {
+        display: none !important;
+    }
 }
