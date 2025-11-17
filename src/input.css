@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .unified-header {
+    @apply bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50;
+  }
+  .unified-footer {
+    @apply bg-white mt-auto;
+  }
+  .hero-section {
+    @apply relative flex flex-col items-center justify-center min-h-screen text-center p-6 bg-cover bg-center bg-no-repeat -mt-20;
+    background-image: url('/images/hero-background.png');
+  }
+  .guide-content h2 {
+    @apply text-2xl font-bold text-slate-800 mt-10 mb-3 pb-2 border-b border-slate-200;
+  }
+  .guide-content h3 {
+    @apply text-xl font-semibold text-green-600 mt-6 mb-2;
+  }
+  .guide-content p {
+    @apply text-lg leading-relaxed mb-4 text-slate-600;
+  }
+}
+
+@media print {
+  body * { visibility: hidden; }
+  .printable-area, .printable-area * { visibility: visible; }
+  .printable-area { position: absolute; left: 0; top: 0; width: 100%; }
+  header, footer, .tools-section, #mobile-menu { display: none !important; }
+}

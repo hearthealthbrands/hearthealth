@@ -1,0 +1,21 @@
+{
+  "name": "hearthealthbrands",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "init-tailwind": "tailwindcss init",
+    "build-css": "tailwindcss -i ./src/input.css -o ./styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hearthealthbrands/hearthealth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18"
+  }
+}
