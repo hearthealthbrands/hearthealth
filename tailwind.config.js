@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  // Specific paths to avoid scanning node_modules
   content: [
-    "./*.{html,js}",       // Scans files in the root (index.html, brands.html, script.js)
-    "./content/**/*.html"  // Scans files in the content folder
+    "./_includes/**/*.{html,js,njk}", // Scan layouts and partials
+    "./content/**/*.{html,js,njk}",   // Scan content pages
+    "./*.{html,js,njk}"                // Scan root files like index.html
   ],
   theme: {
     extend: {
