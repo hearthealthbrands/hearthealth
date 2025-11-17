@@ -7,34 +7,25 @@
     <title>The Ultimate Heart-Healthy Smoothie | HeartHealth Brands</title>
     <meta name="description" content="A delicious, nutrient-dense, high-fiber smoothie recipe designed to help you naturally lower cholesterol and improve heart health.">
 
-    <!-- === SOCIAL MEDIA & SEO OPTIMIZATION TAGS === -->
-    <!-- Open Graph Tags (for Facebook, LinkedIn, etc.) -->
     <meta property="og:title" content="The Ultimate Heart-Healthy Smoothie | HeartHealth Brands">
     <meta property="og:description" content="A delicious, nutrient-dense recipe designed to help lower cholesterol and improve heart health.">
     <meta property="og:image" content="https://www.hearthealthbrands.com/images/smoothie-feature.png">
     <meta property="og:url" content="https://www.hearthealthbrands.com/content/smoothie-recipe.html">
     <meta property="og:type" content="article">
 
-    <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The Ultimate Heart-Healthy Smoothie | HeartHealth Brands">
     <meta name="twitter:description" content="A delicious, nutrient-dense recipe designed to help lower cholesterol and improve heart health.">
     <meta name="twitter:image" content="https://www.hearthealthbrands.com/images/smoothie-feature.png">
     <meta name="twitter:site" content="@HeartHealthHQ">
-    <!-- === END SOCIAL MEDIA & SEO TAGS === -->
-
-    <!-- Favicon -->
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/styles.css">
     
-    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H54D596811"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -42,26 +33,22 @@
       gtag('js', new Date());
       gtag('config', 'G-H54D596811');
     </script>
-
-    <style> body { font-family: 'Inter', sans-serif; } </style>
 </head>
 <body class="bg-slate-50 text-slate-700">
 
-    <!-- Unified Header -->
-    <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+    <header class="unified-header">
         <div class="container mx-auto px-6 py-3">
             <nav class="flex items-center justify-between">
                 <a href="/" class="flex items-center space-x-3">
-                    <img src="/images/logo.png" alt="HeartHealth Brands Logo" class="h-8 w-auto">
+                    <img src="/images/logo.png" alt="HeartHealth Brands Logo" class="h-8 w-auto" width="32" height="32">
                     <span class="text-xl font-bold text-slate-800">HeartHealth Brands</span>
                 </a>
                 
                 <div class="hidden md:flex items-center space-x-2">
                     <a href="/content.html" class="font-semibold bg-green-50 text-green-700 px-3 py-2 rounded-md">Content</a>
-                    <a href="/about.html" class="text-slate-600 hover:bg-slate-100 px-3 py-2 rounded-md transition-colors">About</a>
+                    <a href="/brands.html" class="text-slate-600 hover:bg-slate-100 px-3 py-2 rounded-md transition-colors">Brands</a>
                 </div>
 
-                <!-- Mobile Menu Button (Hamburger) -->
                 <div class="md:hidden">
                     <button id="menu-btn" type="button" class="text-slate-600 hover:text-slate-900 focus:outline-none">
                         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -71,17 +58,14 @@
                 </div>
             </nav>
             
-            <!-- Mobile Menu -->
             <div id="mobile-menu" class="hidden md:hidden pt-4">
                 <a href="/content.html" class="block py-2 px-4 text-sm font-semibold text-green-700 bg-green-50 rounded-md">Content</a>
-                <a href="/about.html" class="block py-2 px-4 text-sm text-slate-600 hover:bg-slate-100 rounded-md">About</a>
+                <a href="/brands.html" class="block py-2 px-4 text-sm text-slate-600 hover:bg-slate-100 rounded-md">Brands</a>
             </div>
         </div>
     </header>
 
-    <!-- Main Content -->
     <main>
-        <!-- Page Header -->
         <div class="bg-white">
             <div class="container mx-auto px-6 pt-12 pb-8 text-center">
                 <h1 class="text-4xl md:text-5xl font-bold text-slate-900 leading-tight">The Ultimate Heart-Healthy Smoothie</h1>
@@ -89,14 +73,12 @@
             </div>
         </div>
 
-        <!-- Hero Image -->
         <div class="container mx-auto px-6">
             <img src="/images/smoothie-hero.png" alt="A delicious and vibrant heart-healthy berry smoothie in a glass." class="w-full h-auto max-h-[500px] object-cover rounded-lg shadow-lg mx-auto">
         </div>
 
         <div class="py-12 sm:py-16">
             <div class="container mx-auto px-6 max-w-6xl">
-                <!-- Nutrition Highlights -->
                 <div class="bg-white rounded-lg shadow-lg p-6 mb-12 max-w-4xl mx-auto">
                     <div class="grid grid-cols-3 gap-4 text-center">
                         <div>
@@ -115,9 +97,7 @@
                 </div>
                 
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                    <!-- Main Content Column -->
                     <div class="lg:col-span-2 space-y-8">
-                        <!-- Ingredients & Instructions -->
                         <div class="bg-white rounded-lg shadow-lg p-8">
                             <h2 class="text-2xl font-bold text-slate-800 mb-6 border-b pb-3">The Recipe</h2>
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -142,7 +122,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Why It Works -->
                         <div class="bg-green-50 border border-green-200 rounded-lg p-8">
                             <h2 class="text-2xl font-bold text-slate-800 mb-4">Why This Works for Heart Health</h2>
                             <p class="mb-6">Each ingredient is chosen for its specific cholesterol-lowering and heart-protective benefits.</p>
@@ -154,7 +133,6 @@
                         </div>
                     </div>
 
-                    <!-- Sidebar Column -->
                     <div class="lg:col-span-1">
                         <div class="bg-white rounded-lg shadow-lg p-6 sticky top-24">
                             <h2 class="text-xl font-bold text-slate-800 mb-4">Ingredient Notes & Sourcing</h2>
@@ -197,29 +175,17 @@
         </div>
     </main>
     
-    <!-- Unified Footer -->
-    <footer class="bg-white mt-16">
+    <footer class="unified-footer">
         <div class="container mx-auto px-6 py-6 text-center text-slate-500">
             <div class="flex justify-center space-x-6 mb-4">
-                <a href="https://www.instagram.com/hearthealthbrands" target="_blank" class="text-slate-400 hover:text-slate-600 transition-colors" aria-label="Instagram">
-                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c-4.01.006-4.478.018-6.046.088-1.568.07-2.648.338-3.58.718a4.89 4.89 0 00-1.768 1.768c-.38.932-.647 2.012-.718 3.58C.13 9.57.118 10.046.124 12c.006 1.954.018 2.43.088 4.004.07 1.568.338 2.648.718 3.58a4.89 4.89 0 001.768 1.768c.932.38 2.012.647 3.58.718 1.568.07 2.036.082 5.958.082 3.922 0 4.39-.012 5.958-.082 1.568-.07 2.648-.338 3.58-.718a4.89 4.89 0 001.768-1.768c.38-.932-.647-2.012.718-3.58.07-1.574.082-2.05.088-4.004.006-1.954-.018-2.43-.088-4.004-.07-1.568-.338-2.648-.718-3.58a4.89 4.89 0 00-1.768-1.768c-.932-.38-2.012-.647-3.58-.718C16.49 2.03 16.022 2.018 12.04 2h-.086v-.002zM12 4.122c3.92 0 4.34.016 5.86.086 1.4.064 2.18.31 2.628.49a2.954 2.954 0 011.06 1.06c.18.448.426 1.228.49 2.628.07 1.52.086 1.94.086 5.86s-.016 4.34-.086 5.86c-.064 1.4-.31 2.18-.49 2.628a2.954 2.954 0 01-1.06 1.06c-.448.18-1.228.426-2.628.49-1.52.07-1.94.086-5.86.086s-4.34-.016-5.86-.086c-1.4-.064-2.18-.31-2.628-.49a2.954 2.954 0 01-1.06-1.06c-.18-.448-.426-1.228-.49-2.628-.07-1.52-.086-1.94-.086-5.86s.016-4.34.086-5.86c.064-1.4.31-2.18.49-2.628a2.954 2.954 0 011.06-1.06c.448-.18 1.228.426 2.628-.49C7.66 4.138 8.08 4.122 12 4.122zM12 8.16a3.84 3.84 0 100 7.68 3.84 3.84 0 000-7.68zM12 14a2 2 0 110-4 2 2 0 010 4zm4.12-6.52a.96.96 0 100-1.92.96.96 0 000 1.92z" clip-rule="evenodd" /></svg>
-                </a>
-                 <a href="https://x.com/HeartHealthHQ" target="_blank" class="text-slate-400 hover:text-slate-600 transition-colors" aria-label="X Brand Account">
-                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>
-                </a>
-                <a href="https://www.facebook.com/share/17UsjZZh38/?mibextid=wwXIfr" target="_blank" class="text-slate-400 hover:text-slate-600 transition-colors" aria-label="Facebook">
-                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
-                </a>
+                <a href="https://www.instagram.com/hearthealthbrands" target="_blank" class="text-slate-400 hover:text-slate-600 transition-colors" aria-label="Instagram"><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c-4.01.006-4.478.018-6.046.088-1.568.07-2.648.338-3.58.718a4.89 4.89 0 00-1.768 1.768c-.38.932-.647 2.012-.718 3.58C.13 9.57.118 10.046.124 12c.006 1.954.018 2.43.088 4.004.07 1.568.338 2.648.718 3.58a4.89 4.89 0 001.768 1.768c.932.38 2.012.647 3.58.718 1.568.07 2.036.082 5.958.082 3.922 0 4.39-.012 5.958-.082 1.568-.07 2.648-.338 3.58-.718a4.89 4.89 0 001.768-1.768c.38-.932-.647-2.012.718-3.58.07-1.574.082-2.05.088-4.004.006-1.954-.018-2.43-.088-4.004-.07-1.568-.338-2.648-.718-3.58a4.89 4.89 0 00-1.768-1.768c-.932-.38-2.012-.647-3.58-.718C16.49 2.03 16.022 2.018 12.04 2h-.086v-.002zM12 4.122c3.92 0 4.34.016 5.86.086 1.4.064 2.18.31 2.628.49a2.954 2.954 0 011.06 1.06c.18.448.426 1.228.49 2.628.07 1.52.086 1.94.086 5.86s-.016 4.34-.086 5.86c-.064 1.4-.31 2.18-.49 2.628a2.954 2.954 0 01-1.06 1.06c-.448.18-1.228.426-2.628.49-1.52.07-1.94.086-5.86.086s-4.34-.016-5.86-.086c-1.4-.064-2.18-.31-2.628-.49a2.954 2.954 0 01-1.06-1.06c-.18-.448-.426-1.228-.49-2.628-.07-1.52-.086-1.94-.086-5.86s.016-4.34.086-5.86c.064-1.4.31-2.18.49-2.628a2.954 2.954 0 011.06-1.06c.448-.18 1.228.426 2.628-.49C7.66 4.138 8.08 4.122 12 4.122zM12 8.16a3.84 3.84 0 100 7.68 3.84 3.84 0 000-7.68zM12 14a2 2 0 110-4 2 2 0 010 4zm4.12-6.52a.96.96 0 100-1.92.96.96 0 000 1.92z" clip-rule="evenodd" /></svg></a>
+                <a href="https://x.com/HeartHealthHQ" target="_blank" class="text-slate-400 hover:text-slate-600 transition-colors" aria-label="X Brand Account"><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg></a>
+                <a href="https://www.facebook.com/share/17UsjZZh38/?mibextid=wwXIfr" target="_blank" class="text-slate-400 hover:text-slate-600 transition-colors" aria-label="Facebook"><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg></a>
             </div>
             <p>&copy; 2025 HeartHealth Brands. All Rights Reserved.</p>
         </div>
     </footer>
 
-    <!-- JavaScript for Mobile Menu -->
-    <script>
-        document.getElementById('menu-btn').addEventListener('click', function() {
-            document.getElementById('mobile-menu').classList.toggle('hidden');
-        });
-    </script>
+    <script src="/script.js"></script>
 </body>
 </html>
