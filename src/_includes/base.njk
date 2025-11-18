@@ -7,9 +7,9 @@
     <title>{{ title }}</title>
     <meta name="description" content="{{ description }}">
 
-    {# SEO: Canonical URL for duplicate content protection #}
+    {# SEO: Canonical URL for duplicate content protection (FIXED NUNJUCKS SYNTAX) #}
     {% if page.url %}
-    <link rel="canonical" href="{{ page.url | absoluteUrl: metadata.url }}">
+    <link rel="canonical" href="{{ page.url | absoluteUrl(metadata.url) }}">
     {% endif %}
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
