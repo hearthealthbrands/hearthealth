@@ -1,7 +1,7 @@
 {
   "name": "hearthealthbrands",
   "version": "1.0.0",
-  "main": "src/script.js",
+  "main": "script.js",
   "scripts": {
     "init-tailwind": "tailwindcss init",
     "watch-css": "tailwindcss -i ./src/input.css -o ./src/styles.css --watch",
