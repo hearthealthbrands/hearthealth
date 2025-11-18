@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/_includes/**/*.{html,js,njk}", // Scan layouts and partials
-    "./src/content/**/*.{html,js,njk}",  // Scan content pages
-    "./src/*.{html,js,njk}"              // Scan root files like index.html (if they are in src)
+    "./src/_includes/**/*.{html,js,njk}", // Now correctly scans layouts
+    "./src/content/**/*.{html,js,njk}",  // Now correctly scans content pages
+    "./src/*.{html,js,njk}"              // Now correctly scans root files inside src (like index.html, if applicable)
   ],
   theme: {
     extend: {
