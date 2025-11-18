@@ -2,46 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Component Layer */
-@layer components {
-  .container {
-    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl; /* Standardizes width & padding */
-  }
+/* Custom Styles */
 
-  .unified-header {
-    @apply bg-white/90 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50 transition-all;
-  }
-
-  .unified-footer {
-    @apply bg-white mt-auto border-t border-slate-100;
-  }
-
-  /* Fix the Hero Section spacing */
-  .hero-section {
-    @apply relative flex flex-col items-center justify-center text-center px-4 py-20 sm:py-32 bg-cover bg-center bg-no-repeat bg-slate-50;
-    min-height: 600px; /* Ensures it's not too short, but not full screen */
-    margin-top: -80px; /* Pulls it up behind a transparent header if needed */
-  }
-
-  /* Guide Typography Standards */
-  .guide-content h2 {
-    @apply text-2xl md:text-3xl font-bold text-slate-800 mt-12 mb-4 pb-2 border-b border-slate-100;
-  }
-  .guide-content h3 {
-    @apply text-xl font-semibold text-green-700 mt-8 mb-3;
-  }
-  .guide-content p {
-    @apply text-lg leading-8 text-slate-600 mb-6;
-  }
-  .guide-content ul, .guide-content ol {
-    @apply mb-6 ml-4;
-  }
-  .guide-content li {
-    @apply mb-2 text-lg text-slate-600 pl-2;
-  }
+/* 1. Header & Nav */
+.unified-header {
+  @apply bg-white/95 backdrop-blur-sm border-b border-slate-200 sticky top-0 z-50;
+}
+.unified-footer {
+  @apply bg-white mt-auto border-t border-slate-200;
 }
 
-/* Print Styles */
+/* 2. Hero Section - Explicit CSS to ensure image loads */
+.hero-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 1rem;
+  min-height: 80vh; /* Make it nice and tall */
+  margin-top: -4rem; /* Pull behind header */
+  background-color: #1e293b; /* Fallback Dark Blue if image fails */
+  background-image: url('/images/hero-background.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* 3. Content Styles */
+.guide-content h2 {
+  @apply text-3xl font-bold text-slate-900 mt-12 mb-6 pb-2 border-b border-slate-200;
+}
+.guide-content h3 {
+  @apply text-2xl font-semibold text-green-700 mt-8 mb-4;
+}
+.guide-content p {
+  @apply text-lg leading-relaxed text-slate-700 mb-6;
+}
+.guide-content ul {
+  @apply list-disc list-inside mb-6 ml-4 space-y-2;
+}
+.guide-content li {
+  @apply text-lg text-slate-700;
+}
+
+/* 4. Print Hiding */
 @media print {
   body * { visibility: hidden; }
   .printable-area, .printable-area * { visibility: visible; }
