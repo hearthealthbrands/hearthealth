@@ -2,28 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Component Layer */
 @layer components {
+  .container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl; /* Standardizes width & padding */
+  }
+
   .unified-header {
-    @apply bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50;
+    @apply bg-white/90 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50 transition-all;
   }
+
   .unified-footer {
-    @apply bg-white mt-auto;
+    @apply bg-white mt-auto border-t border-slate-100;
   }
+
+  /* Fix the Hero Section spacing */
   .hero-section {
-    @apply relative flex flex-col items-center justify-center min-h-screen text-center p-6 bg-cover bg-center bg-no-repeat -mt-20;
-    background-image: url('/images/hero-background.png');
+    @apply relative flex flex-col items-center justify-center text-center px-4 py-20 sm:py-32 bg-cover bg-center bg-no-repeat bg-slate-50;
+    min-height: 600px; /* Ensures it's not too short, but not full screen */
+    margin-top: -80px; /* Pulls it up behind a transparent header if needed */
   }
+
+  /* Guide Typography Standards */
   .guide-content h2 {
-    @apply text-2xl font-bold text-slate-800 mt-10 mb-3 pb-2 border-b border-slate-200;
+    @apply text-2xl md:text-3xl font-bold text-slate-800 mt-12 mb-4 pb-2 border-b border-slate-100;
   }
   .guide-content h3 {
-    @apply text-xl font-semibold text-green-600 mt-6 mb-2;
+    @apply text-xl font-semibold text-green-700 mt-8 mb-3;
   }
   .guide-content p {
-    @apply text-lg leading-relaxed mb-4 text-slate-600;
+    @apply text-lg leading-8 text-slate-600 mb-6;
+  }
+  .guide-content ul, .guide-content ol {
+    @apply mb-6 ml-4;
+  }
+  .guide-content li {
+    @apply mb-2 text-lg text-slate-600 pl-2;
   }
 }
 
+/* Print Styles */
 @media print {
   body * { visibility: hidden; }
   .printable-area, .printable-area * { visibility: visible; }
