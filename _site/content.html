@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Content Hub - HeartHealth Brands</title>
     <meta name="description" content="A curated collection of guides, tips, and articles to help you naturally optimize cholesterol and improve heart health.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hearthealthbrands.com/content.html">
+    <meta property="og:title" content="Content Hub - HeartHealth Brands">
+    <meta property="og:description" content="A curated collection of guides, tips, and articles to help you naturally optimize cholesterol and improve heart health.">
+    <meta property="og:image" content="https://hearthealthbrands.com/images/social-share.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@HeartHealthHQ">
+    <meta name="twitter:title" content="Content Hub - HeartHealth Brands">
+    <meta name="twitter:description" content="A curated collection of guides, tips, and articles to help you naturally optimize cholesterol and improve heart health.">
+    <meta name="twitter:image" content="https://hearthealthbrands.com/images/social-share.png">
 
     
     
@@ -20,115 +33,175 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="flex flex-col min-h-screen bg-slate-50 font-sans text-slate-900 antialiased selection:bg-green-100 selection:text-green-900">
 
-   <header class="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-sm border-b border-slate-200 transition-all">
-    <div class="container mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="/" class="flex items-center gap-2 group">
-            <span class="font-bold text-xl text-slate-800 group-hover:text-green-600 transition-colors">HeartHealth Brands</span>
-        </a>
-        
-        <nav class="hidden md:flex gap-8 text-sm font-medium text-slate-600">
-            <a href="/content.html" class="hover:text-green-600 transition-colors">Content</a>
-            <a href="/brands.html" class="hover:text-green-600 transition-colors">Brands</a>
-        </nav>
+    <header class="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="container mx-auto px-6 h-16 flex items-center justify-between">
+            
+            <a href="/" class="flex items-center gap-2 group">
+                <span class="font-bold text-xl tracking-tight text-slate-900 group-hover:text-primary transition-colors">
+                    HeartHealth Brands
+                </span>
+            </a>
+            
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+                <a href="/content.html" class="hover:text-primary transition-colors">Content</a>
+                <a href="/brands.html" class="hover:text-primary transition-colors">Brands</a>
+            </nav>
 
-        <div class="md:hidden">
-            <button id="menu-btn" class="text-slate-600 hover:text-green-600 focus:outline-none p-2">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-            </button>
+            <div class="md:hidden">
+                <button id="menu-btn" aria-label="Toggle Menu" class="text-slate-600 hover:text-primary focus:outline-none p-2 rounded-md hover:bg-slate-100 transition-all">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
         </div>
-    </div>
 
-    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-100">
-        <a href="/content.html" class="block px-6 py-4 text-slate-600 hover:bg-slate-50 hover:text-green-600 font-medium">Content</a>
-        <a href="/brands.html" class="block px-6 py-4 text-slate-600 hover:bg-slate-50 hover:text-green-600 font-medium">Brands</a>
-    </div>
-</header>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-100 absolute w-full shadow-lg">
+            <div class="flex flex-col py-2">
+                <a href="/content.html" class="px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-primary font-medium transition-colors">Content</a>
+                <a href="/brands.html" class="px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-primary font-medium transition-colors">Brands</a>
+            </div>
+        </div>
+    </header>
 
-    <main>
+    <main class="flex-grow w-full">
         
-<div class="bg-white">
-    <div class="container mx-auto px-6 py-16 text-center">
-        <h1 class="text-4xl md:text-5xl font-bold text-slate-900 leading-tight">Content Hub</h1>
-        <p class="mt-4 text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">A curated collection of our guides and articles, designed to give you clarity and confidence.</p>
-    </div>
+<div class="bg-white border-b border-slate-200">
+    <div class="container mx-auto px-6 py-16 text-center">
+        <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-slate-900">
+            Content Hub
+        </h1>
+        <p class="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
+            A curated collection of our guides and articles, designed to give you clarity and confidence.
+        </p>
+    </div>
 </div>
 
-<div class="py-16 sm:py-20">
-    <div class="container mx-auto px-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col hover:shadow-xl transition-shadow group">
-                <a href="/content/smoothie-recipe.html" class="block flex-grow">
-                    <img src="/images/smoothie-feature.png" alt="A vibrant, healthy berry smoothie in a glass." class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <p class="text-sm font-semibold text-blue-600 bg-blue-50 inline-block px-2 py-1 rounded-md mb-2">Recipe</p>
-                        <h3 class="text-xl font-bold text-slate-800 mb-2 group-hover:text-green-700 transition-colors">The Ultimate Heart-Healthy Smoothie</h3>
-                        <p class="text-slate-600 mb-4">A nutrient-dense, high-fiber smoothie that's delicious and easy to make.</p>
-                    </div>
-                </a>
-                <div class="px-6 py-4 border-t border-slate-100 flex justify-between items-center bg-slate-50/50">
-                    <div class="text-xs text-slate-400 font-medium">Oct 14 • 3 min read</div>
-                    <div class="flex gap-3">
-                        <button data-share-platform="twitter" data-share-url="https://hearthealthbrands.com/content/smoothie-recipe.html" data-share-title="The Ultimate Heart-Healthy Smoothie" class="text-slate-400 hover:text-slate-900 transition-colors" title="Share on X">
-                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                        </button>
-                        <button data-share-platform="email" data-share-url="https://hearthealthbrands.com/content/smoothie-recipe.html" data-share-title="The Ultimate Heart-Healthy Smoothie" class="text-slate-400 hover:text-green-600 transition-colors" title="Share via Email">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                        </button>
-                        <button data-action="copy" data-url="https://hearthealthbrands.com/content/smoothie-recipe.html" class="text-slate-400 hover:text-blue-600 transition-colors" title="Copy Link">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
-                        </button>
-                    </div>
-                </div>
-            </div>
+<div class="bg-slate-50 py-12 sm:py-16">
+    <div class="container mx-auto px-6">
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <article class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group flex flex-col">
+                <a href="/content/oat-bowl-recipe.html" class="block flex-grow">
+                    <div class="relative overflow-hidden h-48 group-hover:opacity-95 transition-opacity">
+                        <img src="/images/oat-bowl-hero.png" alt="The HeartHealth Oat Bowl" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                        
+                        <div class="absolute top-4 left-4">
+                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 border border-green-200 shadow-sm">
+                                New Recipe
+                            </span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900 group-hover:text-primary transition-colors mb-2">
+                            The <span class="text-primary">HeartHealth</span> Oat Bowl
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            A high-protein, medical-grade fiber breakfast designed to actively lower LDL cholesterol and keep you full for hours.
+                        </p>
+                    </div>
+                </a>
+                
+                <div class="px-6 py-4 bg-slate-50 border-t border-slate-100 flex justify-between items-center">
+                    <div class="flex items-center gap-3 text-xs font-bold text-slate-500 uppercase tracking-wide">
+                        <span class="flex items-center gap-1"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> 5 Mins</span>
+                        <span class="text-primary">26g Fiber</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <button data-share-platform="twitter" data-share-url="https://hearthealthbrands.com/content/oat-bowl-recipe.html" data-share-title="The HeartHealth Oat Bowl" class="text-slate-400 hover:text-slate-800 transition-colors" title="Share on X">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </button>
+                        <button data-action="copy" data-url="https://hearthealthbrands.com/content/oat-bowl-recipe.html" class="text-slate-400 hover:text-primary transition-colors" title="Copy Link">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </article>
 
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col hover:shadow-xl transition-shadow group">
-                <a href="/content/30-day-guide.html" class="block flex-grow">
-                    <img src="/images/30-day-guide-feature.png" alt="A bowl of oatmeal with fresh berries." class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <p class="text-sm font-semibold text-green-600 bg-green-50 inline-block px-2 py-1 rounded-md mb-2">Beginner Guide</p>
-                        <h3 class="text-xl font-bold text-slate-800 mb-2 group-hover:text-green-700 transition-colors">Your First 30 Days: A Simple Guide</h3>
-                        <p class="text-slate-600 mb-4">Our foundational guide to making small, powerful changes in your first month after a diagnosis.</p>
-                    </div>
-                </a>
-                <div class="px-6 py-4 border-t border-slate-100 flex justify-between items-center bg-slate-50/50">
-                    <div class="text-xs text-slate-400 font-medium">Oct 14 • 6 min read</div>
-                    <div class="flex gap-3">
-                        <button data-share-platform="twitter" data-share-url="https://hearthealthbrands.com/content/30-day-guide.html" data-share-title="Your First 30 Days: A Simple Guide" class="text-slate-400 hover:text-slate-900 transition-colors" title="Share on X">
-                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                        </button>
-                         <button data-share-platform="email" data-share-url="https://hearthealthbrands.com/content/30-day-guide.html" data-share-title="Your First 30 Days: A Simple Guide" class="text-slate-400 hover:text-green-600 transition-colors" title="Share via Email">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                        </button>
-                        <button data-action="copy" data-url="https://hearthealthbrands.com/content/30-day-guide.html" class="text-slate-400 hover:text-blue-600 transition-colors" title="Copy Link">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
-                        </button>
-                    </div>
-                </div>
-            </div>
+            <article class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group flex flex-col">
+                <a href="/content/smoothie-recipe.html" class="block flex-grow">
+                    <div class="relative overflow-hidden">
+                        <img src="/images/smoothie-feature.png" alt="Berry smoothie" class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4">
+                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800 border border-blue-200 shadow-sm">
+                                Recipe
+                            </span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900 group-hover:text-primary transition-colors mb-2">
+                            The Ultimate Heart-Healthy Smoothie
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            A nutrient-dense, high-fiber smoothie that's delicious and easy to make. The perfect breakfast for lowering LDL.
+                        </p>
+                    </div>
+                </a>
+                
+                <div class="px-6 py-4 bg-slate-50 border-t border-slate-100 flex justify-between items-center">
+                    <div class="flex items-center gap-3 text-xs font-bold text-slate-500 uppercase tracking-wide">
+                        <span class="flex items-center gap-1"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> 5 Mins</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <button data-share-platform="twitter" data-share-url="https://hearthealthbrands.com/content/smoothie-recipe.html" data-share-title="The Ultimate Heart-Healthy Smoothie" class="text-slate-400 hover:text-slate-800 transition-colors" title="Share on X">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </button>
+                        <button data-action="copy" data-url="https://hearthealthbrands.com/content/smoothie-recipe.html" class="text-slate-400 hover:text-primary transition-colors" title="Copy Link">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </article>
 
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-dashed border-slate-300">
-                <div class="p-6 flex flex-col items-center justify-center h-full text-center">
-                    <div class="bg-slate-100 rounded-full p-3 mb-4">
-                        <svg class="h-8 w-8 text-slate-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-                        </svg>
-                    </div>
-                    <h2 class="text-xl font-bold text-slate-500 mb-2">New Article Coming Soon</h2>
-                    <p class="text-slate-500">This is where your next piece of high-value content will be featured.</p>
-                </div>
-            </div>
+            <div class="rounded-2xl border-2 border-dashed border-slate-300 bg-slate-50/50 flex flex-col items-center justify-center p-8 text-center h-full min-h-[380px] hover:bg-slate-100 transition-colors cursor-default">
+                <div class="bg-white p-4 rounded-full shadow-sm mb-4">
+                    <svg class="h-8 w-8 text-slate-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                </div>
+                <h3 class="text-lg font-bold text-slate-500 mb-1">Coming Soon</h3>
+                <p class="text-sm text-slate-400">We are writing the next guide.</p>
+            </div>
 
-        </div>
-    </div>
+        </div>
+    </div>
 </div>
     </main>
     
-    <footer class="unified-footer">
-        <div class="container text-center">
-            <p style="color: #64748b; font-size: 0.9rem;">&copy; 2025 HeartHealth Brands. All Rights Reserved.</p>
+    <footer class="bg-white border-t border-slate-200 mt-auto print:hidden">
+        <div class="container mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
+            
+            <p class="text-slate-500 text-sm order-2 md:order-1 text-center md:text-left">
+                &copy; 2025 HeartHealth Brands. All Rights Reserved.
+            </p>
+
+            <div class="flex items-center gap-6 order-1 md:order-2">
+                
+                <a href="https://x.com/HeartHealthHQ" target="_blank" aria-label="Follow us on X" 
+                   class="text-slate-400 hover:text-slate-900 transition-colors duration-300 transform hover:scale-110">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                </a>
+
+                <a href="https://www.facebook.com/HeartHealthBrands" target="_blank" aria-label="Follow us on Facebook" 
+                   class="text-slate-400 hover:text-[#1877F2] transition-colors duration-300 transform hover:scale-110">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+
+                <a href="https://instagram.com/hearthealthbrands" target="_blank" aria-label="Follow us on Instagram" 
+                   class="text-slate-400 hover:text-[#E4405F] transition-colors duration-300 transform hover:scale-110">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.468 2.465C6.103 2.218 6.831 2.049 7.895 2c1.024-.047 1.379-.06 3.808-.06h.63zm-5.27 2.333c-1.037.046-1.577.215-1.947.358-.479.187-.82.406-1.178.765-.36.358-.578.7-.765 1.178-.143.37-.312.91-.358 1.947-.048 1.06-.06 1.405-.06 4.125 0 2.72.012 3.065.06 4.125.046 1.037.215 1.577.358 1.947.187.479.406.82.765 1.178.358.36.7.578 1.178.765.37.143.91.312 1.947.358 1.06.048 1.405.06 4.125.06 2.72 0 3.065-.012 4.125-.06 1.037-.046 1.577-.215 1.947-.358.479-.187.82-.406 1.178-.765.36-.358.578-.7.765-1.178.143-.37.312-.91.358-1.947.048-1.06.06-1.405.06-4.125 0-2.72-.012-3.065-.06-4.125-.046-1.037-.215-1.577-.358-1.947-.187-.479-.406-.82-.765-1.178-.358-.36-.7-.578-1.178-.765-.37-.143-.91-.312-1.947-.358-1.06-.048 1.405.06 4.125.06 2.72 0 3.065.012 4.125.06zm5.27 3.042a3.625 3.625 0 100 7.25 3.625 3.625 0 000-7.25zm0 1.917a1.708 1.708 0 110 3.416 1.708 1.708 0 010-3.416zm4.5-3.542a1.278 1.278 0 11-2.556 0 1.278 1.278 0 012.556 0z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+
+            </div>
         </div>
     </footer>
 

@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Brands We Use - HeartHealth Brands</title>
     <meta name="description" content="A transparent list of the brands and products we use in our recipes and guides.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hearthealthbrands.com/brands.html">
+    <meta property="og:title" content="Brands We Use - HeartHealth Brands">
+    <meta property="og:description" content="A transparent list of the brands and products we use in our recipes and guides.">
+    <meta property="og:image" content="https://hearthealthbrands.com/images/social-share.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@HeartHealthHQ">
+    <meta name="twitter:title" content="Brands We Use - HeartHealth Brands">
+    <meta name="twitter:description" content="A transparent list of the brands and products we use in our recipes and guides.">
+    <meta name="twitter:image" content="https://hearthealthbrands.com/images/social-share.png">
 
     
     
@@ -20,95 +33,222 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="flex flex-col min-h-screen bg-slate-50 font-sans text-slate-900 antialiased selection:bg-green-100 selection:text-green-900">
 
-   <header class="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-sm border-b border-slate-200 transition-all">
-    <div class="container mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="/" class="flex items-center gap-2 group">
-            <span class="font-bold text-xl text-slate-800 group-hover:text-green-600 transition-colors">HeartHealth Brands</span>
-        </a>
-        
-        <nav class="hidden md:flex gap-8 text-sm font-medium text-slate-600">
-            <a href="/content.html" class="hover:text-green-600 transition-colors">Content</a>
-            <a href="/brands.html" class="hover:text-green-600 transition-colors">Brands</a>
-        </nav>
+    <header class="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="container mx-auto px-6 h-16 flex items-center justify-between">
+            
+            <a href="/" class="flex items-center gap-2 group">
+                <span class="font-bold text-xl tracking-tight text-slate-900 group-hover:text-primary transition-colors">
+                    HeartHealth Brands
+                </span>
+            </a>
+            
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+                <a href="/content.html" class="hover:text-primary transition-colors">Content</a>
+                <a href="/brands.html" class="hover:text-primary transition-colors">Brands</a>
+            </nav>
 
-        <div class="md:hidden">
-            <button id="menu-btn" class="text-slate-600 hover:text-green-600 focus:outline-none p-2">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-            </button>
+            <div class="md:hidden">
+                <button id="menu-btn" aria-label="Toggle Menu" class="text-slate-600 hover:text-primary focus:outline-none p-2 rounded-md hover:bg-slate-100 transition-all">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
         </div>
-    </div>
 
-    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-100">
-        <a href="/content.html" class="block px-6 py-4 text-slate-600 hover:bg-slate-50 hover:text-green-600 font-medium">Content</a>
-        <a href="/brands.html" class="block px-6 py-4 text-slate-600 hover:bg-slate-50 hover:text-green-600 font-medium">Brands</a>
-    </div>
-</header>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-100 absolute w-full shadow-lg">
+            <div class="flex flex-col py-2">
+                <a href="/content.html" class="px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-primary font-medium transition-colors">Content</a>
+                <a href="/brands.html" class="px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-primary font-medium transition-colors">Brands</a>
+            </div>
+        </div>
+    </header>
 
-    <main>
+    <main class="flex-grow w-full">
         
-<div class="bg-white">
-    <div class="container mx-auto px-6 py-16 text-center">
-        <h1 class="text-4xl md:text-5xl font-bold text-slate-900 leading-tight">Brands We Use</h1>
-        <p class="mt-4 text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">For full transparency, this is a running list of the specific products and brands mentioned in our content. We only recommend what we use ourselves.</p>
-    </div>
+<div class="bg-white border-b border-slate-200">
+    <div class="container mx-auto px-6 py-16 text-center max-w-3xl">
+        <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-slate-900">
+            Brands We Use
+        </h1>
+        <p class="mt-4 text-lg text-slate-600">
+            For full transparency, here is a running list of the specific products mentioned in our content. We only recommend what we actually use.
+        </p>
+    </div>
 </div>
 
-<div class="py-16 sm:py-20">
-    <div class="container mx-auto px-6 max-w-4xl">
-        <div class="space-y-6">
-            
-            <div class="bg-white rounded-lg shadow-md p-6 flex flex-col sm:flex-row items-start sm:items-center gap-6">
-                <div class="flex-grow">
-                    <h2 class="text-xl font-bold text-slate-800">Isopure Protein Powder (Unflavored)</h2>
-                    <p class="text-slate-600 mt-1">A clean, zero-carb protein powder perfect for smoothies without altering the taste.</p>
-                    <div class="text-sm mt-3">
-                        <span class="font-semibold">Mentioned in:</span>
-                        <a href="/content/smoothie-recipe.html" class="text-green-600 hover:underline">The Ultimate Heart-Healthy Smoothie</a>
-                    </div>
-                </div>
-                <div class="flex-shrink-0 w-full sm:w-auto">
-                        <a href="https://www.amazon.com/dp/B002TG3QPO" target="_blank" class="inline-block w-full text-center bg-green-600 text-white font-semibold px-5 py-2 rounded-md hover:bg-green-700 transition">View Product</a>
-                </div>
-            </div>
+<div class="bg-slate-50 py-12 sm:py-20">
+    <div class="container mx-auto px-6 max-w-4xl">
+        <div class="space-y-6">
+            
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 transition-all duration-300 hover:shadow-md hover:border-primary/30">
+                <div class="flex-grow">
+                    <div class="flex items-center gap-3 mb-2">
+                        <span class="inline-flex items-center rounded-md bg-purple-50 px-2 py-1 text-xs font-medium text-purple-700 ring-1 ring-inset ring-purple-700/10">Supplement</span>
+                        <h2 class="text-xl font-bold text-slate-900">NOW Foods Whole Psyllium Husks</h2>
+                    </div>
+                    <p class="text-slate-600 mb-4">The MVP of soluble fiber. We use "Whole Husks" rather than fine powder for better texture in bowls. Essential for binding bile acids.</p>
+                    
+                    <div class="flex items-center gap-2 text-sm text-slate-500">
+                        <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                        <span>Used in:</span>
+                        <a href="/content/oat-bowl-recipe.html" class="text-primary hover:text-primary-dark hover:underline font-medium transition-colors">The HeartHealth Oat Bowl</a>
+                    </div>
+                </div>
+                <div class="flex-shrink-0 w-full sm:w-auto">
+                    <a href="https://www.amazon.com/NOW-Psyllium-Husks-Whole-24-Ounce/dp/B000OSSUP0/ref=sr_1_1?adgrpid=185157997574&dib=eyJ2IjoiMSJ9.hB30j_JcgMUo1f-MgkUxd7VPu0oDxArJSNkQ2VizyIo6L79WpR8DVwJP7pRDrHDXaHobunr0MQyKkj9vFmel_kuNNlpvsEnogdRUsmQ5VwbEl_Orn0JeWJONYoEbK0WC8-g4TS89aXScMR7OmlNpJWoy3UC0cF41lYrAeEuoPsYiKwRgvz1vbqARjACQWTjRFv3dIol9isWpVSN9KysO8lYcsS0vWyeQA4uPiLizhIiihooKv1HiYxF1AkEvjct2XkJkMMSz966oeWLMSU-dMdZzvP9ejCXQ1jImB7LoaTk.V_DDyCUS4c3ZthWhtLRHoWqnRSnCjoILk7BsBYaI1lY&dib_tag=se&hvadid=779690963972&hvdev=c&hvexpln=0&hvlocphy=9010487&hvnetw=g&hvocijid=7835528560795282385--&hvqmt=e&hvrand=7835528560795282385&hvtargid=kwd-346393088532&hydadcr=21881_13655033_12880&keywords=now%2Bwhole%2Bpsyllium%2Bhusks&mcid=9c584022cb923e25967d46f5c804a2fd&qid=1763553471&rdc=1&sr=8-1&th=1" target="_blank" class="inline-flex justify-center items-center w-full sm:w-auto bg-slate-900 text-white font-semibold px-6 py-3 rounded-lg hover:bg-primary hover:-translate-y-0.5 transition-all duration-200 shadow-sm">
+                        View Product 
+                        <svg class="w-4 h-4 ml-2 text-slate-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                </div>
+            </div>
 
-            <div class="bg-white rounded-lg shadow-md p-6 flex flex-col sm:flex-row items-start sm:items-center gap-6">
-                <div class="flex-grow">
-                    <h2 class="text-xl font-bold text-slate-800">Trader Joe's Creamy Almond Butter (No Salt)</h2>
-                    <p class="text-slate-600 mt-1">A great source of monounsaturated fats with only one ingredient: almonds.</p>
-                    <div class="text-sm mt-3">
-                        <span class="font-semibold">Mentioned in:</span>
-                        <a href="/content/smoothie-recipe.html" class="text-green-600 hover:underline">The Ultimate Heart-Healthy Smoothie</a>
-                    </div>
-                </div>
-                <div class="flex-shrink-0 w-full sm:w-auto">
-                    <a href="https://www.traderjoes.com/home/products/pdp/creamy-almond-butter-no-salt-051435" target="_blank" class="inline-block w-full text-center bg-green-600 text-white font-semibold px-5 py-2 rounded-md hover:bg-green-700 transition">View Product</a>
-                </div>
-            </div>
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 transition-all duration-300 hover:shadow-md hover:border-primary/30">
+                <div class="flex-grow">
+                    <div class="flex items-center gap-3 mb-2">
+                        <span class="inline-flex items-center rounded-md bg-slate-100 px-2 py-1 text-xs font-medium text-slate-600 ring-1 ring-inset ring-slate-500/10">Supplement</span>
+                        <h2 class="text-xl font-bold text-slate-900">Isopure Protein Powder (Unflavored)</h2>
+                    </div>
+                    <p class="text-slate-600 mb-4">A clean, zero-carb protein powder. It dissolves completely and doesn't alter the taste of your berries or greens.</p>
+                    
+                    <div class="flex items-center gap-2 text-sm text-slate-500">
+                        <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                        <span>Used in:</span>
+                        <span class="text-primary font-medium">Smoothies & Oat Bowls</span>
+                    </div>
+                </div>
+                <div class="flex-shrink-0 w-full sm:w-auto">
+                    <a href="https://www.amazon.com/dp/B002TG3QPO" target="_blank" class="inline-flex justify-center items-center w-full sm:w-auto bg-slate-900 text-white font-semibold px-6 py-3 rounded-lg hover:bg-primary hover:-translate-y-0.5 transition-all duration-200 shadow-sm">
+                        View Product 
+                        <svg class="w-4 h-4 ml-2 text-slate-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                </div>
+            </div>
 
-            <div class="bg-white rounded-lg shadow-md p-6 flex flex-col sm:flex-row items-start sm:items-center gap-6">
-                <div class="flex-grow">
-                    <h2 class="text-xl font-bold text-slate-800">Trader Joe's Greek Nonfat Yogurt (Plain)</h2>
-                    <p class="text-slate-600 mt-1">A high-protein, zero-fat yogurt that adds creaminess and satiety to recipes.</p>
-                    <div class="text-sm mt-3">
-                        <span class="font-semibold">Mentioned in:</span>
-                        <a href="/content/smoothie-recipe.html" class="text-green-600 hover:underline">The Ultimate Heart-Healthy Smoothie</a>
-                    </div>
-                </div>
-                <div class="flex-shrink-0 w-full sm:w-auto">
-                    <a href="https://www.traderjoes.com/home/products/pdp/greek-nonfat-yogurt-plain-095732" target="_blank" class="inline-block w-full text-center bg-green-600 text-white font-semibold px-5 py-2 rounded-md hover:bg-green-700 transition">View Product</a>
-                </div>
-            </div>
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 transition-all duration-300 hover:shadow-md hover:border-primary/30">
+                <div class="flex-grow">
+                    <div class="flex items-center gap-3 mb-2">
+                         <span class="inline-flex items-center rounded-md bg-slate-100 px-2 py-1 text-xs font-medium text-slate-600 ring-1 ring-inset ring-slate-500/10">Pantry</span>
+                        <h2 class="text-xl font-bold text-slate-900">Trader Joe's Ancient Grain Oats</h2>
+                    </div>
+                    <p class="text-slate-600 mb-4">Contains Amaranth, Quinoa, and Flax. This blend offers better texture and higher protein content than standard rolled oats.</p>
+                    
+                    <div class="flex items-center gap-2 text-sm text-slate-500">
+                        <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                        <span>Used in:</span>
+                        <a href="/content/oat-bowl-recipe.html" class="text-primary hover:text-primary-dark hover:underline font-medium transition-colors">The HeartHealth Oat Bowl</a>
+                    </div>
+                </div>
+                <div class="flex-shrink-0 w-full sm:w-auto">
+                    <span class="inline-flex justify-center items-center w-full sm:w-auto bg-slate-100 text-slate-500 font-semibold px-6 py-3 rounded-lg border border-slate-200 cursor-default">
+                        In Store Only
+                    </span>
+                </div>
+            </div>
 
-        </div>
-    </div>
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 transition-all duration-300 hover:shadow-md hover:border-primary/30">
+                <div class="flex-grow">
+                    <div class="flex items-center gap-3 mb-2">
+                         <span class="inline-flex items-center rounded-md bg-slate-100 px-2 py-1 text-xs font-medium text-slate-600 ring-1 ring-inset ring-slate-500/10">Pantry</span>
+                        <h2 class="text-xl font-bold text-slate-900">Trader Joe's Creamy Almond Butter</h2>
+                    </div>
+                    <p class="text-slate-600 mb-4">A great source of monounsaturated fats. The "No Salt" version has only one ingredient: almonds. No palm oil or added sugar.</p>
+                    
+                    <div class="flex items-center gap-2 text-sm text-slate-500">
+                        <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                        <span>Used in:</span>
+                        <span class="text-primary font-medium">Smoothies & Oat Bowls</span>
+                    </div>
+                </div>
+                <div class="flex-shrink-0 w-full sm:w-auto">
+                    <a href="https://www.traderjoes.com/home/products/pdp/creamy-almond-butter-no-salt-051435" target="_blank" class="inline-flex justify-center items-center w-full sm:w-auto bg-slate-900 text-white font-semibold px-6 py-3 rounded-lg hover:bg-primary hover:-translate-y-0.5 transition-all duration-200 shadow-sm">
+                        View Product
+                        <svg class="w-4 h-4 ml-2 text-slate-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 transition-all duration-300 hover:shadow-md hover:border-primary/30">
+                <div class="flex-grow">
+                     <div class="flex items-center gap-3 mb-2">
+                         <span class="inline-flex items-center rounded-md bg-slate-100 px-2 py-1 text-xs font-medium text-slate-600 ring-1 ring-inset ring-slate-500/10">Fridge</span>
+                        <h2 class="text-xl font-bold text-slate-900">Trader Joe's Greek Nonfat Yogurt</h2>
+                    </div>
+                    <p class="text-slate-600 mb-4">A high-protein, zero-fat yogurt that adds creaminess and satiety. We prefer the Plain version to avoid added sugars found in vanilla flavors.</p>
+                    
+                    <div class="flex items-center gap-2 text-sm text-slate-500">
+                        <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                        <span>Used in:</span>
+                        <span class="text-primary font-medium">Smoothies & Oat Bowls</span>
+                    </div>
+                </div>
+                <div class="flex-shrink-0 w-full sm:w-auto">
+                    <a href="https://www.traderjoes.com/home/products/pdp/greek-nonfat-yogurt-plain-095732" target="_blank" class="inline-flex justify-center items-center w-full sm:w-auto bg-slate-900 text-white font-semibold px-6 py-3 rounded-lg hover:bg-primary hover:-translate-y-0.5 transition-all duration-200 shadow-sm">
+                        View Product
+                        <svg class="w-4 h-4 ml-2 text-slate-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 transition-all duration-300 hover:shadow-md hover:border-primary/30">
+                <div class="flex-grow">
+                    <div class="flex items-center gap-3 mb-2">
+                         <span class="inline-flex items-center rounded-md bg-slate-100 px-2 py-1 text-xs font-medium text-slate-600 ring-1 ring-inset ring-slate-500/10">Pantry</span>
+                        <h2 class="text-xl font-bold text-slate-900">Trader Joe's Chia Seeds</h2>
+                    </div>
+                    <p class="text-slate-600 mb-4">High in Omega-3 fatty acids and fiber. They help thicken the oat bowl and provide a satisfying crunch.</p>
+                    
+                    <div class="flex items-center gap-2 text-sm text-slate-500">
+                        <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                        <span>Used in:</span>
+                        <a href="/content/oat-bowl-recipe.html" class="text-primary hover:text-primary-dark hover:underline font-medium transition-colors">The HeartHealth Oat Bowl</a>
+                    </div>
+                </div>
+                <div class="flex-shrink-0 w-full sm:w-auto">
+                    <span class="inline-flex justify-center items-center w-full sm:w-auto bg-slate-100 text-slate-500 font-semibold px-6 py-3 rounded-lg border border-slate-200 cursor-default">
+                        In Store Only
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </div>
     </main>
     
-    <footer class="unified-footer">
-        <div class="container text-center">
-            <p style="color: #64748b; font-size: 0.9rem;">&copy; 2025 HeartHealth Brands. All Rights Reserved.</p>
+    <footer class="bg-white border-t border-slate-200 mt-auto print:hidden">
+        <div class="container mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
+            
+            <p class="text-slate-500 text-sm order-2 md:order-1 text-center md:text-left">
+                &copy; 2025 HeartHealth Brands. All Rights Reserved.
+            </p>
+
+            <div class="flex items-center gap-6 order-1 md:order-2">
+                
+                <a href="https://x.com/HeartHealthHQ" target="_blank" aria-label="Follow us on X" 
+                   class="text-slate-400 hover:text-slate-900 transition-colors duration-300 transform hover:scale-110">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                </a>
+
+                <a href="https://www.facebook.com/HeartHealthBrands" target="_blank" aria-label="Follow us on Facebook" 
+                   class="text-slate-400 hover:text-[#1877F2] transition-colors duration-300 transform hover:scale-110">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+
+                <a href="https://instagram.com/hearthealthbrands" target="_blank" aria-label="Follow us on Instagram" 
+                   class="text-slate-400 hover:text-[#E4405F] transition-colors duration-300 transform hover:scale-110">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.468 2.465C6.103 2.218 6.831 2.049 7.895 2c1.024-.047 1.379-.06 3.808-.06h.63zm-5.27 2.333c-1.037.046-1.577.215-1.947.358-.479.187-.82.406-1.178.765-.36.358-.578.7-.765 1.178-.143.37-.312.91-.358 1.947-.048 1.06-.06 1.405-.06 4.125 0 2.72.012 3.065.06 4.125.046 1.037.215 1.577.358 1.947.187.479.406.82.765 1.178.358.36.7.578 1.178.765.37.143.91.312 1.947.358 1.06.048 1.405.06 4.125.06 2.72 0 3.065-.012 4.125-.06 1.037-.046 1.577-.215 1.947-.358.479-.187.82-.406 1.178-.765.36-.358.578-.7.765-1.178.143-.37.312-.91.358-1.947.048-1.06.06-1.405.06-4.125 0-2.72-.012-3.065-.06-4.125-.046-1.037-.215-1.577-.358-1.947-.187-.479-.406-.82-.765-1.178-.358-.36-.7-.578-1.178-.765-.37-.143-.91-.312-1.947-.358-1.06-.048 1.405.06 4.125.06 2.72 0 3.065.012 4.125.06zm5.27 3.042a3.625 3.625 0 100 7.25 3.625 3.625 0 000-7.25zm0 1.917a1.708 1.708 0 110 3.416 1.708 1.708 0 010-3.416zm4.5-3.542a1.278 1.278 0 11-2.556 0 1.278 1.278 0 012.556 0z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+
+            </div>
         </div>
     </footer>
 
