@@ -3,8 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-    <meta name="description" content="{{ description }}">
+    
+    <title>{{ title or "HeartHealth Brands" }}</title>
+    <meta name="description" content="{{ description or "Intuitive content to help you naturally optimize cholesterol and improve heart health." }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | absoluteUrl(metadata.url) }}">
+    <meta property="og:title" content="{{ title or "HeartHealth Brands" }}">
+    <meta property="og:description" content="{{ description or "Intuitive content to help you naturally optimize cholesterol and improve heart health." }}">
+    <meta property="og:image" content="{{ image | default('/images/social-share.png') | absoluteUrl(metadata.url) }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@HeartHealthHQ">
+    <meta name="twitter:title" content="{{ title or "HeartHealth Brands" }}">
+    <meta name="twitter:description" content="{{ description or "Intuitive content to help you naturally optimize cholesterol and improve heart health." }}">
+    <meta name="twitter:image" content="{{ image | default('/images/social-share.png') | absoluteUrl(metadata.url) }}">
 
     {# SEO: Canonical URL #}
     {% if page.url %}
@@ -57,11 +70,37 @@
         {{ content | safe }}
     </main>
     
-    <footer class="bg-white border-t border-slate-200 mt-auto">
-        <div class="container mx-auto px-6 py-8 text-center">
-            <p class="text-slate-500 text-sm">
+    <footer class="bg-white border-t border-slate-200 mt-auto print:hidden">
+        <div class="container mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
+            
+            <p class="text-slate-500 text-sm order-2 md:order-1 text-center md:text-left">
                 &copy; 2025 HeartHealth Brands. All Rights Reserved.
             </p>
+
+            <div class="flex items-center gap-6 order-1 md:order-2">
+                
+                <a href="https://x.com/HeartHealthHQ" target="_blank" aria-label="Follow us on X" 
+                   class="text-slate-400 hover:text-slate-900 transition-colors duration-300 transform hover:scale-110">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                </a>
+
+                <a href="https://www.facebook.com/HeartHealthBrands" target="_blank" aria-label="Follow us on Facebook" 
+                   class="text-slate-400 hover:text-[#1877F2] transition-colors duration-300 transform hover:scale-110">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+
+                <a href="https://instagram.com/hearthealthbrands" target="_blank" aria-label="Follow us on Instagram" 
+                   class="text-slate-400 hover:text-[#E4405F] transition-colors duration-300 transform hover:scale-110">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.468 2.465C6.103 2.218 6.831 2.049 7.895 2c1.024-.047 1.379-.06 3.808-.06h.63zm-5.27 2.333c-1.037.046-1.577.215-1.947.358-.479.187-.82.406-1.178.765-.36.358-.578.7-.765 1.178-.143.37-.312.91-.358 1.947-.048 1.06-.06 1.405-.06 4.125 0 2.72.012 3.065.06 4.125.046 1.037.215 1.577.358 1.947.187.479.406.82.765 1.178.358.36.7.578 1.178.765.37.143.91.312 1.947.358 1.06.048 1.405.06 4.125.06 2.72 0 3.065-.012 4.125-.06 1.037-.046 1.577-.215 1.947-.358.479-.187.82-.406 1.178-.765.36-.358.578-.7.765-1.178.143-.37.312-.91.358-1.947.048-1.06.06-1.405.06-4.125 0-2.72-.012-3.065-.06-4.125-.046-1.037-.215-1.577-.358-1.947-.187-.479-.406-.82-.765-1.178-.358-.36-.7-.578-1.178-.765-.37-.143-.91-.312-1.947-.358-1.06-.048 1.405.06 4.125.06 2.72 0 3.065.012 4.125.06zm5.27 3.042a3.625 3.625 0 100 7.25 3.625 3.625 0 000-7.25zm0 1.917a1.708 1.708 0 110 3.416 1.708 1.708 0 010-3.416zm4.5-3.542a1.278 1.278 0 11-2.556 0 1.278 1.278 0 012.556 0z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+
+            </div>
         </div>
     </footer>
 
