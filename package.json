@@ -1,25 +1,4 @@
-{
-  "name": "hearthealthbrands",
-  "version": "1.0.0",
-  "main": "script.js",
-  "scripts": {
-    "init-tailwind": "tailwindcss init",
-    "watch-css": "tailwindcss -i ./src/input.css -o ./src/styles.css --watch",
-    "build-css": "tailwindcss -i ./src/input.css -o ./src/styles.css --minify",
+"scripts": {
     "start": "npx @11ty/eleventy --serve",
-    "build": "npm run build-css && npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hearthealthbrands/hearthealth.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "autoprefixer": "^10.4.22",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.18"
-  }
-}
