@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ "src/script.js": "script.js" });
     
     // Copy our single CSS file
-    eleventyConfig.addPassthroughCopy({ "src/style.css": "style.css" });
+    
 
     // Absolute URL Filter
     eleventyConfig.addFilter("absoluteUrl", (url, base) => {

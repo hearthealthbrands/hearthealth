@@ -22,30 +22,29 @@
 </head>
 <body>
 
-    <header class="unified-header">
-        <div class="container">
-            <nav>
-                <a href="/" style="display: flex; align-items: center; gap: 10px;">
-                    <img src="/images/logo.png" alt="Logo" style="height: 32px; width: auto;">
-                    <span style="font-weight: 700; font-size: 1.2rem; color: #1e293b;">HeartHealth Brands</span>
-                </a>
-                
-                <div class="hidden md:flex" style="gap: 20px;">
-                    <a href="/content.html" class="nav-link">Content</a>
-                    <a href="/brands.html" class="nav-link">Brands</a>
-                </div>
+   <header class="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-sm border-b border-slate-200 transition-all">
+    <div class="container mx-auto px-6 h-16 flex items-center justify-between">
+        <a href="/" class="flex items-center gap-2 group">
+            <span class="font-bold text-xl text-slate-800 group-hover:text-green-600 transition-colors">HeartHealth Brands</span>
+        </a>
+        
+        <nav class="hidden md:flex gap-8 text-sm font-medium text-slate-600">
+            <a href="/content.html" class="hover:text-green-600 transition-colors">Content</a>
+            <a href="/brands.html" class="hover:text-green-600 transition-colors">Brands</a>
+        </nav>
 
-                <div class="md:hidden">
-                    <button id="menu-btn" style="background:none; color: #333; padding:0;">Menu</button>
-                </div>
-            </nav>
-            
-            <div id="mobile-menu" class="hidden" style="padding-top: 1rem;">
-                <a href="/content.html" style="display:block; padding: 10px 0;">Content</a>
-                <a href="/brands.html" style="display:block; padding: 10px 0;">Brands</a>
-            </div>
+        <div class="md:hidden">
+            <button id="menu-btn" class="text-slate-600 hover:text-green-600 focus:outline-none p-2">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
         </div>
-    </header>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-100">
+        <a href="/content.html" class="block px-6 py-4 text-slate-600 hover:bg-slate-50 hover:text-green-600 font-medium">Content</a>
+        <a href="/brands.html" class="block px-6 py-4 text-slate-600 hover:bg-slate-50 hover:text-green-600 font-medium">Brands</a>
+    </div>
+</header>
 
     <main>
         {{ content | safe }}
