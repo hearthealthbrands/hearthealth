@@ -1,3 +1,11 @@
 {
-  "url": "https://hearthealthbrands.com"
+  "title": "HeartHealth Brands",
+  "url": "https://hearthealthbrands.com",
+  "language": "en",
+  "description": "Intuitive content to help you naturally optimize cholesterol and improve heart health.",
+  "author": {
+    "name": "HeartHealth Brands",
+    "email": "hello@hearthealthbrands.com",
+    "url": "https://hearthealthbrands.com"
+  }
 }
