@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DK1D9C4SXS"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -14,21 +13,17 @@
       gtag('config', 'G-DK1D9C4SXS');
     </script>
 
-    <!-- PINTEREST VERIFICATION -->
     <meta name="p:domain_verify" content="a191da4fb3833739d5e980016a1cce1c"/>
 
-    <!-- Primary Meta Tags -->
     <title>{{ title or "HeartHealth Brands" }}</title>
     <meta name="description" content="{{ description or "Intuitive content to help you naturally optimize cholesterol and improve heart health." }}">
 
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ page.url | absoluteUrl(metadata.url) }}">
     <meta property="og:title" content="{{ title or "HeartHealth Brands" }}">
     <meta property="og:description" content="{{ description or "Intuitive content to help you naturally optimize cholesterol and improve heart health." }}">
     <meta property="og:image" content="{{ image | default('/images/social-share.png') | absoluteUrl(metadata.url) }}">
 
-    <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@HeartHealthHQ">
     <meta name="twitter:title" content="{{ title or "HeartHealth Brands" }}">
@@ -47,21 +42,16 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Importing Inter (Body) and Playfair Display (Headings) -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
 </head>
 <body class="flex flex-col min-h-screen bg-white font-sans text-slate-900 antialiased selection:bg-[#60A13C] selection:text-white">
 
-    <!-- HEADER -->
     <header class="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.05)] transition-all">
         <div class="container mx-auto px-6 h-20 flex items-center justify-between">
             
-            <!-- Logo Area -->
             <a href="/" class="flex items-center gap-3 group">
-                <!-- The Apple Logo -->
                 <img src="/images/apple-logo.png" alt="HeartHealth Logo" class="h-10 w-auto transform transition-transform duration-300 group-hover:scale-105">
                 
-                <!-- The Text Logo (Elegant Serif + Sans Mix) -->
                 <div class="flex flex-col leading-none">
                     <span class="font-serif font-bold text-2xl tracking-tight text-slate-900 group-hover:text-primary transition-colors">
                         HeartHealth
@@ -72,15 +62,12 @@
                 </div>
             </a>
             
-            <!-- Desktop Nav -->
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
                 <a href="/content.html" class="hover:text-primary transition-colors font-sans">Content</a>
                 <a href="/brands.html" class="hover:text-primary transition-colors font-sans">Brands</a>
-                <!-- CTA Button -->
                 <a href="/content/oat-bowl-recipe.html" class="bg-slate-900 text-white px-5 py-2.5 rounded-full hover:bg-primary transition-colors text-xs font-bold tracking-wide shadow-md hover:shadow-lg">Latest Recipe</a>
             </nav>
 
-            <!-- Mobile Menu Button -->
             <div class="md:hidden">
                 <button id="menu-btn" aria-label="Toggle Menu" class="text-slate-600 hover:text-primary focus:outline-none p-2">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -90,7 +77,6 @@
             </div>
         </div>
 
-        <!-- Mobile Menu Dropdown -->
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-100 absolute w-full shadow-xl">
             <div class="flex flex-col py-4">
                 <a href="/content.html" class="px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-primary font-medium transition-colors">Content</a>
@@ -100,75 +86,72 @@
         </div>
     </header>
 
-    <!-- MAIN CONTENT -->
     <main class="flex-grow w-full">
         {{ content | safe }}
     </main>
     
-    <!-- FOOTER -->
     <footer class="bg-white border-t border-slate-200 mt-auto print:hidden">
-        <div class="container mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between gap-6">
-            
-            <!-- Left Side: Copyright & Contact -->
-            <div class="flex flex-col items-center md:items-start gap-3 order-2 md:order-1">
-                <div class="text-center md:text-left">
-                    <p class="text-slate-400 text-sm font-medium">
-                        &copy; 2025 HeartHealth Brands.
-                    </p>
+        <div class="container mx-auto px-6 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 items-start">
+
+                <div class="space-y-8">
+                    <div>
+                        <div class="flex items-center gap-2 mb-4">
+                            <img src="/images/apple-logo.png" alt="Logo" class="h-6 w-auto grayscale opacity-60">
+                            <span class="font-serif font-bold text-lg text-slate-800">HeartHealth Brands</span>
+                        </div>
+                        <p class="text-slate-500 text-sm leading-relaxed max-w-sm">
+                            Simple, science-backed protocols to naturally optimize cholesterol and improve heart health.
+                        </p>
+                    </div>
+
+                    <div class="flex items-center gap-5">
+                        <a href="https://x.com/HeartHealthHQ" target="_blank" aria-label="Follow us on X" 
+                           class="text-slate-400 hover:text-slate-900 transition-colors transform hover:scale-110">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61582304270594" target="_blank" aria-label="Follow us on Facebook" 
+                           class="text-slate-400 hover:text-[#1877F2] transition-colors transform hover:scale-110">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                        </a>
+                        <a href="https://instagram.com/hearthealthbrands" target="_blank" aria-label="Follow us on Instagram" 
+                           class="text-slate-400 hover:text-[#E4405F] transition-colors transform hover:scale-110">
+                           <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="https://pin.it/3NziHvHVs" target="_blank" aria-label="Follow us on Pinterest" 
+                           class="text-slate-400 hover:text-[#E60023] transition-colors transform hover:scale-110">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.399.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.951-7.252 4.173 0 7.41 2.967 7.41 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.367 18.62 0 12.017 0z"/></svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@hearthealthbrands?is_from_webapp=1&sender_device=pc" target="_blank" aria-label="Follow us on TikTok" 
+                           class="text-slate-400 hover:text-slate-900 transition-colors transform hover:scale-110">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.65-1.54-1.12v8.41c-.08 2.12-1.29 4.13-3.17 5.22-1.91 1.07-4.27 1.04-6.16-.08-1.86-1.13-2.99-3.18-2.93-5.35.06-2.19 1.25-4.24 3.16-5.32.48-.27.99-.48 1.52-.61v4.2c-.83.16-1.64.59-2.14 1.29-.82 1.11-.82 2.75.03 3.85.85 1.09 2.45 1.54 3.77 1.05 1.31-.48 2.21-1.72 2.21-3.12V.02z"/></svg>
+                        </a>
+                    </div>
+
+                    <div class="text-xs text-slate-300">
+                        &copy; 2025 HeartHealth Brands. <br>
+                        <a href="mailto:hello@hearthealthbrands.com" class="hover:text-primary transition-colors">Contact Us</a>
+                    </div>
                 </div>
-                <a href="mailto:hello@hearthealthbrands.com" class="text-xs font-bold text-slate-300 hover:text-primary uppercase tracking-widest transition-colors mt-2">
-                    Contact Us
-                </a>
-            </div>
 
-            <!-- Social Media Icons -->
-            <div class="flex items-center gap-6 order-1 md:order-2">
-                
-                <!-- X (Twitter) -->
-                <a href="https://x.com/HeartHealthHQ" target="_blank" aria-label="Follow us on X" 
-                   class="text-slate-400 hover:text-slate-900 transition-colors duration-300 transform hover:scale-110">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                    </svg>
-                </a>
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100">
+                    <h3 class="font-serif font-bold text-slate-900 text-xl mb-2">Join the Protocol</h3>
+                    <p class="text-sm text-slate-600 mb-6">Get our latest lipid-lowering guides and recipes delivered to your inbox. No spam, ever.</p>
 
-                <!-- Facebook -->
-                <a href="https://www.facebook.com/profile.php?id=61582304270594" target="_blank" aria-label="Follow us on Facebook" 
-                   class="text-slate-400 hover:text-[#1877F2] transition-colors duration-300 transform hover:scale-110">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
-                    </svg>
-                </a>
-
-                <!-- Instagram -->
-                <a href="https://instagram.com/hearthealthbrands" target="_blank" aria-label="Follow us on Instagram" 
-                   class="text-slate-400 hover:text-[#E4405F] transition-colors duration-300 transform hover:scale-110">
-                   <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
-                    </svg>
-                </a>
-
-                <!-- Pinterest -->
-                <a href="https://pin.it/3NziHvHVs" target="_blank" aria-label="Follow us on Pinterest" 
-                   class="text-slate-400 hover:text-[#E60023] transition-colors duration-300 transform hover:scale-110">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.399.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.951-7.252 4.173 0 7.41 2.967 7.41 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.367 18.62 0 12.017 0z"/>
-                    </svg>
-                </a>
-
-                <!-- TikTok -->
-                <a href="https://www.tiktok.com/@hearthealthbrands?is_from_webapp=1&sender_device=pc" target="_blank" aria-label="Follow us on TikTok" 
-                   class="text-slate-400 hover:text-slate-900 transition-colors duration-300 transform hover:scale-110">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.65-1.54-1.12v8.41c-.08 2.12-1.29 4.13-3.17 5.22-1.91 1.07-4.27 1.04-6.16-.08-1.86-1.13-2.99-3.18-2.93-5.35.06-2.19 1.25-4.24 3.16-5.32.48-.27.99-.48 1.52-.61v4.2c-.83.16-1.64.59-2.14 1.29-.82 1.11-.82 2.75.03 3.85.85 1.09 2.45 1.54 3.77 1.05 1.31-.48 2.21-1.72 2.21-3.12V.02z"/>
-                    </svg>
-                </a>
+                    <form name="subscribe-footer" method="POST" data-netlify="true" action="/success.html" class="flex flex-col sm:flex-row gap-3">
+                        <label for="footer-email" class="sr-only">Email</label>
+                        <input id="footer-email" name="email" type="email" required placeholder="Enter your email"
+                            class="flex-grow rounded-lg border-0 px-4 py-3 text-slate-900 shadow-sm ring-1 ring-inset ring-slate-300 placeholder:text-slate-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6">
+                        <button type="submit" class="flex-none rounded-lg bg-slate-900 px-6 py-3 text-sm font-bold text-white shadow-sm hover:bg-primary transition-all duration-200 transform hover:-translate-y-0.5">
+                            Join
+                        </button>
+                    </form>
+                </div>
 
             </div>
         </div>
     </footer>
 
-    <!-- SCRIPT -->
     <script src="/script.js"></script>
 </body>
 </html>
