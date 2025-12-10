@@ -1,63 +1,130 @@
 ---
 layout: base.njk
-title: HeartHealth Brands - Improve Your Cholesterol and Heart Health
-description: Intuitive content to help you naturally optimize cholesterol and improve heart health.
-permalink: /
+title: HeartHealth Brands - Simple Habits for a Healthy Heart
+description: Science-backed protocols, heart-healthy recipes, and lifestyle guides to help you lower LDL and improve cardiovascular health.
 ---
 
-<div class="relative isolate overflow-hidden bg-white">
-    <div class="absolute inset-0 -z-10">
-        <img src="/images/hero-background.png" alt="" class="h-full w-full object-cover object-center opacity-20">
-        <div class="absolute inset-0 bg-gradient-to-t from-white via-white/80 to-transparent"></div>
+<div class="relative bg-slate-900 overflow-hidden">
+    <div class="absolute inset-0">
+        <img src="/images/chicken-kale-soup.png" alt="Chicken Sausage and Kale Soup" class="w-full h-full object-cover opacity-60">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
     </div>
 
-    <div class="container mx-auto px-6 py-24 sm:py-32 lg:py-40 flex flex-col items-center text-center">
-        
-        <h1 class="text-4xl font-serif font-bold tracking-tight text-slate-900 sm:text-5xl md:text-6xl max-w-3xl">
-            Intuitive Content to <br class="hidden sm:block" />
-            <span class="text-primary italic">Promote Heart Health</span>
-        </h1>
-        
-        <p class="mt-6 max-w-2xl text-lg sm:text-xl text-slate-600 font-light">
-            Simple habits for a healthy heart.
-        </p>
-
-        <div class="mt-10 w-full max-w-md">
-            <form name="subscribe-homepage" method="POST" data-netlify="true" action="/success.html" class="flex flex-col sm:flex-row gap-3">
-                <label for="email-address" class="sr-only">Email address</label>
-                <input id="email-address" name="email" type="email" autocomplete="email" required 
-                    class="min-w-0 flex-auto rounded-lg border-0 px-4 py-3.5 text-slate-900 shadow-sm ring-1 ring-inset ring-slate-300 placeholder:text-slate-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6 transition-shadow" 
-                    placeholder="Enter your email">
-                
-                <button type="submit" 
-                    class="flex-none rounded-lg bg-primary px-6 py-3.5 text-sm font-bold text-white shadow-lg hover:bg-primary-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition-all duration-200 transform hover:-translate-y-0.5">
-                    Follow Along
-                </button>
-            </form>
-            <p class="mt-3 text-xs text-slate-400">
-                We respect your privacy. Unsubscribe at any time.
+    <div class="relative container mx-auto px-6 py-24 md:py-32 max-w-6xl flex flex-col justify-end min-h-[600px]">
+        <div class="max-w-3xl">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-orange-500/20 text-orange-200 border border-orange-500/30 backdrop-blur-sm mb-6">
+                New Seasonal Recipe
+            </span>
+            <h1 class="text-4xl md:text-6xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-lg">
+                One-Pot <span class="text-orange-400 italic">Chicken Sausage</span> & Kale Soup.
+            </h1>
+            <p class="text-lg md:text-xl text-slate-200 mb-8 leading-relaxed max-w-2xl font-light">
+                The culinary equivalent of a cozy blanket. We swap traditional pork for lean chicken sausage and pack it with Vitamin-K rich kale for a heart-healthy comfort meal.
             </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="/content/chicken-kale-soup.html" class="inline-flex justify-center items-center px-8 py-4 text-base font-bold rounded-full text-white bg-orange-600 hover:bg-orange-500 transition-all duration-200 shadow-lg hover:shadow-orange-500/25">
+                    Get the Recipe
+                </a>
+                <a href="/content.html" class="inline-flex justify-center items-center px-8 py-4 text-base font-bold rounded-full text-white bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 transition-all duration-200">
+                    View All Guides
+                </a>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="bg-slate-50 py-12 border-y border-slate-100">
-    <div class="container mx-auto px-6 text-center">
-        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-6">Latest Updates</p>
-        <div class="flex flex-wrap justify-center gap-4">
+<div class="bg-slate-50 py-20">
+    <div class="container mx-auto px-6 max-w-6xl">
+        <div class="flex justify-between items-end mb-12">
+            <div>
+                <h2 class="text-3xl font-serif font-bold text-slate-900">Latest Protocols</h2>
+                <p class="text-slate-500 mt-2">Fresh guides to optimize your health.</p>
+            </div>
+            <a href="/content.html" class="hidden md:flex items-center text-primary font-bold hover:text-primary-dark transition-colors">
+                View Hub <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+            </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             
-            <a href="/content/cottage-cheese.html" class="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white border border-slate-200 text-slate-800 hover:border-blue-500 hover:text-blue-700 transition-all duration-300 text-sm font-medium shadow-sm hover:shadow-md group">
-                <span class="text-lg">🥣</span> 
-                <span>The Case for <span class="font-serif font-bold italic text-blue-700">Cottage Cheese</span></span>
-                <svg class="w-4 h-4 text-slate-300 group-hover:text-blue-700 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            <a href="/content/travel-protocol.html" class="group block bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                <div class="relative h-48 overflow-hidden bg-teal-50">
+                    <img src="/images/travel-kit-hero.png" alt="Travel Snack Kit" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute top-4 left-4">
+                        <span class="bg-white/90 backdrop-blur text-teal-800 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Lifestyle</span>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-slate-900 mb-2 font-serif group-hover:text-teal-700 transition-colors">The Travel Protocol</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed line-clamp-2">
+                        Airports are food deserts. Here is the exact "Snack Kit" I pack to avoid sodium bombs and seed oils.
+                    </p>
+                    <div class="mt-4 flex items-center text-teal-600 text-sm font-bold">
+                        Read Guide <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </div>
+                </div>
             </a>
 
-            <a href="/content/turkey-chili.html" class="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white border border-slate-200 text-slate-800 hover:border-orange-500 hover:text-orange-700 transition-all duration-300 text-sm font-medium shadow-sm hover:shadow-md group">
-                <span class="text-lg">🍲</span> 
-                <span><span class="font-serif font-bold italic text-orange-700">Fiber-First</span> Turkey Chili</span>
-                <svg class="w-4 h-4 text-slate-300 group-hover:text-orange-700 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            <a href="/content/cottage-cheese.html" class="group block bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                <div class="relative h-48 overflow-hidden bg-blue-50">
+                    <img src="/images/cottage-cheese-hero.png" alt="Cottage Cheese" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute top-4 left-4">
+                        <span class="bg-white/90 backdrop-blur text-blue-800 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Nutrition</span>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-slate-900 mb-2 font-serif group-hover:text-primary transition-colors">The Case for Cottage Cheese</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed line-clamp-2">
+                        It’s trending for protein, but is it safe for your arteries? The science on Casein, sodium, and specific brands.
+                    </p>
+                    <div class="mt-4 flex items-center text-primary text-sm font-bold">
+                        Read Guide <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </div>
+                </div>
             </a>
 
+            <a href="/content/turkey-chili.html" class="group block bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                <div class="relative h-48 overflow-hidden bg-orange-50">
+                    <img src="/images/turkey-chili-hero.png" alt="Turkey Chili" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute top-4 left-4">
+                        <span class="bg-white/90 backdrop-blur text-orange-800 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Recipe</span>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-slate-900 mb-2 font-serif group-hover:text-primary transition-colors">Fiber-First Turkey Chili</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed line-clamp-2">
+                        A heart-healthy twist on the classic. We swap sour cream for Greek Yogurt to cut saturated fat without losing creaminess.
+                    </p>
+                    <div class="mt-4 flex items-center text-primary text-sm font-bold">
+                        Get Recipe <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+        <div class="mt-12 text-center md:hidden">
+            <a href="/content.html" class="inline-flex items-center text-primary font-bold hover:text-primary-dark transition-colors">
+                View All Guides <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="bg-white py-20 border-t border-slate-100">
+    <div class="container mx-auto px-6 max-w-4xl text-center">
+        <span class="text-primary font-bold tracking-wider uppercase text-sm mb-4 block">The Mission</span>
+        <h2 class="text-4xl md:text-5xl font-serif font-bold text-slate-900 mb-6">Simple habits for a healthy heart.</h2>
+        <p class="text-xl text-slate-600 leading-relaxed mb-10">
+            We simplify the science of lipid management into actionable protocols, recipes, and guides that fit into your actual life.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+             <a href="/links/" class="inline-flex justify-center items-center px-8 py-4 text-base font-bold rounded-full text-white bg-slate-900 hover:bg-slate-800 transition-all duration-200 shadow-lg">
+                View Quick Links
+            </a>
+            <a href="/brands.html" class="inline-flex justify-center items-center px-8 py-4 text-base font-bold rounded-full text-slate-700 bg-white border border-slate-200 hover:bg-slate-50 transition-all duration-200">
+                Brands We Use
+            </a>
         </div>
     </div>
 </div>
