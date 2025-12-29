@@ -38,7 +38,7 @@ image: /images/canned-fish-protocol.jpg
 
     <div class="max-w-4xl mx-auto px-4 py-8 md:py-12 -mt-10 md:-mt-20 relative z-10">
 
-        <div class="bg-white rounded-2xl shadow-xl border border-slate-100 p-6 md:p-12 mb-16">
+        <div class="bg-white rounded-2xl shadow-xl border border-slate-100 p-6 md:p-12 mb-8">
             <div class="text-center mb-10">
                 <span class="inline-block px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-[10px] md:text-xs font-bold tracking-widest uppercase mb-4">The Mechanism</span>
                 <h2 class="font-serif text-3xl md:text-4xl font-bold text-slate-900 mb-6">Busting the "Processed" Myth</h2>
@@ -60,7 +60,9 @@ image: /images/canned-fish-protocol.jpg
             </div>
         </div>
 
-        <div class="bg-slate-900 text-white rounded-2xl md:rounded-3xl p-6 md:p-12 mb-20 shadow-2xl overflow-hidden">
+        {% include "share-bar.njk" %}
+
+        <div class="bg-slate-900 text-white rounded-2xl md:rounded-3xl p-6 md:p-12 mb-20 shadow-2xl overflow-hidden mt-12">
             <h3 class="font-serif text-2xl md:text-3xl font-bold mb-6 md:mb-8 text-center">The Safety Matrix: Omega-3 vs. Mercury</h3>
             <p class="text-center text-slate-400 mb-8 max-w-2xl mx-auto text-sm">
                 We rank species based on the "Safety Surplus"—the ratio of Selenium (which neutralizes mercury) to Omega-3 density.
@@ -213,93 +215,109 @@ image: /images/canned-fish-protocol.jpg
             </div>
         </div>
 
-        <div class="bg-yellow-50 p-6 md:p-10 rounded-2xl border border-yellow-100 mb-16">
-            <h3 class="font-serif text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
-                <span class="text-3xl">🛒</span> The Buyer’s Checklist
-            </h3>
-            <div class="space-y-6">
-                <div class="flex items-start gap-4">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-yellow-200 text-yellow-800 flex items-center justify-center font-bold text-sm">1</div>
-                    <div>
-                        <h4 class="font-bold text-slate-900 text-lg">The "Atlantic" Rule</h4>
-                        <p class="text-slate-700 text-sm leading-relaxed mt-1">
-                            Always check the label for "North Atlantic" Mackerel (<em>Scomber scombrus</em>). Never buy generic "Mackerel" or "King Mackerel," which are predator fish with high mercury levels.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="flex items-start gap-4">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-yellow-200 text-yellow-800 flex items-center justify-center font-bold text-sm">2</div>
-                    <div>
-                        <h4 class="font-bold text-slate-900 text-lg">The Oil Test</h4>
-                        <p class="text-slate-700 text-sm leading-relaxed mt-1">
-                            <strong>Buy:</strong> Fish packed in Extra Virgin Olive Oil (EVOO).<br>
-                            <strong>Avoid:</strong> Sunflower, Soybean, or "Vegetable" oil (High Omega-6s).<br>
-                            <strong>The "Full Can" Rule:</strong> If you buy fish in EVOO, <span class="font-bold text-red-600">do not drain the can!</span> Up to 30% of the Omega-3s migrate into the oil. Pour the oil over your food—it's part of the dose.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="flex items-start gap-4">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-yellow-200 text-yellow-800 flex items-center justify-center font-bold text-sm">3</div>
-                    <div>
-                        <h4 class="font-bold text-slate-900 text-lg">The BPA Check</h4>
-                        <p class="text-slate-700 text-sm leading-relaxed mt-1">
-                            Look for "BPA-NI" (Non-Intent) on the can. BPA is an endocrine disruptor that can interfere with metabolic health.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="mb-20">
             <div class="text-center mb-10">
                 <h3 class="font-serif text-2xl md:text-3xl font-bold text-slate-900">Approved Brands</h3>
-                <p class="text-slate-600 mt-2 text-sm md:text-base">Specific brands that meet the species and oil requirements.</p>
+                <p class="text-slate-600 mt-2 text-sm md:text-base">Specific brands verified for quality and safety.</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 
-                <div class="group bg-white rounded-2xl border border-slate-200 p-6 hover:shadow-xl transition-all duration-300 flex flex-col">
-                    <div class="flex justify-between items-start mb-4">
+                <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <div class="flex justify-between items-start mb-6">
                         <span class="text-3xl">👑</span>
                         <span class="bg-slate-100 text-slate-800 text-[10px] font-bold px-2 py-1 rounded-full uppercase tracking-wider">Mackerel</span>
                     </div>
-                    <h4 class="font-bold text-slate-900 text-lg leading-tight mb-2">King Oscar Royal Fillets</h4>
-                    <p class="text-xs text-slate-500 mb-6 flex-grow leading-relaxed">
-                        <strong>North Atlantic.</strong> Packed in pure olive oil. Verified low mercury and high Omega-3 density.
-                    </p>
-                    <a href="https://amzn.to/3vEjkLm" target="_blank" class="block w-full text-center bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 px-4 rounded-xl transition-colors text-sm">
-                        Shop on Amazon ➔
-                    </a>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <a href="https://amzn.to/48YBk4P" target="_blank" class="font-bold text-slate-900 hover:text-emerald-600 underline decoration-slate-300 underline-offset-2 transition-colors">
+                                Wild Planet Fillets
+                            </a>
+                            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Organic Extra Virgin Olive Oil. Skinless & Boneless.</p>
+                        </div>
+                         <div>
+                            <a href="https://amzn.to/4qy8LRJ" target="_blank" class="font-bold text-slate-900 hover:text-emerald-600 underline decoration-slate-300 underline-offset-2 transition-colors">
+                                King Oscar
+                            </a>
+                            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Olive Oil. Skinless & Boneless. Wild Caught.</p>
+                        </div>
+                         <div>
+                            <a href="https://amzn.to/44JRcWq" target="_blank" class="font-bold text-slate-900 hover:text-emerald-600 underline decoration-slate-300 underline-offset-2 transition-colors">
+                                Season Brand
+                            </a>
+                            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Water packed (Low Calorie). No Salt Added. Low Mercury.</p>
+                        </div>
+                        <div class="pt-2 border-t border-slate-50">
+                            <span class="font-bold text-slate-800 text-sm">Safe Catch North Atlantic</span>
+                            <span class="ml-2 inline-block bg-slate-100 text-slate-500 text-[10px] px-1.5 py-0.5 rounded border border-slate-200">In-Store</span>
+                            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Olive Oil. Skinless & Boneless.</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="group bg-white rounded-2xl border border-slate-200 p-6 hover:shadow-xl transition-all duration-300 flex flex-col">
-                    <div class="flex justify-between items-start mb-4">
+                <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <div class="flex justify-between items-start mb-6">
                         <span class="text-3xl">🐻</span>
                         <span class="bg-red-100 text-red-800 text-[10px] font-bold px-2 py-1 rounded-full uppercase tracking-wider">Salmon</span>
                     </div>
-                    <h4 class="font-bold text-slate-900 text-lg leading-tight mb-2">Wild Planet Sockeye</h4>
-                    <p class="text-xs text-slate-500 mb-6 flex-grow leading-relaxed">
-                        <strong>Wild Caught.</strong> No added water or oil, just the fish and its natural juices. Skinless/Boneless options available.
-                    </p>
-                    <a href="https://amzn.to/3TKlq5n" target="_blank" class="block w-full text-center bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-4 rounded-xl transition-colors text-sm">
-                        Shop on Amazon ➔
-                    </a>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <a href="https://amzn.to/3KUzkRX" target="_blank" class="font-bold text-slate-900 hover:text-emerald-600 underline decoration-slate-300 underline-offset-2 transition-colors">
+                                Sustainable Seas Sockeye
+                            </a>
+                            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Skinless & Boneless. 100% Sustainable.</p>
+                        </div>
+                        <div>
+                            <a href="https://amzn.to/499kyi5" target="_blank" class="font-bold text-slate-900 hover:text-emerald-600 underline decoration-slate-300 underline-offset-2 transition-colors">
+                                Safe Catch Pink Salmon
+                            </a>
+                            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Pouch format. Skinless/Boneless. Mercury Tested.</p>
+                        </div>
+                         <div class="pt-2 border-t border-slate-50">
+                            <span class="font-bold text-slate-800 text-sm">Wild Planet Sockeye</span>
+                            <span class="ml-2 inline-block bg-slate-100 text-slate-500 text-[10px] px-1.5 py-0.5 rounded border border-slate-200">In-Store</span>
+                        </div>
+                         <div>
+                            <span class="font-bold text-slate-800 text-sm">Redhead Wild Sockeye</span>
+                            <span class="ml-2 inline-block bg-slate-100 text-slate-500 text-[10px] px-1.5 py-0.5 rounded border border-slate-200">In-Store</span>
+                            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Traditional Style.</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="group bg-white rounded-2xl border border-slate-200 p-6 hover:shadow-xl transition-all duration-300 flex flex-col">
-                    <div class="flex justify-between items-start mb-4">
+                <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <div class="flex justify-between items-start mb-6">
                         <span class="text-3xl">🌊</span>
                         <span class="bg-emerald-100 text-emerald-800 text-[10px] font-bold px-2 py-1 rounded-full uppercase tracking-wider">Sardines</span>
                     </div>
-                    <h4 class="font-bold text-slate-900 text-lg leading-tight mb-2">Season Brand</h4>
-                    <p class="text-xs text-slate-500 mb-6 flex-grow leading-relaxed">
-                        <strong>Skinless & Boneless.</strong> A great entry point if you are squeamish about bones. Packed in 100% Olive Oil.
-                    </p>
-                    <a href="https://amzn.to/4aM7ZkP" target="_blank" class="block w-full text-center bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-xl transition-colors text-sm">
-                        Shop on Amazon ➔
-                    </a>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <a href="https://amzn.to/4qoYYx6" target="_blank" class="font-bold text-slate-900 hover:text-emerald-600 underline decoration-slate-300 underline-offset-2 transition-colors">
+                                Wild Planet
+                            </a>
+                            <p class="text-xs text-slate-500 mt-1 leading-relaxed">EVOO. Lightly Smoked. Sustainably Caught.</p>
+                        </div>
+                        <div>
+                            <a href="https://amzn.to/4pZKxzS" target="_blank" class="font-bold text-slate-900 hover:text-emerald-600 underline decoration-slate-300 underline-offset-2 transition-colors">
+                                Matiz Gallego
+                            </a>
+                            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Spanish Gourmet. Packed in high-quality Olive Oil.</p>
+                        </div>
+                        <div>
+                            <a href="https://amzn.to/44KdK9p" target="_blank" class="font-bold text-slate-900 hover:text-emerald-600 underline decoration-slate-300 underline-offset-2 transition-colors">
+                                Vital Choice
+                            </a>
+                            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Organic Extra Virgin Olive Oil.</p>
+                        </div>
+                        <div class="pt-2 border-t border-slate-50">
+                            <span class="font-bold text-slate-800 text-sm">Patagonia Provisions</span>
+                            <span class="ml-2 inline-block bg-slate-100 text-slate-500 text-[10px] px-1.5 py-0.5 rounded border border-slate-200">In-Store</span>
+                            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Lemon Olive Oil or Roasted Garlic.</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
