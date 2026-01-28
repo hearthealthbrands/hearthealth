@@ -147,4 +147,261 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                             <h4 class="font-bold text-slate-400 text-xs uppercase tracking-wider mb-4">The Salmon & Crust</h4>
                             <ul class="space-y-3 text-slate-700">
                                 <li class="flex items-start gap-3"><span class="mt-2 w-1.5 h-1.5 bg-teal-600 rounded-full"></span> <span><strong>2 (6oz)</strong> Wild Caught Salmon Fillets</span></li>
-                                <li class="flex items-start gap-3"><span class="mt-2 w-1.5 h-1.5 bg-teal-600 rounded-full"></span> <span><strong>1/4 cup</strong> Shelled Pistachios (Light
+                                <li class="flex items-start gap-3"><span class="mt-2 w-1.5 h-1.5 bg-teal-600 rounded-full"></span> <span><strong>1/4 cup</strong> Shelled Pistachios (Lightly Salted)</span></li>
+                                <li class="flex items-start gap-3"><span class="mt-2 w-1.5 h-1.5 bg-teal-600 rounded-full"></span> <span><strong>1/4 cup</strong> Walnuts (Raw)</span></li>
+                                <li class="flex items-start gap-3"><span class="mt-2 w-1.5 h-1.5 bg-teal-600 rounded-full"></span> <span><strong>1 tbsp</strong> Fresh Parsley, chopped</span></li>
+                                <li class="flex items-start gap-3"><span class="mt-2 w-1.5 h-1.5 bg-teal-600 rounded-full"></span> <span><strong>1 tsp</strong> Lemon Zest</span></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-400 text-xs uppercase tracking-wider mb-4">The Glaze & Side</h4>
+                            <ul class="space-y-3 text-slate-700">
+                                <li class="flex items-start gap-3"><span class="mt-2 w-1.5 h-1.5 bg-teal-600 rounded-full"></span> <span><strong>1 tbsp</strong> Gourmet Dijon Mustard (Bijan)</span></li>
+                                <li class="flex items-start gap-3"><span class="mt-2 w-1.5 h-1.5 bg-teal-600 rounded-full"></span> <span><strong>1 tsp</strong> Dark Organic Maple Syrup</span></li>
+                                <li class="flex items-start gap-3"><span class="mt-2 w-1.5 h-1.5 bg-teal-600 rounded-full"></span> <span><strong>1 cup</strong> Cooked Quinoa</span></li>
+                                <li class="flex items-start gap-3"><span class="mt-2 w-1.5 h-1.5 bg-teal-600 rounded-full"></span> <span><strong>1/2 cup</strong> Shelled Edamame (frozen)</span></li>
+                                <li class="flex items-start gap-3"><span class="mt-2 w-1.5 h-1.5 bg-teal-600 rounded-full"></span> <span><strong>2 tbsp</strong> Pomegranate Seeds (Arils)</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-12">
+                    <h3 class="font-serif text-2xl font-bold text-slate-900 mb-6 flex items-center">
+                        Instructions <span class="ml-4 h-px flex-grow bg-slate-200"></span>
+                    </h3>
+                    
+                    <div class="space-y-8">
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-sm mt-1">1</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-lg mb-2">The "Crush"</h4>
+                                <p class="text-slate-600 leading-relaxed">
+                                    Preheat oven to 375°F (190°C). Finely chop the Fiddyment Farms pistachios and Terrasoul walnuts (or pulse briefly in a food processor—don't make dust, you want crunch). Mix the nuts in a bowl with the parsley, lemon zest, and a pinch of salt.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-sm mt-1">2</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-lg mb-2">The "Glue"</h4>
+                                <p class="text-slate-600 leading-relaxed">
+                                    In a small cup, mix the Bijan Dijon mustard and Crown Maple syrup. Pat the salmon fillets dry with a paper towel. Place them skin-side down on a parchment-lined baking sheet.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-sm mt-1">3</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-lg mb-2">Press & Bake</h4>
+                                <p class="text-slate-600 leading-relaxed">
+                                    Brush the top of each fillet generously with the Dijon mix. Press the nut mixture firmly onto the mustard so it adheres in a thick layer. Bake for 12–15 minutes until the fish flakes easily and the nuts are golden.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-sm mt-1">4</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-lg mb-2">The Jeweled Sponge</h4>
+                                <p class="text-slate-600 leading-relaxed">
+                                    While the salmon bakes, toss your warm cooked Viva Naturals quinoa with the Happy Belly edamame. Squeeze a little lemon juice over it and season with salt. Top with pomegranate seeds for a pop of acidity to cut the richness of the salmon.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-teal-50 rounded-xl p-6 md:p-8 mb-12">
+                     <h3 class="font-serif text-xl font-bold text-teal-900 mb-6 text-center">👨‍🍳 Chef's Note: How to avoid "Soggy Crust"</h3>
+                     <p class="text-teal-800 text-center max-w-2xl mx-auto leading-relaxed">
+                       Moisture is the enemy of crunch. <strong>Pat your salmon extremely dry</strong> before applying the mustard glaze. If there is water on the surface of the fish, the mustard will slide off, and the nuts will steam instead of toast.
+                     </p>
+                </div>
+
+                <div class="bg-slate-900 rounded-xl p-6 md:p-8 text-white mb-12">
+                    <div class="flex items-center justify-between border-b border-slate-700 pb-4 mb-6">
+                        <h3 class="font-serif text-2xl font-bold">💳 The Financial Audit</h3>
+                        <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Cost Per Serving</span>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <div class="flex items-end gap-2 mb-1">
+                                <span class="text-4xl font-bold text-teal-400">$7.33</span>
+                                <span class="text-sm font-bold text-slate-400 mb-1.5">/ Serving</span>
+                            </div>
+                        </div>
+                        <div class="space-y-2 text-sm text-slate-300">
+                            <div class="flex justify-between border-b border-slate-700/50 pb-1">
+                                <span>Wild Salmon (6oz)</span>
+                                <span>$4.50</span>
+                            </div>
+                            <div class="flex justify-between border-b border-slate-700/50 pb-1">
+                                <span>Pistachios & Walnuts</span>
+                                <span>$0.88</span>
+                            </div>
+                            <div class="flex justify-between border-b border-slate-700/50 pb-1">
+                                <span>Bijan Mustard, Maple, Citrus</span>
+                                <span>$0.69</span>
+                            </div>
+                            <div class="flex justify-between border-b border-slate-700/50 pb-1">
+                                <span>Quinoa, Edamame, Garnish</span>
+                                <span>$1.26</span>
+                            </div>
+                            <div class="flex justify-between text-teal-400 font-bold pt-1">
+                                <span>Total (Per Serving)</span>
+                                <span>$7.33</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mb-20">
+            <h4 class="font-serif text-2xl font-bold text-slate-900 mb-8 text-center">
+                🛒 The Lipidologist's Pantry
+            </h4>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <a href="https://amzn.to/46dMnFd" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full relative overflow-hidden">
+                    <div class="flex items-center justify-between mb-3 mt-4">
+                        <span class="bg-yellow-100 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Binder</span>
+                        <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
+                    </div>
+                    <h5 class="font-bold text-slate-900 text-sm mb-2 group-hover:text-teal-600 transition-colors">Bijan Mustardson Gourmet Dijon Mustard, Bold & Smooth</h5>
+                    <div class="mt-auto pt-3 border-t border-slate-100">
+                        <p class="text-[10px] text-slate-500 italic">
+                            <strong class="text-slate-700 not-italic block mb-1">Lipid Lab Note:</strong>
+                            We chose this for its bold flavor profile. The stronger the mustard, the less salt you need to make the dish pop.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://amzn.to/464BYvC" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full relative overflow-hidden">
+                    <div class="flex items-center justify-between mb-3 mt-4">
+                        <span class="bg-orange-100 text-orange-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Glaze</span>
+                        <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
+                    </div>
+                    <h5 class="font-bold text-slate-900 text-sm mb-2 group-hover:text-teal-600 transition-colors">Crown Maple Dark Color, Robust Taste Organic Syrup</h5>
+                    <div class="mt-auto pt-3 border-t border-slate-100">
+                        <p class="text-[10px] text-slate-500 italic">
+                            <strong class="text-slate-700 not-italic block mb-1">Lipid Lab Note:</strong>
+                            We specify "Dark Color" because darker maple syrups contain higher levels of antioxidants than lighter grades.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://amzn.to/4q9cX9U" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="bg-teal-100 text-teal-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Shield</span>
+                        <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
+                    </div>
+                    <h5 class="font-bold text-slate-900 text-sm mb-2 group-hover:text-teal-600 transition-colors">Fiddyment Farms Lightly Salted Pistachio Kernels</h5>
+                    <div class="mt-auto pt-3 border-t border-slate-100">
+                        <p class="text-[10px] text-slate-500 italic">
+                            <strong class="text-slate-700 not-italic block mb-1">Lipid Lab Note:</strong>
+                            A 1lb bulk bag is cost-efficient. Pistachios are the #1 nut for phytosterol content.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://amzn.to/4kbqtIQ" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="bg-teal-100 text-teal-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Omega-3 Boost</span>
+                        <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
+                    </div>
+                    <h5 class="font-bold text-slate-900 text-sm mb-2 group-hover:text-teal-600 transition-colors">Terrasoul Superfoods Raw Organic Walnuts</h5>
+                    <div class="mt-auto pt-3 border-t border-slate-100">
+                        <p class="text-[10px] text-slate-500 italic">
+                            <strong class="text-slate-700 not-italic block mb-1">Lipid Lab Note:</strong>
+                            We mix these into the crust for their high ALA Omega-3 content, which helps support healthy endothelial function.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://amzn.to/46dMssv" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="bg-slate-100 text-slate-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Base</span>
+                        <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
+                    </div>
+                    <h5 class="font-bold text-slate-900 text-sm mb-2 group-hover:text-teal-600 transition-colors">Viva Naturals Organic Quinoa (Pre-Washed)</h5>
+                    <div class="mt-auto pt-3 border-t border-slate-100">
+                        <p class="text-[10px] text-slate-500 italic">
+                            <strong class="text-slate-700 not-italic block mb-1">Lipid Lab Note:</strong>
+                            A complete protein containing all 9 essential amino acids. Pre-washed helps remove bitterness.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://amzn.to/3NJ0lc2" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="bg-teal-100 text-teal-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Sponge</span>
+                        <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
+                    </div>
+                    <h5 class="font-bold text-slate-900 text-sm mb-2 group-hover:text-teal-600 transition-colors">Happy Belly Frozen Shelled Edamame</h5>
+                    <div class="mt-auto pt-3 border-t border-slate-100">
+                        <p class="text-[10px] text-slate-500 italic">
+                            <strong class="text-slate-700 not-italic block mb-1">Lipid Lab Note:</strong>
+                            Soy protein is a powerhouse for lowering LDL. We add these to the quinoa for a boost of soluble fiber.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://amzn.to/4k68bID" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full relative overflow-hidden">
+                    <div class="flex items-center justify-between mb-3 mt-4">
+                        <span class="bg-yellow-100 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Activator</span>
+                        <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
+                    </div>
+                    <h5 class="font-bold text-slate-900 text-sm mb-2 group-hover:text-teal-600 transition-colors">Wonderful Naturally Seedless Lemons</h5>
+                    <div class="mt-auto pt-3 border-t border-slate-100">
+                        <p class="text-[10px] text-slate-500 italic">
+                            <strong class="text-slate-700 not-italic block mb-1">Lipid Lab Note:</strong>
+                            Vitamin C enhances iron absorption from the quinoa and edamame. Being seedless makes prep faster and easier.
+                        </p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-slate-200">
+            <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Nutrition Estimates (Per Serving)</h4>
+            <div class="grid grid-cols-3 md:grid-cols-5 gap-4 text-center">
+                <div class="bg-slate-50 p-3 rounded-lg">
+                    <span class="block text-xl font-bold text-slate-900">460</span>
+                    <span class="text-[10px] text-slate-500 uppercase">Calories</span>
+                </div>
+                <div class="bg-slate-50 p-3 rounded-lg border border-teal-200 bg-teal-50/50">
+                    <span class="block text-xl font-bold text-teal-700">36g</span>
+                    <span class="text-[10px] text-teal-600 uppercase font-bold">Protein</span>
+                </div>
+                <div class="bg-slate-50 p-3 rounded-lg">
+                    <span class="block text-xl font-bold text-slate-900">28g</span>
+                    <span class="text-[10px] text-slate-500 uppercase">Carbs</span>
+                </div>
+                <div class="bg-slate-50 p-3 rounded-lg border border-teal-200 bg-teal-50/50">
+                    <span class="block text-xl font-bold text-teal-700">3g+</span>
+                    <span class="text-[10px] text-teal-600 uppercase font-bold">Omega-3</span>
+                </div>
+                <div class="bg-slate-50 p-3 rounded-lg">
+                    <span class="block text-xl font-bold text-slate-900">2g</span>
+                    <span class="text-[10px] text-slate-500 uppercase">Sat Fat</span>
+                </div>
+            </div>
+            <p class="text-[10px] text-slate-400 mt-4 text-center italic">
+                *Sat Fat comes primarily from the natural oils in the Salmon/Nuts, not processed additives.
+            </p>
+        </div>
+
+        <div class="mt-8">
+            {% include "share-bar.njk" %}
+        </div>
+
+    </div>
+
+</article>
