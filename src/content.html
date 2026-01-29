@@ -30,7 +30,8 @@ permalink: /content.html
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {% for post in collections.all | reverse %}
                 
-                {% if post.url != page.url and post.data.image and '/content/' in post.url and post.url != '/' and 'Links' not in post.data.title and 'Subscription Confirmed' not in post.data.title and 'HeartHealth Brands - Simple Habits' not in post.data.title %}
+                {# CRITICAL FIX: Checking file path instead of URL #}
+                {% if '/src/content/' in post.inputPath and post.data.image %}
                 
                 {% if loop.index == 3 %}
                 <div class="bg-primary-50 rounded-2xl shadow-sm border-2 border-primary-100 p-8 flex flex-col justify-center items-center text-center">
