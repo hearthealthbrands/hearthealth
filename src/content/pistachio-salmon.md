@@ -9,17 +9,17 @@ tags: ['recipes', 'omega-3', 'dinner']
 badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
 ---
 
-<article class="bg-slate-50 min-h-screen font-sans antialiased text-slate-800 selection:bg-teal-100 selection:text-teal-900">
+<article class="bg-slate-50 min-h-screen font-sans antialiased text-slate-800">
 
     <header class="relative h-[85vh] min-h-[600px] w-full print:hidden">
         <div class="absolute inset-0">
-            <img src="/images/pistachio-salmon-hero.jpg" alt="Golden pistachio crusted salmon with jeweled quinoa" class="w-full h-full object-cover">
-            <div class="absolute inset-0 bg-gradient-to-b from-slate-900/30 via-transparent to-slate-900/90"></div>
+            <img src="/images/pistachio-salmon-hero.jpg" alt="Pistachio Salmon" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-slate-900/30 via-slate-900/20 to-slate-900/90"></div>
         </div>
         
         <div class="absolute bottom-0 left-0 w-full p-6 pb-12 md:p-16 md:pb-24">
             <div class="container mx-auto max-w-5xl">
-                <div class="flex flex-wrap items-center gap-2 mb-6 animate-fade-in-up">
+                <div class="flex flex-wrap items-center gap-2 mb-6">
                     {% for badge in badges %}
                     <span class="inline-flex items-center bg-teal-500/90 backdrop-blur-sm text-white text-[10px] md:text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest shadow-lg border border-teal-400/30">
                         {{ badge }}
@@ -27,7 +27,7 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                     {% endfor %}
                 </div>
 
-                <h1 class="font-serif text-5xl md:text-7xl font-bold text-white leading-[1.1] mb-6 drop-shadow-2xl max-w-3xl">
+                <h1 class="font-serif text-5xl md:text-7xl font-bold text-white leading-none mb-6 drop-shadow-2xl max-w-3xl">
                     The "Plaque-Stabilizing" <br> <span class="text-teal-400 italic">Pistachio Salmon.</span>
                 </h1>
 
@@ -40,35 +40,39 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
 
     <main class="container mx-auto px-4 sm:px-6 max-w-5xl -mt-16 relative z-10 pb-24">
         
-        <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 p-6 md:p-10 mb-16 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 relative overflow-hidden">
+        <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 p-8 mb-16 relative overflow-hidden">
             <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-teal-500 via-emerald-400 to-teal-500"></div>
 
-            <div class="flex flex-col items-center text-center group">
-                <span class="text-3xl mb-3 transform group-hover:scale-110 transition-transform duration-300">🐟</span>
-                <span class="block text-3xl font-serif font-bold text-slate-900">3g+</span>
-                <span class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Omega-3s</span>
-                <span class="text-xs text-slate-500">EPA/DHA & ALA</span>
-            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-y-8 md:gap-y-0 md:divide-x divide-slate-100">
+                
+                <div class="flex flex-col items-center text-center px-2">
+                    <span class="text-3xl mb-3">🐟</span>
+                    <span class="block text-3xl font-serif font-bold text-slate-900">3g+</span>
+                    <span class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Omega-3s</span>
+                    <span class="text-xs text-slate-500">EPA/DHA & ALA</span>
+                </div>
 
-            <div class="flex flex-col items-center text-center group border-l-0 md:border-l border-slate-100">
-                <span class="text-3xl mb-3 transform group-hover:scale-110 transition-transform duration-300">🥜</span>
-                <span class="block text-3xl font-serif font-bold text-slate-900">Sterols</span>
-                <span class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Plant Defense</span>
-                <span class="text-xs text-slate-500">Blocks Absorption</span>
-            </div>
+                <div class="flex flex-col items-center text-center px-2">
+                    <span class="text-3xl mb-3">🥜</span>
+                    <span class="block text-3xl font-serif font-bold text-slate-900">Sterols</span>
+                    <span class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Plant Defense</span>
+                    <span class="text-xs text-slate-500">Blocks Absorption</span>
+                </div>
 
-            <div class="flex flex-col items-center text-center group border-l border-slate-100">
-                <span class="text-3xl mb-3 transform group-hover:scale-110 transition-transform duration-300">💪</span>
-                <span class="block text-3xl font-serif font-bold text-slate-900">36g</span>
-                <span class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Protein</span>
-                <span class="text-xs text-slate-500">Complete Profile</span>
-            </div>
+                <div class="flex flex-col items-center text-center px-2">
+                    <span class="text-3xl mb-3">💪</span>
+                    <span class="block text-3xl font-serif font-bold text-slate-900">36g</span>
+                    <span class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Protein</span>
+                    <span class="text-xs text-slate-500">Complete Profile</span>
+                </div>
 
-            <div class="flex flex-col items-center text-center group border-l border-slate-100">
-                <span class="text-3xl mb-3 transform group-hover:scale-110 transition-transform duration-300">⏱️</span>
-                <span class="block text-3xl font-serif font-bold text-slate-900">25m</span>
-                <span class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Total Time</span>
-                <span class="text-xs text-slate-500">Sheet Pan Meal</span>
+                <div class="flex flex-col items-center text-center px-2">
+                    <span class="text-3xl mb-3">⏱️</span>
+                    <span class="block text-3xl font-serif font-bold text-slate-900">25m</span>
+                    <span class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Total Time</span>
+                    <span class="text-xs text-slate-500">Sheet Pan Meal</span>
+                </div>
+
             </div>
         </div>
 
@@ -86,9 +90,9 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
             </div>
         </div>
 
-        <section class="grid md:grid-cols-12 gap-12 mb-20">
+        <section class="grid md:grid-cols-12 gap-8 md:gap-12 mb-20">
             <div class="md:col-span-4">
-                <h3 class="font-serif text-3xl text-slate-900 leading-tight sticky top-8">
+                <h3 class="font-serif text-3xl text-slate-900 leading-tight md:sticky md:top-8">
                     Why this recipe <br><span class="italic text-teal-600">actually works.</span>
                 </h3>
             </div>
@@ -112,16 +116,6 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                         Traditional recipes use mayo or butter to make the crust stick. We use a <strong>Dijon-Maple glaze</strong>. The sharpness of the mustard cuts through the rich oils of the fish, balancing the palate while adding zero fat.
                     </p>
                 </div>
-
-                <div class="group">
-                    <h4 class="flex items-center gap-3 font-bold text-slate-900 text-lg mb-2">
-                        <span class="flex-shrink-0 w-8 h-8 bg-teal-100 text-teal-700 rounded-full flex items-center justify-center text-sm">03</span>
-                        The "Edamame Sponge"
-                    </h4>
-                    <p class="text-slate-600 leading-relaxed pl-11">
-                        We pair the salmon with a Quinoa-Edamame blend. Quinoa provides the magnesium to relax blood vessels, while the edamame adds the soluble fiber needed to bind bile acids.
-                    </p>
-                </div>
             </div>
         </section>
 
@@ -131,16 +125,15 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                     <h2 class="font-serif text-3xl md:text-4xl italic mb-6">The Protocol</h2>
                     <div class="inline-flex flex-wrap justify-center gap-4 md:gap-8 text-xs font-bold uppercase tracking-widest text-slate-300">
                         <span class="flex items-center gap-2">🍽️ 2 Servings</span>
-                        <span class="w-px h-4 bg-slate-700"></span>
+                        <span class="hidden md:block w-px h-4 bg-slate-700"></span>
                         <span class="flex items-center gap-2">🔪 10 Mins Prep</span>
-                        <span class="w-px h-4 bg-slate-700"></span>
+                        <span class="hidden md:block w-px h-4 bg-slate-700"></span>
                         <span class="flex items-center gap-2">🔥 15 Mins Cook</span>
                     </div>
                 </div>
-                </div>
+            </div>
 
             <div class="flex flex-col lg:flex-row">
-                
                 <aside class="lg:w-1/3 bg-slate-50 border-r border-slate-100 p-8 md:p-10">
                     <div class="lg:sticky lg:top-8">
                         <h3 class="font-serif text-2xl font-bold text-slate-900 mb-6">Ingredients</h3>
@@ -149,24 +142,16 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                             <h4 class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-4">Salmon & Crust</h4>
                             <ul class="space-y-3">
                                 <li class="flex items-start gap-3 group">
-                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer">
-                                    <span class="text-slate-700 group-hover:text-slate-900 transition-colors"><strong>2 (6oz)</strong> Wild Salmon Fillets</span>
+                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer flex-shrink-0">
+                                    <span class="text-slate-700"><strong>2 (6oz)</strong> Wild Salmon Fillets</span>
                                 </li>
                                 <li class="flex items-start gap-3 group">
-                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer">
-                                    <span class="text-slate-700 group-hover:text-slate-900 transition-colors"><strong>1/4 cup</strong> Pistachios <span class="text-slate-400 text-xs">(Shelled)</span></span>
+                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer flex-shrink-0">
+                                    <span class="text-slate-700"><strong>1/4 cup</strong> Pistachios <span class="text-slate-400 text-xs">(Shelled)</span></span>
                                 </li>
                                 <li class="flex items-start gap-3 group">
-                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer">
-                                    <span class="text-slate-700 group-hover:text-slate-900 transition-colors"><strong>1/4 cup</strong> Walnuts <span class="text-slate-400 text-xs">(Raw)</span></span>
-                                </li>
-                                <li class="flex items-start gap-3 group">
-                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer">
-                                    <span class="text-slate-700 group-hover:text-slate-900 transition-colors"><strong>1 tbsp</strong> Fresh Parsley</span>
-                                </li>
-                                <li class="flex items-start gap-3 group">
-                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer">
-                                    <span class="text-slate-700 group-hover:text-slate-900 transition-colors"><strong>1 tsp</strong> Lemon Zest</span>
+                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer flex-shrink-0">
+                                    <span class="text-slate-700"><strong>1/4 cup</strong> Walnuts <span class="text-slate-400 text-xs">(Raw)</span></span>
                                 </li>
                             </ul>
                         </div>
@@ -175,20 +160,16 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                             <h4 class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-4">Glaze & Sides</h4>
                             <ul class="space-y-3">
                                 <li class="flex items-start gap-3 group">
-                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer">
-                                    <span class="text-slate-700 group-hover:text-slate-900 transition-colors"><strong>1 tbsp</strong> Dijon Mustard</span>
+                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer flex-shrink-0">
+                                    <span class="text-slate-700"><strong>1 tbsp</strong> Dijon Mustard</span>
                                 </li>
                                 <li class="flex items-start gap-3 group">
-                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer">
-                                    <span class="text-slate-700 group-hover:text-slate-900 transition-colors"><strong>1 tsp</strong> Dark Maple Syrup</span>
+                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer flex-shrink-0">
+                                    <span class="text-slate-700"><strong>1 tsp</strong> Dark Maple Syrup</span>
                                 </li>
                                 <li class="flex items-start gap-3 group">
-                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer">
-                                    <span class="text-slate-700 group-hover:text-slate-900 transition-colors"><strong>1 cup</strong> Quinoa <span class="text-slate-400 text-xs">(Cooked)</span></span>
-                                </li>
-                                <li class="flex items-start gap-3 group">
-                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer">
-                                    <span class="text-slate-700 group-hover:text-slate-900 transition-colors"><strong>1/2 cup</strong> Edamame <span class="text-slate-400 text-xs">(Shelled)</span></span>
+                                    <input type="checkbox" class="mt-1.5 accent-teal-600 w-4 h-4 cursor-pointer flex-shrink-0">
+                                    <span class="text-slate-700"><strong>1 cup</strong> Quinoa <span class="text-slate-400 text-xs">(Cooked)</span></span>
                                 </li>
                             </ul>
                         </div>
@@ -197,7 +178,6 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
 
                 <div class="lg:w-2/3 p-8 md:p-12 bg-white">
                     <h3 class="font-serif text-2xl font-bold text-slate-900 mb-8">Instructions</h3>
-                    
                     <div class="space-y-10 relative">
                         <div class="absolute left-[15px] top-4 bottom-4 w-px bg-slate-200"></div>
 
@@ -205,7 +185,7 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                             <div class="absolute left-0 top-0 w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-sm ring-4 ring-white">1</div>
                             <h4 class="font-bold text-slate-900 text-lg mb-2">The "Crush"</h4>
                             <p class="text-slate-600 leading-relaxed">
-                                Preheat oven to <strong>375°F (190°C)</strong>. Finely chop the pistachios and walnuts (or pulse briefly in a food processor—don't make dust, you want crunch). Mix the nuts in a bowl with the parsley, lemon zest, and a pinch of salt.
+                                Preheat oven to <strong>375°F (190°C)</strong>. Finely chop the pistachios and walnuts. Mix the nuts in a bowl with the parsley, lemon zest, and a pinch of salt.
                             </p>
                         </div>
 
@@ -213,42 +193,23 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                             <div class="absolute left-0 top-0 w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-sm ring-4 ring-white">2</div>
                             <h4 class="font-bold text-slate-900 text-lg mb-2">The "Glue"</h4>
                             <p class="text-slate-600 leading-relaxed">
-                                In a small cup, mix the Dijon mustard and Maple syrup. Pat the salmon fillets <span class="bg-yellow-100 px-1 rounded">extremely dry</span> with a paper towel. Place them skin-side down on a parchment-lined baking sheet.
+                                In a small cup, mix the Dijon mustard and Maple syrup. Pat the salmon fillets <span class="bg-yellow-100 px-1 rounded">extremely dry</span>. Place them skin-side down on a parchment-lined baking sheet.
                             </p>
                         </div>
-
+                        
                         <div class="relative pl-12">
                             <div class="absolute left-0 top-0 w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-sm ring-4 ring-white">3</div>
                             <h4 class="font-bold text-slate-900 text-lg mb-2">Press & Bake</h4>
                             <p class="text-slate-600 leading-relaxed">
-                                Brush the top of each fillet generously with the Dijon mix. Press the nut mixture firmly onto the mustard so it adheres in a thick layer. Bake for <strong>12–15 minutes</strong> until the fish flakes easily and the nuts are golden.
-                            </p>
-                        </div>
-
-                         <div class="relative pl-12">
-                            <div class="absolute left-0 top-0 w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-sm ring-4 ring-white">4</div>
-                            <h4 class="font-bold text-slate-900 text-lg mb-2">The Jeweled Sponge</h4>
-                            <p class="text-slate-600 leading-relaxed">
-                                While the salmon bakes, toss your warm cooked quinoa with the edamame. Squeeze a little lemon juice over it and season with salt. Top with pomegranate seeds for a pop of acidity to cut the richness of the salmon.
+                                Brush the top of each fillet generously with the Dijon mix. Press the nut mixture firmly onto the mustard. Bake for <strong>12–15 minutes</strong>.
                             </p>
                         </div>
                     </div>
-
-                    <div class="mt-12 bg-teal-50 rounded-lg p-6 border-l-4 border-teal-500">
-                         <h5 class="flex items-center gap-2 font-bold text-teal-900 mb-2">
-                            <span>👨‍🍳</span> Chef's Tip: Avoiding "Soggy Crust"
-                         </h5>
-                         <p class="text-teal-800 text-sm leading-relaxed">
-                           Moisture is the enemy of crunch. If there is water on the surface of the fish, the mustard will slide off, and the nuts will steam instead of toast. Don't skip the paper towel step!
-                         </p>
-                    </div>
-
                 </div>
             </div>
         </div>
 
         <div class="mt-16 grid lg:grid-cols-2 gap-8 print:hidden">
-            
             <div class="bg-slate-900 rounded-xl p-8 text-white shadow-xl relative overflow-hidden">
                 <div class="absolute top-0 right-0 p-32 bg-teal-500 rounded-full blur-[100px] opacity-20"></div>
                 
@@ -272,13 +233,9 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                             <span>Pistachios & Walnuts</span>
                             <span>$0.88</span>
                         </div>
-                        <div class="flex justify-between border-b border-slate-800 pb-2 border-dashed">
+                        <div class="flex justify-between pb-2">
                             <span>Mustard/Maple/Citrus</span>
                             <span>$0.69</span>
-                        </div>
-                        <div class="flex justify-between pb-2">
-                            <span>Quinoa/Edamame Base</span>
-                            <span>$1.26</span>
                         </div>
                     </div>
                 </div>
@@ -299,14 +256,6 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                         <span class="block text-2xl font-bold text-slate-900">28g</span>
                         <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Carbs</span>
                     </div>
-                    <div class="p-4 bg-teal-50 border border-teal-100 rounded-lg col-span-1">
-                        <span class="block text-2xl font-bold text-teal-700">3g+</span>
-                        <span class="text-[10px] font-bold text-teal-600 uppercase tracking-wider">Omega-3</span>
-                    </div>
-                    <div class="p-4 bg-slate-50 rounded-lg col-span-2 flex flex-col justify-center">
-                        <span class="block text-xl font-bold text-slate-900">2g Sat. Fat*</span>
-                        <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider mt-1">*Primarily from Nuts/Fish</span>
-                    </div>
                 </div>
             </div>
         </div>
@@ -319,53 +268,72 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
             </h4>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <a href="https://amzn.to/46dMnFd" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
-                    <div class="flex items-center justify-between mb-4">
-                        <span class="bg-yellow-100 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Binder</span>
-                        <span class="text-slate-300 group-hover:text-teal-500 transition-colors">↗</span>
-                    </div>
-                    <h5 class="font-bold text-slate-900 text-sm leading-snug mb-3 group-hover:text-teal-700">Bijan Mustardson Gourmet Dijon Mustard</h5>
-                    <div class="mt-auto pt-4 border-t border-slate-100">
-                        <p class="text-xs text-slate-500 leading-relaxed">
-                            <strong class="text-slate-900 block mb-1">Why this brand:</strong>
-                            Bold flavor profile means you need less salt to make the dish pop.
-                        </p>
+                <a href="https://amzn.to/46dMnFd" target="_blank" rel="noopener noreferrer" class="group block h-full bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="flex flex-col h-full">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-yellow-100 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Binder</span>
+                            <span class="text-slate-300 group-hover:text-teal-500 transition-colors">↗</span>
+                        </div>
+                        <h5 class="font-bold text-slate-900 text-sm leading-snug mb-3 group-hover:text-teal-700">Bijan Mustardson Gourmet Dijon Mustard</h5>
+                        <div class="mt-auto pt-4 border-t border-slate-100">
+                            <p class="text-xs text-slate-500 leading-relaxed">
+                                <strong class="text-slate-900 block mb-1">Why this brand:</strong>
+                                Bold flavor profile means you need less salt to make the dish pop.
+                            </p>
+                        </div>
                     </div>
                 </a>
 
-                <a href="https://amzn.to/49cX9U" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
-                    <div class="flex items-center justify-between mb-4">
-                        <span class="bg-teal-100 text-teal-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Shield</span>
-                         <span class="text-slate-300 group-hover:text-teal-500 transition-colors">↗</span>
-                    </div>
-                    <h5 class="font-bold text-slate-900 text-sm leading-snug mb-3 group-hover:text-teal-700">Fiddyment Farms Pistachios (1lb)</h5>
-                    <div class="mt-auto pt-4 border-t border-slate-100">
-                        <p class="text-xs text-slate-500 leading-relaxed">
-                            <strong class="text-slate-900 block mb-1">Why this brand:</strong>
-                             Bulk pricing is efficient. Pistachios are the #1 nut for phytosterol content.
-                        </p>
+                <a href="https://amzn.to/49cX9U" target="_blank" rel="noopener noreferrer" class="group block h-full bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="flex flex-col h-full">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-teal-100 text-teal-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Shield</span>
+                            <span class="text-slate-300 group-hover:text-teal-500 transition-colors">↗</span>
+                        </div>
+                        <h5 class="font-bold text-slate-900 text-sm leading-snug mb-3 group-hover:text-teal-700">Fiddyment Farms Pistachios (1lb)</h5>
+                        <div class="mt-auto pt-4 border-t border-slate-100">
+                            <p class="text-xs text-slate-500 leading-relaxed">
+                                <strong class="text-slate-900 block mb-1">Why this brand:</strong>
+                                Bulk pricing is efficient. Pistachios are the #1 nut for phytosterol content.
+                            </p>
+                        </div>
                     </div>
                 </a>
                 
-                 <a href="https://amzn.to/46dMssv" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
-                    <div class="flex items-center justify-between mb-4">
-                        <span class="bg-slate-100 text-slate-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Base</span>
-                         <span class="text-slate-300 group-hover:text-teal-500 transition-colors">↗</span>
-                    </div>
-                    <h5 class="font-bold text-slate-900 text-sm leading-snug mb-3 group-hover:text-teal-700">Viva Naturals Organic Quinoa</h5>
-                    <div class="mt-auto pt-4 border-t border-slate-100">
-                        <p class="text-xs text-slate-500 leading-relaxed">
-                            <strong class="text-slate-900 block mb-1">Why this brand:</strong>
-                            Pre-washed helps remove bitterness. Contains all 9 essential amino acids.
-                        </p>
+                <a href="https://amzn.to/46dMssv" target="_blank" rel="noopener noreferrer" class="group block h-full bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="flex flex-col h-full">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-slate-100 text-slate-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Base</span>
+                            <span class="text-slate-300 group-hover:text-teal-500 transition-colors">↗</span>
+                        </div>
+                        <h5 class="font-bold text-slate-900 text-sm leading-snug mb-3 group-hover:text-teal-700">Viva Naturals Organic Quinoa</h5>
+                        <div class="mt-auto pt-4 border-t border-slate-100">
+                            <p class="text-xs text-slate-500 leading-relaxed">
+                                <strong class="text-slate-900 block mb-1">Why this brand:</strong>
+                                Pre-washed helps remove bitterness. Contains all 9 essential amino acids.
+                            </p>
+                        </div>
                     </div>
                 </a>
-
             </div>
         </div>
 
-        <div class="mt-12 text-center print:hidden">
-            {% include "share-bar.njk" %}
+        <div class="mt-16 text-center print:hidden border-t border-slate-200 pt-8">
+            <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Share this Protocol</h4>
+            <div class="flex justify-center gap-4">
+                <a href="https://twitter.com/intent/tweet?text=The%20Plaque-Stabilizing%20Salmon&url=https://hearthealthbrands.com/content/pistachio-crusted-salmon.html" target="_blank" class="flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-full text-slate-600 hover:bg-slate-900 hover:text-white hover:border-slate-900 transition-all font-bold text-sm">
+                    <span>𝕏</span> 
+                    <span>Post</span>
+                </a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://hearthealthbrands.com/content/pistachio-crusted-salmon.html" target="_blank" class="flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-full text-slate-600 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all font-bold text-sm">
+                    <span>f</span> 
+                    <span>Share</span>
+                </a>
+                <a href="mailto:?subject=Pistachio%20Salmon%20Recipe&body=Check%20out%20this%20clinical%20nutrition%20recipe:%20https://hearthealthbrands.com/content/pistachio-crusted-salmon.html" class="flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-full text-slate-600 hover:bg-green-600 hover:text-white hover:border-green-600 transition-all font-bold text-sm">
+                    <span>✉️</span> 
+                    <span>Email</span>
+                </a>
+            </div>
         </div>
 
     </main>
