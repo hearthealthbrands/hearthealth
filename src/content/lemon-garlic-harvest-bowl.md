@@ -4,6 +4,9 @@ title: 'The "Creamy" Lemon-Garlic Chicken Bowl (Zero Cream, Low LDL)'
 description: 'A heart-healthy audit of the Trader Joe’s Harvest Blend. We swapped the butter for olive oil and the cream for Greek yogurt to create a cholesterol-lowering comfort meal.'
 permalink: /content/lemon-garlic-harvest-bowl.html
 image: /images/lemon-chicken-harvest.jpg
+date: 2026-01-20
+tags: ['recipe', 'audit', 'dinner', 'low-saturated-fat']
+badges: ['Recipe Audit', 'Zero Sat Fat', 'High Protein']
 ---
 
 <article class="bg-white min-h-screen pb-24 font-sans antialiased text-slate-900">
@@ -219,34 +222,34 @@ image: /images/lemon-chicken-harvest.jpg
                 </div>
 
                 <div class="bg-slate-100 rounded-xl p-6 md:p-8">
-                     <h3 class="font-serif text-xl font-bold text-slate-900 mb-6 text-center">🚫 The Saturated Fat Trap: Don't Undo Your Progress</h3>
-                     <div class="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
-                         
-                         <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200">
-                             <div class="flex justify-between text-xs font-bold uppercase tracking-wider mb-2">
-                                 <span class="text-red-500">Swap This</span>
-                                 <span class="text-green-600">For This</span>
-                             </div>
-                             <div class="flex items-center justify-between mb-3">
-                                 <span class="line-through text-slate-400">Package Butter</span>
-                                 <span class="font-bold text-slate-900">EV Olive Oil</span>
-                             </div>
-                             <p class="text-xs text-slate-500 leading-tight">The package asks for butter. We ignore it to save 7g of saturated fat per tablespoon.</p>
-                         </div>
+                      <h3 class="font-serif text-xl font-bold text-slate-900 mb-6 text-center">🚫 The Saturated Fat Trap: Don't Undo Your Progress</h3>
+                      <div class="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
+                          
+                          <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200">
+                              <div class="flex justify-between text-xs font-bold uppercase tracking-wider mb-2">
+                                  <span class="text-red-500">Swap This</span>
+                                  <span class="text-green-600">For This</span>
+                              </div>
+                              <div class="flex items-center justify-between mb-3">
+                                  <span class="line-through text-slate-400">Package Butter</span>
+                                  <span class="font-bold text-slate-900">EV Olive Oil</span>
+                              </div>
+                              <p class="text-xs text-slate-500 leading-tight">The package asks for butter. We ignore it to save 7g of saturated fat per tablespoon.</p>
+                          </div>
 
-                         <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200">
-                             <div class="flex justify-between text-xs font-bold uppercase tracking-wider mb-2">
-                                 <span class="text-red-500">Swap This</span>
-                                 <span class="text-green-600">For This</span>
-                             </div>
-                             <div class="flex items-center justify-between mb-3">
-                                 <span class="line-through text-slate-400">Heavy Cream</span>
-                                 <span class="font-bold text-slate-900">0% Greek Yogurt</span>
-                             </div>
-                             <p class="text-xs text-slate-500 leading-tight">Yogurt provides the same mouthfeel but adds protein instead of fat.</p>
-                         </div>
+                          <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200">
+                              <div class="flex justify-between text-xs font-bold uppercase tracking-wider mb-2">
+                                  <span class="text-red-500">Swap This</span>
+                                  <span class="text-green-600">For This</span>
+                              </div>
+                              <div class="flex items-center justify-between mb-3">
+                                  <span class="line-through text-slate-400">Heavy Cream</span>
+                                  <span class="font-bold text-slate-900">0% Greek Yogurt</span>
+                              </div>
+                              <p class="text-xs text-slate-500 leading-tight">Yogurt provides the same mouthfeel but adds protein instead of fat.</p>
+                          </div>
 
-                     </div>
+                      </div>
                 </div>
 
             </div>
@@ -398,6 +401,10 @@ image: /images/lemon-chicken-harvest.jpg
                     <span class="text-[10px] text-slate-500 uppercase">Sat Fat</span>
                 </div>
             </div>
+        </div>
+
+        <div class="mt-8">
+            {% include "share-bar.njk" %}
         </div>
 
     </div>

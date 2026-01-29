@@ -4,11 +4,13 @@ title: 'The Omega-3 Protocol: A Cardiologist’s Guide to Arterial Defense'
 description: 'A deep dive into EPA/DHA, the inefficiency of plant-based ALA, and the exact seafood hierarchy needed to lower triglycerides and stabilize arterial plaque.'
 permalink: /content/omega-3-guide.html
 image: /images/omega-3-hero.jpg
+date: 2026-01-15
+tags: ['guide', 'supplements', 'heart-health', 'omega-3']
+badges: ['Clinical Guide', 'Lipid Defense', '10 Min Read']
 ---
 
 <article class="bg-white min-h-screen pb-24 font-sans antialiased text-slate-900">
 
-    <!-- HERO SECTION -->
     <div class="relative h-[75vh] min-h-[600px]">
         <img src="/images/omega-3-hero.jpg" alt="Macro photography of golden fish oil softgel and salmon texture" class="absolute inset-0 w-full h-full object-cover">
         <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-slate-900/20"></div>
@@ -44,10 +46,8 @@ image: /images/omega-3-hero.jpg
         </div>
     </div>
 
-    <!-- MAIN CONTENT CONTAINER -->
     <div class="container mx-auto px-6 max-w-4xl relative z-10 -mt-20">
 
-        <!-- EXECUTIVE SUMMARY CARD -->
         <div class="bg-white rounded-2xl shadow-xl border border-slate-100 p-8 md:p-12 mb-16">
             <h2 class="font-serif text-3xl font-bold text-slate-900 mb-6 flex items-center gap-3">
                 <span class="text-blue-600">01.</span> Executive Summary
@@ -61,7 +61,6 @@ image: /images/omega-3-hero.jpg
                 </p>
             </div>
             
-            <!-- Quick Stats Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 pt-8 border-t border-slate-100">
                 <div class="text-center">
                     <span class="block text-4xl font-bold text-blue-600 mb-1">15-30%</span>
@@ -78,7 +77,6 @@ image: /images/omega-3-hero.jpg
             </div>
         </div>
 
-        <!-- SECTION 2: THE HIERARCHY -->
         <div class="mb-20">
             <div class="flex items-center gap-4 mb-8">
                 <span class="h-px bg-slate-200 flex-grow"></span>
@@ -93,7 +91,6 @@ image: /images/omega-3-hero.jpg
             </p>
 
             <div class="grid md:grid-cols-2 gap-8">
-                <!-- ALA Card -->
                 <div class="bg-slate-50 rounded-xl p-8 border border-slate-100 relative overflow-hidden group hover:border-slate-300 transition-colors">
                     <div class="absolute top-0 right-0 p-4 opacity-10 font-serif text-9xl font-bold text-slate-900 leading-none pointer-events-none">C18</div>
                     <div class="relative z-10">
@@ -103,6 +100,7 @@ image: /images/omega-3-hero.jpg
                         <p class="text-slate-600 mb-6">
                             Found in flax, chia, and walnuts. It is an "essential" fat, meaning you need it for energy, but it is structurally too short to integrate into heart cell membranes effectively.
                         </p>
+
                         <div class="bg-white p-4 rounded-lg border border-slate-200">
                             <p class="text-xs font-bold text-red-500 uppercase mb-1">The Bottleneck</p>
                             <p class="text-sm text-slate-700">
@@ -112,7 +110,6 @@ image: /images/omega-3-hero.jpg
                     </div>
                 </div>
 
-                <!-- EPA/DHA Card -->
                 <div class="bg-blue-600 text-white rounded-xl p-8 shadow-2xl relative overflow-hidden group">
                     <div class="absolute top-0 right-0 p-4 opacity-10 font-serif text-9xl font-bold text-white leading-none pointer-events-none">C20+</div>
                     <div class="relative z-10">
@@ -122,6 +119,7 @@ image: /images/omega-3-hero.jpg
                         <p class="text-blue-50 mb-6">
                             Biologically active and ready to work. These long-chain fatty acids integrate directly into cell membranes, improving fluidity and signaling.
                         </p>
+
                         <ul class="space-y-3">
                             <li class="flex items-center gap-3">
                                 <span class="w-5 h-5 rounded-full bg-blue-500 flex items-center justify-center text-xs">✓</span>
@@ -141,7 +139,6 @@ image: /images/omega-3-hero.jpg
             </div>
         </div>
 
-        <!-- SECTION 3: MECHANISM OF ACTION -->
         <div class="mb-20">
             <h2 class="font-serif text-3xl font-bold text-slate-900 mb-8 flex items-center gap-3">
                 <span class="text-blue-600">02.</span> Mechanisms of Action
@@ -180,7 +177,6 @@ image: /images/omega-3-hero.jpg
                     </div>
                 </div>
 
-                <!-- Sidebar Quote -->
                 <div class="bg-slate-900 rounded-xl p-8 text-white flex flex-col justify-center relative overflow-hidden">
                     <div class="absolute top-0 right-0 text-slate-800 text-9xl leading-none font-serif -mr-4 -mt-4">”</div>
                     <p class="font-serif text-xl italic relative z-10 mb-6">
@@ -197,7 +193,6 @@ image: /images/omega-3-hero.jpg
             </div>
         </div>
 
-        <!-- SECTION 4: NUTRITIONAL DEEP DIVE -->
         <div class="mb-20">
              <div class="flex items-center gap-4 mb-8">
                 <span class="h-px bg-slate-200 flex-grow"></span>
@@ -207,7 +202,7 @@ image: /images/omega-3-hero.jpg
 
             <h2 class="font-serif text-4xl font-bold text-slate-900 mb-6 text-center">The Bioavailability Rankings</h2>
             <p class="text-slate-600 text-center max-w-2xl mx-auto mb-12">
-                We rank sources based on <strong>EPA/DHA density per serving</strong>. This is the "Gold Standard" list for cardiovascular impact.
+                We rank sources based on . This is the "Gold Standard" list for cardiovascular impact.
             </p>
 
             <div class="overflow-hidden bg-white shadow-xl rounded-2xl border border-slate-200 mb-12">
@@ -267,7 +262,6 @@ image: /images/omega-3-hero.jpg
                 </div>
             </div>
 
-            <!-- Algae Subsection -->
             <div class="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                     <h3 class="font-serif text-2xl font-bold text-slate-900 mb-4">The Vegan Hack: Algal Oil</h3>
@@ -283,18 +277,17 @@ image: /images/omega-3-hero.jpg
                     </div>
                 </div>
                 <div class="bg-green-50 rounded-2xl p-8 border border-green-100">
-                     <h4 class="font-bold text-green-900 mb-4 flex items-center gap-2">
+                      <h4 class="font-bold text-green-900 mb-4 flex items-center gap-2">
                         <span class="w-2 h-2 rounded-full bg-green-500"></span>
                         Did You Know?
-                     </h4>
-                     <p class="text-green-800 text-sm leading-relaxed italic">
+                      </h4>
+                      <p class="text-green-800 text-sm leading-relaxed italic">
                         "Most 'Plant-Based Omega-3' supplements on the shelf are just flax oil. Always check the label. If it doesn't explicitly state 'Algal Oil' or list EPA/DHA values, you are buying expensive salad dressing."
-                     </p>
+                      </p>
                 </div>
             </div>
         </div>
 
-        <!-- SECTION 5: GUIDELINES -->
         <div class="bg-slate-900 rounded-3xl p-8 md:p-16 text-white text-center mb-24">
             <h2 class="font-serif text-3xl md:text-5xl font-bold mb-6">Your Daily Protocol</h2>
             <p class="text-slate-300 text-lg mb-12 max-w-2xl mx-auto">
@@ -302,7 +295,6 @@ image: /images/omega-3-hero.jpg
             </p>
 
             <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto text-left">
-                <!-- General Health -->
                 <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/10 hover:bg-white/15 transition-colors">
                     <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-2xl mb-6">💙</div>
                     <h3 class="text-xl font-bold mb-2">General Maintenance</h3>
@@ -314,7 +306,6 @@ image: /images/omega-3-hero.jpg
                     </p>
                 </div>
 
-                <!-- Therapeutic -->
                 <div class="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 shadow-2xl transform md:-translate-y-4 border border-blue-400">
                     <div class="w-12 h-12 bg-white text-blue-700 rounded-full flex items-center justify-center text-2xl mb-6">🚑</div>
                     <h3 class="text-xl font-bold mb-2">Therapeutic Dose</h3>
@@ -325,7 +316,6 @@ image: /images/omega-3-hero.jpg
                         <span class="text-blue-200">Strategy:</span> Requires clinical supervision. Usually achieved via prescription purified esters (e.g., Vascepa).
                     </p>
                     
-                    <!-- DISCLAIMER ADDITION -->
                     <div class="mt-6 bg-blue-900/50 rounded-lg p-4 border border-blue-400/30 flex items-start gap-3">
                         <div class="text-xl mt-0.5">⚠️</div>
                         <p class="text-xs text-blue-100 leading-relaxed">
@@ -336,7 +326,6 @@ image: /images/omega-3-hero.jpg
             </div>
         </div>
 
-        <!-- SECTION 6: SHOPPING GUIDE -->
         <div class="mb-20">
             <div class="flex items-center gap-4 mb-8">
                 <span class="h-px bg-slate-200 flex-grow"></span>
@@ -349,12 +338,10 @@ image: /images/omega-3-hero.jpg
                 We have audited these products for purity, oxidation levels, and EPA/DHA concentration.
             </p>
 
-            <!-- SUBSECTION: SUPPLEMENTS -->
             <div class="mb-10">
                 <h3 class="font-bold text-slate-900 text-xl mb-6 border-l-4 border-blue-600 pl-4">The Supplement Stack</h3>
                 <div class="grid md:grid-cols-2 gap-6">
 
-                    <!-- Product 1: Nordic Naturals -->
                     <a href="https://amzn.to/3LX1mMX" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
                         <div class="flex items-center justify-between mb-4">
                             <span class="bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Gold Standard</span>
@@ -370,7 +357,6 @@ image: /images/omega-3-hero.jpg
                         </div>
                     </a>
 
-                    <!-- Product 2: Sports Research -->
                     <a href="https://amzn.to/4sMOYzT" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
                         <div class="flex items-center justify-between mb-4">
                             <span class="bg-green-100 text-green-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Vegan + D3</span>
@@ -388,13 +374,11 @@ image: /images/omega-3-hero.jpg
                 </div>
             </div>
 
-            <!-- SUBSECTION: PANTRY -->
             <div class="mb-12">
                 <h3 class="font-bold text-slate-900 text-xl mb-6 border-l-4 border-orange-500 pl-4">The Lipid Pantry (Tinned Fish)</h3>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                     <!-- Product 3: Wild Planet -->
-                     <a href="https://amzn.to/4qqzboG" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
+                      <a href="https://amzn.to/4qqzboG" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
                         <div class="flex items-center justify-between mb-4">
                             <span class="bg-orange-100 text-orange-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Daily Driver</span>
                             <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
@@ -407,7 +391,6 @@ image: /images/omega-3-hero.jpg
                         </div>
                     </a>
 
-                    <!-- Product 4: Matiz -->
                     <a href="https://amzn.to/3Nv7Z9M" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
                         <div class="flex items-center justify-between mb-4">
                             <span class="bg-yellow-100 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Spanish Gourmet</span>
@@ -421,7 +404,6 @@ image: /images/omega-3-hero.jpg
                         </div>
                     </a>
 
-                    <!-- Product 5: Season Mackerel -->
                     <a href="https://amzn.to/4baIg0c" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
                         <div class="flex items-center justify-between mb-4">
                             <span class="bg-slate-100 text-slate-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Pure Protein</span>
@@ -435,7 +417,6 @@ image: /images/omega-3-hero.jpg
                         </div>
                     </a>
 
-                    <!-- Product 6: King Oscar -->
                     <a href="https://amzn.to/4pTfRiO" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
                         <div class="flex items-center justify-between mb-4">
                             <span class="bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Beginner Friendly</span>
@@ -449,8 +430,7 @@ image: /images/omega-3-hero.jpg
                         </div>
                     </a>
 
-                     <!-- Product 7: Fishwife -->
-                     <a href="https://amzn.to/4jWGTEO" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
+                      <a href="https://amzn.to/4jWGTEO" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
                         <div class="flex items-center justify-between mb-4">
                             <span class="bg-red-100 text-red-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Artisan Flavor</span>
                             <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
@@ -466,7 +446,6 @@ image: /images/omega-3-hero.jpg
                 </div>
             </div>
 
-            <!-- LABEL READING GUIDE -->
             <div class="mt-12 bg-slate-50 rounded-xl p-8 border border-slate-200">
                 <h3 class="font-bold text-slate-900 text-xl mb-6">🕵️‍♂️ How to Read the Label (Don't Get Scammed)</h3>
                 <div class="grid md:grid-cols-2 gap-8">
@@ -502,7 +481,6 @@ image: /images/omega-3-hero.jpg
             </div>
         </div>
 
-        <!-- CONCLUSION -->
         <div class="border-t border-slate-200 pt-12 pb-12">
             <h2 class="font-serif text-3xl font-bold text-slate-900 mb-6">The Lipid Lab Conclusion</h2>
             <div class="prose prose-lg prose-slate text-slate-600 leading-relaxed">
@@ -516,6 +494,10 @@ image: /images/omega-3-hero.jpg
                     Eat the fish, take the oil, or find the algae. Just make sure it's the long-chain molecule that counts.
                 </p>
             </div>
+        </div>
+
+        <div class="mt-8">
+            {% include "share-bar.njk" %}
         </div>
 
     </div>
