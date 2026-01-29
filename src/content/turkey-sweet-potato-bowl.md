@@ -4,6 +4,9 @@ title: Anti-Inflammatory One-Pot Turkey & Sweet Potato Bowl
 description: A cozy, nutrient-dense dinner ready in 35 minutes. We optimize this comfort meal for heart health by controlling saturated fats and prioritizing antioxidants.
 permalink: /content/turkey-sweet-potato-bowl.html
 image: /images/turkey-sweet-potato-hero.jpg
+date: 2026-01-26
+tags: ['recipe', 'dinner', 'one-pot', 'anti-inflammatory']
+badges: ['New Recipe', 'One Pot', 'Low Sat Fat']
 ---
 
 <article class="bg-white min-h-screen pb-24 font-sans antialiased text-slate-900">
@@ -262,6 +265,10 @@ image: /images/turkey-sweet-potato-hero.jpg
             </div>
         </div>
 
+    </div>
+
+    <div class="container mx-auto px-6 max-w-3xl mt-12">
+        {% include "share-bar.njk" %}
     </div>
 
 </article>

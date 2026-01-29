@@ -1,9 +1,12 @@
 ---
 layout: base.njk
-title: The Advanced Lipid Protocol (Vol. 2) | HeartHealth Brands
+title: The Advanced Lipid Protocol (Vol. 2)
 description: A clinical-strength daily protocol focusing on LDL remodeling, triglyceride reduction, and endothelial function.
 image: /images/daily-protocol-vol2.jpg
 permalink: /content/daily-protocol-vol2.html
+date: 2026-01-22
+tags: ['protocol', 'advanced', 'daily-log']
+badges: ['Core Protocol', 'Volume 2', 'Advanced']
 ---
 
 <div class="bg-slate-50 min-h-screen pb-24 font-sans antialiased">
@@ -196,6 +199,10 @@ permalink: /content/daily-protocol-vol2.html
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container mx-auto px-6 max-w-3xl mt-12">
+        {% include "share-bar.njk" %}
     </div>
 
 </div>

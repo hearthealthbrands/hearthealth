@@ -5,6 +5,8 @@ description: "A daily nutrition log focusing on LDL particle remodeling and endo
 date: 2026-01-16
 image: /images/daily-log-jan16-hero.jpg
 permalink: /content/daily-log-jan16.html
+tags: ['protocol', 'daily-log', 'clinical']
+badges: ['Clinical Log', 'Jan 16']
 ---
 
 <article class="bg-slate-50 min-h-screen pb-24 font-sans antialiased text-slate-900">
@@ -233,6 +235,10 @@ permalink: /content/daily-log-jan16.html
                 <p class="text-xs text-emerald-400 mt-1">Goal Hit ✅</p>
             </div>
         </div>
+    </div>
+
+    <div class="container mx-auto px-6 max-w-3xl mt-12">
+        {% include "share-bar.njk" %}
     </div>
 
 </article>

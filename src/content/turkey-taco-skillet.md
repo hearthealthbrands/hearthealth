@@ -4,6 +4,9 @@ title: 'Taco Tuesday, Upgraded: The "LDL-Crushing" Turkey Skillet.'
 description: 'We audited Taco Night to slash saturated fat. High soluble fiber, zero additives, and a DIY spice blend that protects your heart.'
 permalink: /content/turkey-taco-skillet.html
 image: /images/turkey-taco-skillet-hero.jpg
+date: 2026-01-30
+tags: ['recipe', 'dinner', 'high-fiber', 'mexican']
+badges: ['New Recipe', 'High Fiber', 'Low Sat Fat']
 ---
 
 <article class="bg-white min-h-screen pb-24 font-sans antialiased text-slate-900">
@@ -230,46 +233,46 @@ image: /images/turkey-taco-skillet-hero.jpg
                 </div>
 
                 <div class="bg-slate-100 rounded-xl p-6 md:p-8">
-                     <h3 class="font-serif text-xl font-bold text-slate-900 mb-6 text-center">🥑 The Topping Trap: Don't Undo Your Progress</h3>
-                     <div class="grid md:grid-cols-3 gap-4">
-                         
-                         <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200">
-                             <div class="flex justify-between text-xs font-bold uppercase tracking-wider mb-2">
-                                 <span class="text-red-500">Swap This</span>
-                                 <span class="text-green-600">For This</span>
-                             </div>
-                             <div class="flex items-center justify-between mb-3">
-                                 <span class="line-through text-slate-400">Sour Cream</span>
-                                 <span class="font-bold text-slate-900">Greek Yogurt</span>
-                             </div>
-                             <p class="text-xs text-slate-500 leading-tight">Same tang and creaminess, but with zero sat fat and added protein.</p>
-                         </div>
+                      <h3 class="font-serif text-xl font-bold text-slate-900 mb-6 text-center">🥑 The Topping Trap: Don't Undo Your Progress</h3>
+                      <div class="grid md:grid-cols-3 gap-4">
+                          
+                          <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200">
+                              <div class="flex justify-between text-xs font-bold uppercase tracking-wider mb-2">
+                                  <span class="text-red-500">Swap This</span>
+                                  <span class="text-green-600">For This</span>
+                              </div>
+                              <div class="flex items-center justify-between mb-3">
+                                  <span class="line-through text-slate-400">Sour Cream</span>
+                                  <span class="font-bold text-slate-900">Greek Yogurt</span>
+                              </div>
+                              <p class="text-xs text-slate-500 leading-tight">Same tang and creaminess, but with zero sat fat and added protein.</p>
+                          </div>
 
-                         <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200">
-                             <div class="flex justify-between text-xs font-bold uppercase tracking-wider mb-2">
-                                 <span class="text-red-500">Swap This</span>
-                                 <span class="text-green-600">For This</span>
-                             </div>
-                             <div class="flex items-center justify-between mb-3">
-                                 <span class="line-through text-slate-400">Cheddar</span>
-                                 <span class="font-bold text-slate-900">Avocado</span>
-                             </div>
-                             <p class="text-xs text-slate-500 leading-tight">Cheese adds bad fat. Avocado adds phytosterols that block cholesterol absorption.</p>
-                         </div>
+                          <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200">
+                              <div class="flex justify-between text-xs font-bold uppercase tracking-wider mb-2">
+                                  <span class="text-red-500">Swap This</span>
+                                  <span class="text-green-600">For This</span>
+                              </div>
+                              <div class="flex items-center justify-between mb-3">
+                                  <span class="line-through text-slate-400">Cheddar</span>
+                                  <span class="font-bold text-slate-900">Avocado</span>
+                              </div>
+                              <p class="text-xs text-slate-500 leading-tight">Cheese adds bad fat. Avocado adds phytosterols that block cholesterol absorption.</p>
+                          </div>
 
-                         <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200">
-                             <div class="flex justify-between text-xs font-bold uppercase tracking-wider mb-2">
-                                 <span class="text-red-500">Swap This</span>
-                                 <span class="text-green-600">For This</span>
-                             </div>
-                             <div class="flex items-center justify-between mb-3">
-                                 <span class="line-through text-slate-400">Flour Tortilla</span>
-                                 <span class="font-bold text-slate-900">Corn Tortilla</span>
-                             </div>
-                             <p class="text-xs text-slate-500 leading-tight">Corn has a lower glycemic load and fewer processed hydrogenated fats.</p>
-                         </div>
+                          <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200">
+                              <div class="flex justify-between text-xs font-bold uppercase tracking-wider mb-2">
+                                  <span class="text-red-500">Swap This</span>
+                                  <span class="text-green-600">For This</span>
+                              </div>
+                              <div class="flex items-center justify-between mb-3">
+                                  <span class="line-through text-slate-400">Flour Tortilla</span>
+                                  <span class="font-bold text-slate-900">Corn Tortilla</span>
+                              </div>
+                              <p class="text-xs text-slate-500 leading-tight">Corn has a lower glycemic load and fewer processed hydrogenated fats.</p>
+                          </div>
 
-                     </div>
+                      </div>
                 </div>
 
             </div>
@@ -384,6 +387,10 @@ image: /images/turkey-taco-skillet-hero.jpg
                     <span class="text-[10px] text-slate-500 uppercase">Sat Fat</span>
                 </div>
             </div>
+        </div>
+
+        <div class="mt-8">
+            {% include "share-bar.njk" %}
         </div>
 
     </div>

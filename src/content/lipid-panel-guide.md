@@ -4,6 +4,9 @@ title: Understanding ApoB | The Gold Standard
 description: 'Why LDL-C is an unreliable metric, and why Apolipoprotein B is the only number that truly counts for heart risk.'
 permalink: /content/lipid-panel-guide.html
 image: /images/apob-microscope.jpg
+date: 2026-01-10
+tags: ['guide', 'clinical', 'heart-health', 'lipid-panel']
+badges: ['Clinical Guide', 'Gold Standard', 'ApoB Focus']
 ---
 
 <article class="bg-slate-50 min-h-screen font-sans antialiased text-slate-900 pb-24">
@@ -49,6 +52,7 @@ image: /images/apob-microscope.jpg
                     <p class="text-slate-600 leading-relaxed mb-4 text-lg">
                         Imagine trying to measure traffic by weighing the cars. It wouldn't work. A bus weighs the same as 50 motorcycles, but 50 motorcycles create a traffic jam.
                     </p>
+                    
                     <p class="text-slate-800 leading-relaxed font-bold border-l-4 border-indigo-500 pl-4 py-1 bg-indigo-50/50 rounded-r-lg">
                         Standard LDL-C measures the <em>weight</em> (concentration). <br>
                         ApoB measures the <em>traffic</em> (particle count).
@@ -188,5 +192,9 @@ image: /images/apob-microscope.jpg
         </div>
 
     </main>
+
+    <div class="container mx-auto px-6 max-w-4xl mt-12">
+        {% include "share-bar.njk" %}
+    </div>
 
 </article>

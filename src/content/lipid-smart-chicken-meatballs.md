@@ -4,6 +4,9 @@ title: 'The "Lipid-Smart" Italian Dinner: Lean Chicken Meatballs & Glossy Pomodo
 description: 'Craving pasta but watching your cholesterol? We swapped the saturated fat for plant sterols and soluble fiber without losing the comfort.'
 permalink: /content/lipid-smart-chicken-meatballs.html
 image: /images/chicken-meatballs-pomodoro-hero.jpg
+date: 2026-01-18
+tags: ['recipe', 'dinner', 'low-saturated-fat', 'italian']
+badges: ['New Recipe', 'Low Sat Fat', 'High Protein']
 ---
 
 <article class="bg-white min-h-screen pb-24 font-sans antialiased text-slate-900">
@@ -322,10 +325,13 @@ image: /images/chicken-meatballs-pomodoro-hero.jpg
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
+    </div>
+
+    <div class="container mx-auto px-6 max-w-3xl mt-12">
+        {% include "share-bar.njk" %}
     </div>
 
 </article>

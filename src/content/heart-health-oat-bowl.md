@@ -4,6 +4,9 @@ title: 50g Protein. 26g Fiber. The Ultimate Heart-Health Breakfast.
 description: Stop eating plain oatmeal. We use a unique "Tempering Technique" to create a creamy, clinical-strength bowl designed to lower LDL and fight inflammation.
 permalink: /content/heart-health-oat-bowl.html
 image: /images/heart-oat-bowl-hero.jpg
+date: 2026-01-28
+tags: ['recipe', 'breakfast', 'high-protein', 'high-fiber']
+badges: ['Clinical Recipe', '50g Protein', '26g Fiber']
 ---
 
 <article class="bg-white min-h-screen pb-24 font-sans antialiased text-slate-900">
@@ -305,6 +308,10 @@ image: /images/heart-oat-bowl-hero.jpg
             </div>
         </div>
 
+    </div>
+
+    <div class="container mx-auto px-6 max-w-3xl mt-12">
+        {% include "share-bar.njk" %}
     </div>
 
 </article>
