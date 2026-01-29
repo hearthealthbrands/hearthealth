@@ -5,6 +5,7 @@ description: A delicious, nutrient-dense, high-fiber smoothie recipe designed to
 image: /images/smoothie-hero.png
 permalink: /content/smoothie-recipe.html
 date: 2026-01-28
+templateEngineOverride: njk, md
 tags: ['recipe', 'breakfast', 'smoothie', 'high-protein', 'high-fiber']
 badges: ['Breakfast Recipe', 'High Fiber', 'Antioxidant Rich']
 nutrition:
@@ -43,7 +44,7 @@ sourcing:
     <p class="text-lg md:text-xl text-slate-600 leading-relaxed">
       {{ description }}
     </p>
-    <button onclick="window.print()" class="mt-8 inline-flex items-center gap-2 text-sm font-bold text-slate-400 hover:text-primary transition-colors cursor-pointer">
+    <button onclick="window.print()" class="mt-8 inline-flex items-center gap-2 text-sm font-bold text-slate-400 hover:text-green-600 transition-colors cursor-pointer border-none bg-transparent">
       <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
       Print Recipe
     </button>
@@ -110,14 +111,14 @@ sourcing:
           <svg class="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
           <div>
             <h4 class="font-bold text-blue-900 text-sm uppercase tracking-wide mb-1">Prep Tip</h4>
-            <p class="text-blue-800 text-sm">You can prep the dry ingredients and the spinach in zip-lock bags and freeze them for quick morning access.</p>
+            <p class="text-blue-800 text-sm">Pre-portion the dry ingredients and spinach into freezer-safe bags for a 30-second morning routine.</p>
           </div>
         </div>
       </div>
 
       <div class="bg-green-50 rounded-2xl p-8 border border-green-100">
         <h2 class="text-2xl font-bold text-slate-900 mb-4">Why This Works for Heart Health</h2>
-        <p class="text-slate-700 mb-6">Each ingredient is chosen for its specific cholesterol-lowering and heart-protective benefits.</p>
+        <p class="text-slate-700 mb-6">Every component is selected to support cardiovascular function and cholesterol management.</p>
 
         <ul class="space-y-6">
           <li class="flex gap-4">
@@ -125,8 +126,8 @@ sourcing:
               <svg class="w-4 h-4 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
             </div>
             <div>
-              <strong class="block text-slate-900 font-bold">Healthy Fats</strong>
-              <span class="text-slate-700">Almond butter provides monounsaturated fats, crucial for lowering LDL ("bad") cholesterol.</span>
+              <strong class="block text-slate-900 font-bold">Monounsaturated Fats</strong>
+              <span class="text-slate-700">Almond butter provides heart-healthy fats that help improve your lipid profile.</span>
             </div>
           </li>
           <li class="flex gap-4">
@@ -134,8 +135,8 @@ sourcing:
               <svg class="w-4 h-4 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
             </div>
             <div>
-              <strong class="block text-slate-900 font-bold">Soluble Fiber</strong>
-              <span class="text-slate-700">Berries and spinach are packed with fiber that binds to cholesterol and removes it from your body.</span>
+              <strong class="block text-slate-900 font-bold">Soluble Fiber Action</strong>
+              <span class="text-slate-700">The fiber in berries and spinach acts as a "sponge" for cholesterol in the digestive tract.</span>
             </div>
           </li>
         </ul>
@@ -149,7 +150,7 @@ sourcing:
     <div class="lg:col-span-4">
       <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 sticky top-24">
         <h2 class="text-lg font-bold text-slate-900 mb-4">Ingredient Sourcing</h2>
-        <p class="text-sm text-slate-500 mb-6">We only recommend what we use. Look for unsweetened options.</p>
+        <p class="text-sm text-slate-500 mb-6">Tested and recommended brands for maximum purity.</p>
 
         <div class="space-y-4">
           {% for item in sourcing %}
@@ -158,7 +159,7 @@ sourcing:
               <p class="font-semibold text-slate-800 text-sm">{{ item.product }}</p>
               <p class="text-xs text-slate-500">{{ item.brand }}</p>
             </div>
-            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ item.product }} on vendor site" class="text-xs font-bold text-green-600 hover:text-green-700 border border-green-200 px-3 py-1 rounded hover:bg-green-50 transition-colors shrink-0">
+            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ item.product }} sourcing" class="text-xs font-bold text-green-600 hover:text-green-700 border border-green-200 px-3 py-1 rounded hover:bg-green-50 transition-colors shrink-0">
               View
             </a>
           </div>
