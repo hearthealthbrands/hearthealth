@@ -260,108 +260,204 @@ image: /images/pistachio-salmon-hero.jpg
             </div>
         </div>
 
-        <div class="mb-20">
-            <h4 class="font-serif text-2xl font-bold text-slate-900 mb-8 text-center">
-                🛒 The Lipidologist's Pantry
-            </h4>
+        <div class="mb-24">
+            <div class="text-center mb-12">
+                <h4 class="font-serif text-3xl font-bold text-slate-900 mb-3">
+                    🛒 The Lipidologist's Pantry
+                </h4>
+                <p class="text-slate-500 text-sm max-w-lg mx-auto">
+                    The specific brands we used to verify the nutritional profile of this protocol.
+                </p>
+            </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
 
-                <a href="https://amzn.to/46dMnFd" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full relative overflow-hidden">
-                    <div class="flex items-center justify-between mb-3 mt-4">
-                        <span class="bg-yellow-100 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Binder</span>
-                        <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
+                <a href="https://amzn.to/46dMnFd" target="_blank" rel="noopener noreferrer" class="group flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-2xl hover:border-teal-400 hover:-translate-y-1 transition-all duration-300 overflow-hidden h-full">
+                    <div class="p-6 flex flex-col flex-grow relative">
+                        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 to-orange-400 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider bg-slate-100 text-slate-600 group-hover:bg-yellow-50 group-hover:text-yellow-700 transition-colors">
+                                The Binder
+                            </span>
+                            <span class="text-slate-300 group-hover:text-yellow-500 transition-colors">↗</span>
+                        </div>
+                        
+                        <h5 class="font-serif text-lg font-bold text-slate-900 leading-tight group-hover:text-yellow-700 transition-colors">
+                            Bijan Mustardson Gourmet Dijon
+                        </h5>
                     </div>
-                    <h5 class="font-bold text-slate-900 text-sm mb-2 group-hover:text-teal-600 transition-colors">Bijan Mustardson Gourmet Dijon Mustard, Bold & Smooth</h5>
-                    <div class="mt-auto pt-3 border-t border-slate-100">
-                        <p class="text-[10px] text-slate-500 italic">
-                            <strong class="text-slate-700 not-italic block mb-1">Lipid Lab Note:</strong>
-                            We chose this for its bold flavor profile. The stronger the mustard, the less salt you need to make the dish pop.
-                        </p>
+                    
+                    <div class="bg-slate-50 border-t border-slate-100 p-5 mt-auto group-hover:bg-yellow-50/30 transition-colors">
+                        <div class="flex gap-3 items-start">
+                            <span class="text-lg mt-0.5">🥣</span>
+                            <div class="text-xs text-slate-600 leading-relaxed">
+                                <span class="font-bold text-slate-900 block mb-0.5">Why this brand:</span>
+                                Bold flavor profile means you need less salt to make the dish pop.
+                            </div>
+                        </div>
                     </div>
                 </a>
 
-                <a href="https://amzn.to/464BYvC" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full relative overflow-hidden">
-                    <div class="flex items-center justify-between mb-3 mt-4">
-                        <span class="bg-orange-100 text-orange-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Glaze</span>
-                        <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
+                <a href="https://amzn.to/464BYvC" target="_blank" rel="noopener noreferrer" class="group flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-2xl hover:border-teal-400 hover:-translate-y-1 transition-all duration-300 overflow-hidden h-full">
+                    <div class="p-6 flex flex-col flex-grow relative">
+                        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-amber-600 to-amber-800 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider bg-slate-100 text-slate-600 group-hover:bg-amber-50 group-hover:text-amber-800 transition-colors">
+                                The Glaze
+                            </span>
+                            <span class="text-slate-300 group-hover:text-amber-600 transition-colors">↗</span>
+                        </div>
+                        
+                        <h5 class="font-serif text-lg font-bold text-slate-900 leading-tight group-hover:text-amber-800 transition-colors">
+                            Crown Maple Dark Color Organic Syrup
+                        </h5>
                     </div>
-                    <h5 class="font-bold text-slate-900 text-sm mb-2 group-hover:text-teal-600 transition-colors">Crown Maple Dark Color, Robust Taste Organic Syrup</h5>
-                    <div class="mt-auto pt-3 border-t border-slate-100">
-                        <p class="text-[10px] text-slate-500 italic">
-                            <strong class="text-slate-700 not-italic block mb-1">Lipid Lab Note:</strong>
-                            We specify "Dark Color" because darker maple syrups contain higher levels of antioxidants than lighter grades.
-                        </p>
-                    </div>
-                </a>
-
-                <a href="https://amzn.to/4q9cX9U" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
-                    <div class="flex items-center justify-between mb-3">
-                        <span class="bg-teal-100 text-teal-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Shield</span>
-                        <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
-                    </div>
-                    <h5 class="font-bold text-slate-900 text-sm mb-2 group-hover:text-teal-600 transition-colors">Fiddyment Farms Lightly Salted Pistachio Kernels</h5>
-                    <div class="mt-auto pt-3 border-t border-slate-100">
-                        <p class="text-[10px] text-slate-500 italic">
-                            <strong class="text-slate-700 not-italic block mb-1">Lipid Lab Note:</strong>
-                            A 1lb bulk bag is cost-efficient. Pistachios are the #1 nut for phytosterol content.
-                        </p>
-                    </div>
-                </a>
-
-                <a href="https://amzn.to/4kbqtIQ" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
-                    <div class="flex items-center justify-between mb-3">
-                        <span class="bg-teal-100 text-teal-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Omega-3 Boost</span>
-                        <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
-                    </div>
-                    <h5 class="font-bold text-slate-900 text-sm mb-2 group-hover:text-teal-600 transition-colors">Terrasoul Superfoods Raw Organic Walnuts</h5>
-                    <div class="mt-auto pt-3 border-t border-slate-100">
-                        <p class="text-[10px] text-slate-500 italic">
-                            <strong class="text-slate-700 not-italic block mb-1">Lipid Lab Note:</strong>
-                            We mix these into the crust for their high ALA Omega-3 content, which helps support healthy endothelial function.
-                        </p>
+                    
+                    <div class="bg-slate-50 border-t border-slate-100 p-5 mt-auto group-hover:bg-amber-50/30 transition-colors">
+                        <div class="flex gap-3 items-start">
+                            <span class="text-lg mt-0.5">🍁</span>
+                            <div class="text-xs text-slate-600 leading-relaxed">
+                                <span class="font-bold text-slate-900 block mb-0.5">Why this brand:</span>
+                                We specify "Dark Color" because darker syrups contain higher levels of antioxidants.
+                            </div>
+                        </div>
                     </div>
                 </a>
 
-                <a href="https://amzn.to/46dMssv" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
-                    <div class="flex items-center justify-between mb-3">
-                        <span class="bg-slate-100 text-slate-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Base</span>
-                        <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
+                <a href="https://amzn.to/4q9cX9U" target="_blank" rel="noopener noreferrer" class="group flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-2xl hover:border-teal-400 hover:-translate-y-1 transition-all duration-300 overflow-hidden h-full">
+                    <div class="p-6 flex flex-col flex-grow relative">
+                        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-teal-400 to-emerald-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider bg-slate-100 text-slate-600 group-hover:bg-teal-50 group-hover:text-teal-700 transition-colors">
+                                The Shield
+                            </span>
+                            <span class="text-slate-300 group-hover:text-teal-500 transition-colors">↗</span>
+                        </div>
+                        
+                        <h5 class="font-serif text-lg font-bold text-slate-900 leading-tight group-hover:text-teal-700 transition-colors">
+                            Fiddyment Farms Pistachio Kernels
+                        </h5>
                     </div>
-                    <h5 class="font-bold text-slate-900 text-sm mb-2 group-hover:text-teal-600 transition-colors">Viva Naturals Organic Quinoa (Pre-Washed)</h5>
-                    <div class="mt-auto pt-3 border-t border-slate-100">
-                        <p class="text-[10px] text-slate-500 italic">
-                            <strong class="text-slate-700 not-italic block mb-1">Lipid Lab Note:</strong>
-                            A complete protein containing all 9 essential amino acids. Pre-washed helps remove bitterness.
-                        </p>
+                    
+                    <div class="bg-slate-50 border-t border-slate-100 p-5 mt-auto group-hover:bg-teal-50/30 transition-colors">
+                        <div class="flex gap-3 items-start">
+                            <span class="text-lg mt-0.5">🛡️</span>
+                            <div class="text-xs text-slate-600 leading-relaxed">
+                                <span class="font-bold text-slate-900 block mb-0.5">Why this brand:</span>
+                                A 1lb bulk bag is cost-efficient. Pistachios are the #1 nut for phytosterol content.
+                            </div>
+                        </div>
                     </div>
                 </a>
 
-                <a href="https://amzn.to/3NJ0lc2" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
-                    <div class="flex items-center justify-between mb-3">
-                        <span class="bg-teal-100 text-teal-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Sponge</span>
-                        <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
+                <a href="https://amzn.to/4kbqtIQ" target="_blank" rel="noopener noreferrer" class="group flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-2xl hover:border-teal-400 hover:-translate-y-1 transition-all duration-300 overflow-hidden h-full">
+                    <div class="p-6 flex flex-col flex-grow relative">
+                        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-slate-600 to-slate-800 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider bg-slate-100 text-slate-600 group-hover:bg-slate-200 group-hover:text-slate-800 transition-colors">
+                                Omega-3 Boost
+                            </span>
+                            <span class="text-slate-300 group-hover:text-slate-600 transition-colors">↗</span>
+                        </div>
+                        
+                        <h5 class="font-serif text-lg font-bold text-slate-900 leading-tight group-hover:text-slate-700 transition-colors">
+                            Terrasoul Superfoods Raw Walnuts
+                        </h5>
                     </div>
-                    <h5 class="font-bold text-slate-900 text-sm mb-2 group-hover:text-teal-600 transition-colors">Happy Belly Frozen Shelled Edamame</h5>
-                    <div class="mt-auto pt-3 border-t border-slate-100">
-                        <p class="text-[10px] text-slate-500 italic">
-                            <strong class="text-slate-700 not-italic block mb-1">Lipid Lab Note:</strong>
-                            Soy protein is a powerhouse for lowering LDL. We add these to the quinoa for a boost of soluble fiber.
-                        </p>
+                    
+                    <div class="bg-slate-50 border-t border-slate-100 p-5 mt-auto group-hover:bg-slate-100/50 transition-colors">
+                        <div class="flex gap-3 items-start">
+                            <span class="text-lg mt-0.5">🧠</span>
+                            <div class="text-xs text-slate-600 leading-relaxed">
+                                <span class="font-bold text-slate-900 block mb-0.5">Why this brand:</span>
+                                We mix these into the crust for their high ALA Omega-3 content to support endothelial function.
+                            </div>
+                        </div>
                     </div>
                 </a>
 
-                <a href="https://amzn.to/4k68bID" target="_blank" rel="noopener noreferrer" class="group bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full relative overflow-hidden">
-                    <div class="flex items-center justify-between mb-3 mt-4">
-                        <span class="bg-yellow-100 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Activator</span>
-                        <span class="opacity-0 group-hover:opacity-100 text-slate-400 transition-opacity">↗</span>
+                <a href="https://amzn.to/46dMssv" target="_blank" rel="noopener noreferrer" class="group flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-2xl hover:border-teal-400 hover:-translate-y-1 transition-all duration-300 overflow-hidden h-full">
+                    <div class="p-6 flex flex-col flex-grow relative">
+                        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-teal-400 to-teal-600 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider bg-slate-100 text-slate-600 group-hover:bg-teal-50 group-hover:text-teal-700 transition-colors">
+                                The Base
+                            </span>
+                            <span class="text-slate-300 group-hover:text-teal-500 transition-colors">↗</span>
+                        </div>
+                        
+                        <h5 class="font-serif text-lg font-bold text-slate-900 leading-tight group-hover:text-teal-700 transition-colors">
+                            Viva Naturals Organic Quinoa
+                        </h5>
                     </div>
-                    <h5 class="font-bold text-slate-900 text-sm mb-2 group-hover:text-teal-600 transition-colors">Wonderful Naturally Seedless Lemons</h5>
-                    <div class="mt-auto pt-3 border-t border-slate-100">
-                        <p class="text-[10px] text-slate-500 italic">
-                            <strong class="text-slate-700 not-italic block mb-1">Lipid Lab Note:</strong>
-                            Vitamin C enhances iron absorption from the quinoa and edamame. Being seedless makes prep faster and easier.
-                        </p>
+                    
+                    <div class="bg-slate-50 border-t border-slate-100 p-5 mt-auto group-hover:bg-teal-50/30 transition-colors">
+                        <div class="flex gap-3 items-start">
+                            <span class="text-lg mt-0.5">🌾</span>
+                            <div class="text-xs text-slate-600 leading-relaxed">
+                                <span class="font-bold text-slate-900 block mb-0.5">Why this brand:</span>
+                                A complete protein containing all 9 essential amino acids. Pre-washed helps remove bitterness.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://amzn.to/3NJ0lc2" target="_blank" rel="noopener noreferrer" class="group flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-2xl hover:border-teal-400 hover:-translate-y-1 transition-all duration-300 overflow-hidden h-full">
+                    <div class="p-6 flex flex-col flex-grow relative">
+                        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-green-400 to-green-600 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider bg-slate-100 text-slate-600 group-hover:bg-green-50 group-hover:text-green-700 transition-colors">
+                                The Sponge
+                            </span>
+                            <span class="text-slate-300 group-hover:text-green-500 transition-colors">↗</span>
+                        </div>
+                        
+                        <h5 class="font-serif text-lg font-bold text-slate-900 leading-tight group-hover:text-green-700 transition-colors">
+                            Happy Belly Frozen Shelled Edamame
+                        </h5>
+                    </div>
+                    
+                    <div class="bg-slate-50 border-t border-slate-100 p-5 mt-auto group-hover:bg-green-50/30 transition-colors">
+                        <div class="flex gap-3 items-start">
+                            <span class="text-lg mt-0.5">🌱</span>
+                            <div class="text-xs text-slate-600 leading-relaxed">
+                                <span class="font-bold text-slate-900 block mb-0.5">Why this brand:</span>
+                                Soy protein is a powerhouse for lowering LDL. Adds massive soluble fiber to the quinoa.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://amzn.to/4k68bID" target="_blank" rel="noopener noreferrer" class="group flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-2xl hover:border-teal-400 hover:-translate-y-1 transition-all duration-300 overflow-hidden h-full md:col-span-2 lg:col-span-1 lg:col-start-2">
+                    <div class="p-6 flex flex-col flex-grow relative">
+                        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-300 to-yellow-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider bg-slate-100 text-slate-600 group-hover:bg-yellow-50 group-hover:text-yellow-700 transition-colors">
+                                The Activator
+                            </span>
+                            <span class="text-slate-300 group-hover:text-yellow-500 transition-colors">↗</span>
+                        </div>
+                        
+                        <h5 class="font-serif text-lg font-bold text-slate-900 leading-tight group-hover:text-yellow-700 transition-colors">
+                            Wonderful Naturally Seedless Lemons
+                        </h5>
+                    </div>
+                    
+                    <div class="bg-slate-50 border-t border-slate-100 p-5 mt-auto group-hover:bg-yellow-50/30 transition-colors">
+                        <div class="flex gap-3 items-start">
+                            <span class="text-lg mt-0.5">🍋</span>
+                            <div class="text-xs text-slate-600 leading-relaxed">
+                                <span class="font-bold text-slate-900 block mb-0.5">Why this brand:</span>
+                                Vitamin C enhances iron absorption from the quinoa. Being seedless makes prep faster.
+                            </div>
+                        </div>
                     </div>
                 </a>
 
