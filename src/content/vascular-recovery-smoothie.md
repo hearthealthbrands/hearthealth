@@ -1,9 +1,12 @@
 ---
 layout: base.njk
-title: The "Vascular Recovery" Berry Smoothie | HeartHealth Brands
+title: The "Vascular Recovery" Berry Smoothie
 description: A hybrid recovery protocol combining grass-fed whey isolate and soy milk to maximize protein synthesis (43g) and vascular health.
 permalink: /content/vascular-recovery-smoothie.html
 image: /images/vascular-berry-smoothie.jpg
+date: 2026-01-07
+tags: ['recipe', 'smoothie', 'high-protein', 'recovery']
+badges: ['Recovery Protocol', '43g Protein', 'Gluten Free']
 ---
 
 <article class="bg-white min-h-screen pb-24 font-sans antialiased text-slate-900">
@@ -256,6 +259,10 @@ image: /images/vascular-berry-smoothie.jpg
             </div>
         </div>
 
+    </div>
+
+    <div class="container mx-auto px-6 max-w-3xl mt-12">
+        {% include "share-bar.njk" %}
     </div>
 
 </article>

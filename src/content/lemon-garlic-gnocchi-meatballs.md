@@ -3,6 +3,10 @@ layout: base.njk
 title: Lemon Garlic Sheet Pan Gnocchi & White Beans (The Fiber Sponge)
 description: A 30-minute heart-healthy sheet pan meal. We add Cannellini beans to sponge up LDL and swap butter for olive oil to protect the liver.
 permalink: /content/lemon-garlic-gnocchi-meatballs.html
+image: /images/lemon-garlic-gnocchi-hero.jpg
+date: 2025-12-23
+tags: ['recipe', 'dinner', 'sheet-pan', 'high-fiber']
+badges: ['Lipid Protocol', 'Gluten Free', '30 Minute Meal']
 ---
 
 <article class="bg-white min-h-screen pb-24 font-sans antialiased text-slate-900">
@@ -327,6 +331,10 @@ permalink: /content/lemon-garlic-gnocchi-meatballs.html
             </div>
         </div>
 
+    </div>
+
+    <div class="container mx-auto px-6 max-w-4xl mt-12">
+        {% include "share-bar.njk" %}
     </div>
 
 </article>

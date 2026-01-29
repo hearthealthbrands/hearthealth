@@ -4,6 +4,9 @@ title: The Canned Fish Protocol | HeartHealth Brands
 description: A science-backed guide to using Atlantic Mackerel, Sardines, and Sockeye Salmon to lower triglycerides and remodel LDL particles.
 permalink: /content/canned-fish-protocol.html
 image: /images/canned-fish-protocol.jpg
+date: 2026-01-09
+tags: ['guide', 'protocol', 'omega-3', 'lipid-lowering']
+badges: ['Lipid Protocol', 'Advanced Nutrition', 'High Omega-3']
 ---
 
 <article class="bg-white min-h-screen pb-24 font-sans antialiased text-slate-900">
@@ -404,6 +407,10 @@ image: /images/canned-fish-protocol.jpg
             </details>
         </div>
 
+    </div>
+
+    <div class="container mx-auto px-6 max-w-4xl mt-12">
+        {% include "share-bar.njk" %}
     </div>
 
 </article>

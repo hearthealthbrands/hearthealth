@@ -3,6 +3,10 @@ layout: base.njk
 title: Creamy Wild Rice & Kale Soup (The Dairy-Free Lipid Hack)
 description: A heart-healthy twist on the cozy classic. We swap heavy cream for blended white beans to boost soluble fiber and lower LDL.
 permalink: /content/creamy-wild-rice-soup.html
+image: /images/wild-rice-kale-soup.jpg
+date: 2025-12-21
+tags: ['recipe', 'dinner', 'soup', 'dairy-free']
+badges: ['Lipid Protocol', 'Dairy Free', 'High Fiber']
 ---
 
 <article class="bg-white min-h-screen pb-24 font-sans antialiased text-slate-900">
@@ -275,6 +279,10 @@ permalink: /content/creamy-wild-rice-soup.html
             </div>
         </div>
 
+    </div>
+
+    <div class="container mx-auto px-6 max-w-4xl mt-12">
+        {% include "share-bar.njk" %}
     </div>
 
 </article>

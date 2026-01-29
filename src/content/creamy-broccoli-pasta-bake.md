@@ -3,6 +3,10 @@ layout: base.njk
 title: High-Protein Creamy Broccoli Pasta Bake (The Stealth Sauce)
 description: A dump-and-bake miracle. We swap heavy cream for blended cottage cheese to slash saturated fat without losing the comfort.
 permalink: /content/creamy-broccoli-pasta-bake.html
+image: /images/creamy-broccoli-pasta-hero.jpg
+date: 2026-01-05
+tags: ['recipe', 'dinner', 'high-protein', 'pasta']
+badges: ['Lipid Protocol', 'High Protein', 'Gluten Free']
 ---
 
 <article class="bg-white min-h-screen pb-24 font-sans antialiased text-slate-900">
@@ -117,7 +121,7 @@ permalink: /content/creamy-broccoli-pasta-bake.html
                     <div>
                         <h4 class="font-bold text-slate-900 text-lg">Brown Rice Penne</h4>
                         <p class="text-slate-600 leading-relaxed mt-1">
-                            Unlike white pasta which spikes blood sugar, <a href="https://amzn.to/example" target="_blank" class="text-emerald-600 font-semibold hover:underline decoration-2 underline-offset-2">Jovial Brown Rice Pasta</a> retains the bran and germ, providing sustained energy and heart-healthy fiber.
+                            Unlike white pasta which spikes blood sugar,  <a href="https://amzn.to/example" target="_blank" class="text-emerald-600 font-semibold hover:underline decoration-2 underline-offset-2">Jovial Brown Rice Pasta</a> retains the bran and germ, providing sustained energy and heart-healthy fiber.
                         </p>
                     </div>
                 </div>
@@ -293,6 +297,10 @@ permalink: /content/creamy-broccoli-pasta-bake.html
             </div>
         </div>
 
+    </div>
+
+    <div class="container mx-auto px-6 max-w-3xl mt-12">
+        {% include "share-bar.njk" %}
     </div>
 
 </article>

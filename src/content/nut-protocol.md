@@ -4,6 +4,9 @@ title: The Nut Protocol | HeartHealth Brands
 description: A clinical review of how Walnuts, Almonds, Pistachios, and Brazil Nuts impact human lipid profiles.
 permalink: /content/nut-protocol.html
 image: /images/clinical-nut-protocol.jpg
+date: 2026-01-12
+tags: ['protocol', 'nuts', 'lipid-lowering', 'guide']
+badges: ['Clinical Protocol', 'Deep Dive', 'Lipid Profile']
 ---
 
 <div class="max-w-4xl mx-auto px-4 py-8 md:py-12">
@@ -330,5 +333,7 @@ image: /images/clinical-nut-protocol.jpg
             </div>
         </details>
     </div>
+
+    {% include "share-bar.njk" %}
 
 </div>

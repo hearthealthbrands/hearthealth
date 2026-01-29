@@ -4,6 +4,9 @@ title: The Soluble Fiber Protocol | HeartHealth Brands
 description: 'The "Sponge" Strategy: A clinical guide to using viscous soluble fiber to scrub LDL cholesterol from your arteries naturally.'
 permalink: /content/soluble-fiber-protocol.html
 image: /images/soluble-fiber-sponge.jpg
+date: 2026-01-24
+tags: ['protocol', 'fiber', 'gut-health', 'ldl-lowering']
+badges: ['Lipid Protocol', 'Therapeutic Nutrition', 'Viscous Fiber']
 ---
 
 <article class="bg-white min-h-screen pb-24 font-sans antialiased text-slate-900">

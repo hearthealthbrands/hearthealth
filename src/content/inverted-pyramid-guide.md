@@ -4,6 +4,9 @@ title: The Inverted Pyramid & Heart Health | A Lipidologist's Guide
 description: 'How to follow the 2026 USDA "Inverted" guidelines without raising your ApoB or LDL-C.'
 permalink: /content/inverted-pyramid-guide.html
 image: /images/inverted-pyramid-heart.jpg
+date: 2026-01-08
+tags: ['guide', 'diet-trends', 'clinical', 'metabolic-health']
+badges: ['Breaking News', 'Clinical Analysis', '8 Min Read']
 ---
 
 <article class="bg-slate-50 min-h-screen font-sans antialiased text-slate-900 selection:bg-emerald-100 selection:text-emerald-900 pb-24">
