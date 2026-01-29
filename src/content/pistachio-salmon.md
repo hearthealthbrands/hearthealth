@@ -37,36 +37,38 @@ image: /images/pistachio-salmon-hero.jpg
 
     <div class="container mx-auto px-6 max-w-3xl relative z-10 mt-8 md:-mt-16">
         
-        <div class="bg-white rounded-2xl shadow-xl border border-slate-100 p-6 md:p-8 mb-12 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            
-            <div class="flex flex-col items-center">
-                <div class="text-3xl mb-2">🐟</div>
-                <span class="block text-2xl font-bold text-slate-900">3g+</span>
-                <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Omega-3s</span>
-                <span class="text-xs text-slate-500 mt-1 leading-tight">EPA/DHA & ALA.</span>
-            </div>
+        <div class="bg-white rounded-2xl shadow-xl border border-slate-100 p-6 md:p-8 mb-12 relative overflow-hidden">
+            <div class="flex flex-wrap md:flex-row items-center justify-between text-center gap-y-8">
+                
+                <div class="w-1/2 md:w-1/4 flex flex-col items-center px-2">
+                    <div class="text-3xl mb-2">🐟</div>
+                    <span class="block text-2xl font-bold text-slate-900 leading-none mb-1">3g+</span>
+                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Omega-3s</span>
+                    <span class="text-[10px] text-slate-500 mt-1 leading-tight">EPA/DHA & ALA</span>
+                </div>
 
-            <div class="flex flex-col items-center border-l border-slate-100">
-                <div class="text-3xl mb-2">🥜</div>
-                <span class="block text-2xl font-bold text-slate-900">Sterols</span>
-                <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Plant Defense</span>
-                <span class="text-xs text-slate-500 mt-1 leading-tight">Blocks Absorption.</span>
-            </div>
+                <div class="w-1/2 md:w-1/4 flex flex-col items-center px-2 md:border-l md:border-slate-100">
+                    <div class="text-3xl mb-2">🥜</div>
+                    <span class="block text-2xl font-bold text-slate-900 leading-none mb-1">Sterols</span>
+                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Plant Defense</span>
+                    <span class="text-[10px] text-slate-500 mt-1 leading-tight">Blocks Absorption</span>
+                </div>
 
-            <div class="flex flex-col items-center border-l border-slate-100">
-                <div class="text-3xl mb-2">💪</div>
-                <span class="block text-2xl font-bold text-slate-900">36g</span>
-                <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Protein</span>
-                <span class="text-xs text-slate-500 mt-1 leading-tight">Complete Profile.</span>
-            </div>
+                <div class="w-1/2 md:w-1/4 flex flex-col items-center px-2 md:border-l md:border-slate-100">
+                    <div class="text-3xl mb-2">💪</div>
+                    <span class="block text-2xl font-bold text-slate-900 leading-none mb-1">36g</span>
+                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Protein</span>
+                    <span class="text-[10px] text-slate-500 mt-1 leading-tight">Complete Profile</span>
+                </div>
 
-            <div class="flex flex-col items-center border-l border-slate-100">
-                <div class="text-3xl mb-2">⏱️</div>
-                <span class="block text-2xl font-bold text-slate-900">25m</span>
-                <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Total Time</span>
-                <span class="text-xs text-slate-500 mt-1 leading-tight">Sheet Pan.</span>
-            </div>
+                <div class="w-1/2 md:w-1/4 flex flex-col items-center px-2 md:border-l md:border-slate-100">
+                    <div class="text-3xl mb-2">⏱️</div>
+                    <span class="block text-2xl font-bold text-slate-900 leading-none mb-1">25m</span>
+                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Total Time</span>
+                    <span class="text-[10px] text-slate-500 mt-1 leading-tight">Sheet Pan Meal</span>
+                </div>
 
+            </div>
         </div>
 
         <div class="flex items-center justify-between border-b border-slate-200 pb-8 mb-10">
