@@ -14,8 +14,6 @@ permalink: /content.html
             A curated collection of our guides and articles, designed to give you clarity and confidence.
         </p>
         
-        {# IMPROVEMENT: Category Pills for better UX #}
-        {# This helps users quickly find what they saw on social media #}
         <div class="mt-8 flex flex-wrap justify-center gap-2">
             <span class="px-4 py-2 bg-slate-100 text-slate-600 rounded-full text-sm font-medium hover:bg-slate-200 cursor-pointer transition-colors">All</span>
             <span class="px-4 py-2 bg-white border border-slate-200 text-slate-600 rounded-full text-sm font-medium hover:border-slate-400 cursor-pointer transition-colors">Nutrition</span>
@@ -33,8 +31,6 @@ permalink: /content.html
             {% for post in collections.all | reverse %}
                 {% if post.url != page.url and post.data.image and '/content/' in post.url %}
                 
-                {# STRATEGY: Inject a Newsletter Card as the 3rd item (Index 2 in code) #}
-                {# This puts your monetization goal directly in the user flow #}
                 {% if loop.index == 3 %}
                 <div class="bg-primary-50 rounded-2xl shadow-sm border-2 border-primary-100 p-8 flex flex-col justify-center items-center text-center">
                     <h3 class="text-xl font-serif font-bold text-slate-900 mb-2">Join the Heart Health Club</h3>
@@ -51,7 +47,6 @@ permalink: /content.html
                 <article class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group flex flex-col h-full">
                     <a href="{{ post.url }}" class="block flex-grow flex flex-col">
                         <div class="relative overflow-hidden aspect-video bg-slate-100 flex items-center justify-center group-hover:opacity-95 transition-opacity">
-                            {# TECH FIX: Added loading="lazy" and aspect-video class for CLS prevention #}
                             <img 
                                 src="{{ post.data.image }}" 
                                 alt="{{ post.data.title }}" 
@@ -76,7 +71,6 @@ permalink: /content.html
                                 {{ post.data.description }}
                             </p>
                             
-                            {# UX FIX: Removed opacity-0. Now visible on mobile, turns blue on hover. #}
                             <div class="mt-auto flex items-center text-slate-400 group-hover:text-primary text-sm font-bold transition-colors">
                                 Read Article <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                             </div>
