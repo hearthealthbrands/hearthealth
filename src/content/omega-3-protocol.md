@@ -4,9 +4,11 @@ title: The Omega-3 Protocol | HeartHealth Brands
 description: New research shows that a low Omega-3 index predicts early death just as accurately as smoking. Here is my daily protocol to fix it.
 image: /images/omega-3-hero.png
 permalink: /content/omega-3-protocol.html
+date: 2026-01-27
+tags: ['protocol', 'omega-3', 'longevity', 'guide']
+badges: ['Longevity Protocol', 'Omega-3 Index', 'Daily Habit']
 ---
 
-<!-- TITLE HEADER -->
 <div class="bg-white">
     <div class="container mx-auto px-6 pt-12 pb-8 text-center max-w-4xl">
         <span class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-blue-800 uppercase bg-blue-50 border border-blue-100 rounded-full">
@@ -21,22 +23,18 @@ permalink: /content/omega-3-protocol.html
     </div>
 </div>
 
-<!-- HERO IMAGE -->
 <div class="container mx-auto px-6 max-w-5xl mb-12">
     <div class="relative rounded-2xl overflow-hidden shadow-xl aspect-video md:aspect-[21/9] bg-slate-100">
         <img src="/images/omega-3-hero.png" alt="Open tin of high quality fish with lemon" class="absolute inset-0 w-full h-full object-cover">
     </div>
 </div>
 
-<!-- MAIN CONTENT WRAPPER -->
 <div class="container mx-auto px-6 max-w-6xl pb-24">
     
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
         
-        <!-- LEFT COLUMN: Article Content (8/12 width) -->
         <div class="lg:col-span-8">
             
-            <!-- The Hook -->
             <div class="prose prose-lg prose-slate max-w-none mb-12 font-serif text-slate-700">
                 <p class="lead text-2xl italic text-slate-900">
                     "Being a current smoker is predicted to subtract more than four years of life. Having a low Omega-3 Index does the exact same thing."
@@ -49,11 +47,9 @@ permalink: /content/omega-3-protocol.html
                 </p>
             </div>
 
-            <!-- The Data Visualization (CSS Chart) -->
             <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 mb-12">
                 <h3 class="text-lg font-bold text-slate-900 mb-6 font-sans uppercase tracking-wider">Life Expectancy Reduction</h3>
                 
-                <!-- Bar 1: Smoking -->
                 <div class="mb-6">
                     <div class="flex justify-between text-sm font-bold text-slate-700 mb-2">
                         <span>Smoker</span>
@@ -64,7 +60,6 @@ permalink: /content/omega-3-protocol.html
                     </div>
                 </div>
 
-                <!-- Bar 2: Low Omega-3 -->
                 <div>
                     <div class="flex justify-between text-sm font-bold text-slate-700 mb-2">
                         <span>Low Omega-3 Index (<4%)</span>
@@ -77,7 +72,6 @@ permalink: /content/omega-3-protocol.html
                 <p class="text-xs text-slate-400 mt-4 italic">Source: Framingham Offspring Cohort Study (2021)</p>
             </div>
 
-            <!-- The Science -->
             <div class="prose prose-lg prose-slate max-w-none mb-12">
                 <h2 class="font-serif font-bold text-3xl text-slate-900">The "8%" Target</h2>
                 <p class="font-sans text-base">
@@ -89,7 +83,6 @@ permalink: /content/omega-3-protocol.html
                 </ul>
             </div>
 
-            <!-- The Solution -->
             <div class="bg-blue-50 rounded-2xl p-8 border border-blue-100 mb-12">
                 <h2 class="text-2xl font-serif font-bold text-slate-900 mb-4">My Protocol: One Tin A Day</h2>
                 <p class="font-sans text-slate-700 mb-6">
@@ -104,24 +97,20 @@ permalink: /content/omega-3-protocol.html
                 </div>
             </div>
 
-             <!-- Share Bar Include -->
              <div class="pt-8 border-t border-slate-200">
                 {% include "share-bar.njk" %}
              </div>
 
         </div>
 
-        <!-- RIGHT COLUMN: Sidebar / Sourcing (4/12 width) -->
         <div class="lg:col-span-4 space-y-8">
             
-            <!-- Sourcing Card -->
             <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 sticky top-24">
                 <h2 class="text-lg font-serif font-bold text-slate-900 mb-4">My Preferred Brands</h2>
                 <p class="text-sm text-slate-500 mb-6">I rotate between these brands to keep things interesting. High quality, sustainable, and packed with Omega-3s.</p>
                 
                 <div class="space-y-4">
                     
-                    <!-- Brunswick (Affiliate) -->
                     <div class="flex justify-between items-start">
                         <div>
                             <p class="font-semibold text-slate-800 text-sm">Kippered Herring</p>
@@ -131,7 +120,6 @@ permalink: /content/omega-3-protocol.html
                     </div>
                     <div class="h-px bg-slate-100"></div>
 
-                    <!-- Fishwife -->
                     <div class="flex justify-between items-start">
                         <div>
                             <p class="font-semibold text-slate-800 text-sm">Smoked Tinned Fish</p>
@@ -141,7 +129,6 @@ permalink: /content/omega-3-protocol.html
                     </div>
                     <div class="h-px bg-slate-100"></div>
 
-                    <!-- King Oscar -->
                     <div class="flex justify-between items-start">
                         <div>
                             <p class="font-semibold text-slate-800 text-sm">Sardines / Mackerel</p>
@@ -151,7 +138,6 @@ permalink: /content/omega-3-protocol.html
                     </div>
                     <div class="h-px bg-slate-100"></div>
 
-                     <!-- Wild Planet -->
                      <div class="flex justify-between items-start">
                         <div>
                             <p class="font-semibold text-slate-800 text-sm">Sardines</p>
@@ -161,7 +147,6 @@ permalink: /content/omega-3-protocol.html
                     </div>
                     <div class="h-px bg-slate-100"></div>
 
-                    <!-- TJ's Salmon -->
                     <div class="flex justify-between items-start">
                         <div>
                             <p class="font-semibold text-slate-800 text-sm">Smoked Salmon</p>
@@ -170,7 +155,6 @@ permalink: /content/omega-3-protocol.html
                         <span class="text-xs font-bold text-slate-400 border border-slate-200 px-3 py-1 rounded bg-slate-50 cursor-default">In Store</span>
                     </div>
 
-                     <!-- TJ's Trout -->
                      <div class="flex justify-between items-start mt-4">
                         <div>
                             <p class="font-semibold text-slate-800 text-sm">Smoked Trout</p>

@@ -4,6 +4,9 @@ title: The HeartHealth Case for Cottage Cheese | HeartHealth Brands
 description: It is trending for protein, but is it safe for your arteries? The science on Casein, sodium, and the specific low-fat brands we recommend.
 image: /images/cottage-cheese-hero.png
 permalink: /content/cottage-cheese.html
+date: 2026-01-29
+tags: ['guide', 'nutrition', 'dairy', 'high-protein']
+badges: ['Nutrition Protocol', 'High Protein', 'Casein Rich']
 ---
 
 <div class="bg-white">

@@ -2,8 +2,11 @@
 layout: base.njk
 title: The Ultimate Heart-Healthy Smoothie | HeartHealth Brands
 description: A delicious, nutrient-dense, high-fiber smoothie recipe designed to help you naturally lower cholesterol and improve heart health.
-image: https://www.hearthealthbrands.com/images/smoothie-feature.png
+image: /images/smoothie-hero.png
 permalink: /content/smoothie-recipe.html
+date: 2026-01-28
+tags: ['recipe', 'breakfast', 'smoothie', 'high-protein', 'high-fiber']
+badges: ['Breakfast Recipe', 'High Fiber', 'Antioxidant Rich']
 ---
 
 <div class="bg-white">

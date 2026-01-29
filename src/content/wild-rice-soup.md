@@ -1,9 +1,12 @@
 ---
 layout: base.njk
-title: Cozy Autumn Wild Rice Soup (The Pre-Holiday Reset) | HeartHealth Brands
+title: Cozy Autumn Wild Rice Soup (The Pre-Holiday Reset)
 description: A creamy, nutrient-dense soup loaded with kale, mushrooms, and antioxidants. The perfect meal to support your heart before the holiday season. Recipe by Gimme Some Oven.
 image: /images/wild-rice-soup-hero.png
 permalink: /content/wild-rice-soup.html
+date: 2025-11-20
+tags: ['recipe', 'soup', 'dinner', 'dairy-free', 'seasonal']
+badges: ['Seasonal Reset', 'Dairy Free', 'Immunity Boost']
 ---
 
 <div class="bg-white">
@@ -113,7 +116,7 @@ permalink: /content/wild-rice-soup.html
                 </div>
             </div>
 
-             <div class="pt-8 border-t border-slate-200">
+             <div class="pt-8 border-t border-slate-200 mt-12">
                 {% include "share-bar.njk" %}
              </div>
 

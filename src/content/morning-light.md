@@ -4,9 +4,11 @@ title: The Morning Light Protocol | HeartHealth Brands
 description: Why viewing sunlight within 60 minutes of waking is one of the most powerful levers for sleep quality, mental health, and cardiovascular resilience.
 image: /images/morning-light-hero.png
 permalink: /content/morning-light.html
+date: 2026-01-12
+tags: ['protocol', 'lifestyle', 'circadian-rhythm', 'sleep']
+badges: ['Lifestyle Protocol', 'Circadian Health', 'Zero Cost']
 ---
 
-<!-- TITLE HEADER -->
 <div class="bg-white">
     <div class="container mx-auto px-6 pt-12 pb-8 text-center max-w-4xl">
         <span class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-yellow-800 uppercase bg-yellow-50 border border-yellow-100 rounded-full">
@@ -21,23 +23,18 @@ permalink: /content/morning-light.html
     </div>
 </div>
 
-<!-- HERO IMAGE -->
 <div class="container mx-auto px-6 max-w-5xl mb-12">
     <div class="relative rounded-2xl overflow-hidden shadow-xl aspect-video md:aspect-[21/9] bg-slate-100">
-        <!-- Replace with your sunrise walking photo -->
         <img src="/images/morning-light-hero.png" alt="Morning walk at sunrise" class="absolute inset-0 w-full h-full object-cover">
     </div>
 </div>
 
-<!-- MAIN CONTENT WRAPPER -->
 <div class="container mx-auto px-6 max-w-6xl pb-24">
     
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
         
-        <!-- LEFT COLUMN: Article Content (8/12 width) -->
         <div class="lg:col-span-8">
             
-            <!-- The Hook -->
             <div class="prose prose-lg prose-slate max-w-none mb-12 font-serif text-slate-700">
                 <p class="lead text-2xl italic text-slate-900">
                     "Circadian health is the foundation of physical health."
@@ -50,12 +47,10 @@ permalink: /content/morning-light.html
                 </p>
             </div>
 
-            <!-- The Data Visualization (Lux Comparison) -->
             <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 mb-12">
                 <h3 class="text-lg font-bold text-slate-900 mb-6 font-sans uppercase tracking-wider">Why "Looking out a window" isn't enough</h3>
                 <p class="text-sm text-slate-600 mb-6">Windows filter out the specific wavelengths needed to trigger the circadian reset. You must be outdoors. The difference in light intensity (measured in LUX) is staggering.</p>
                 
-                <!-- Bar 1: Indoor -->
                 <div class="mb-6">
                     <div class="flex justify-between text-sm font-bold text-slate-700 mb-2">
                         <span>Typical Indoor Office</span>
@@ -66,7 +61,6 @@ permalink: /content/morning-light.html
                     </div>
                 </div>
 
-                <!-- Bar 2: Outdoor -->
                 <div>
                     <div class="flex justify-between text-sm font-bold text-slate-700 mb-2">
                         <span>Outdoor Morning Sun</span>
@@ -78,7 +72,6 @@ permalink: /content/morning-light.html
                 </div>
             </div>
 
-            <!-- The Heart Connection -->
             <div class="prose prose-lg prose-slate max-w-none mb-12">
                 <h2 class="font-serif font-bold text-3xl text-slate-900">The Heart Health Connection</h2>
                 <p class="font-sans text-base">
@@ -92,7 +85,6 @@ permalink: /content/morning-light.html
                 </p>
             </div>
 
-            <!-- The Protocol -->
             <div class="bg-yellow-50 rounded-2xl p-8 border border-yellow-100 mb-12">
                 <h2 class="text-2xl font-serif font-bold text-slate-900 mb-4">The Protocol</h2>
                 <p class="font-sans text-slate-700 mb-6">
@@ -121,24 +113,20 @@ permalink: /content/morning-light.html
                 </ul>
             </div>
 
-             <!-- Share Bar Include -->
              <div class="pt-8 border-t border-slate-200">
                 {% include "share-bar.njk" %}
              </div>
 
         </div>
 
-        <!-- RIGHT COLUMN: Sidebar / Gear (4/12 width) -->
         <div class="lg:col-span-4 space-y-8">
             
-            <!-- Gear Card -->
             <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 sticky top-24">
                 <h2 class="text-lg font-serif font-bold text-slate-900 mb-4">Gear We Use</h2>
                 <p class="text-sm text-slate-500 mb-6">Simple equipment to encourage daily movement.</p>
                 
                 <div class="space-y-4">
                     
-                    <!-- Diadora -->
                     <div class="flex justify-between items-start">
                         <div>
                             <p class="font-semibold text-slate-800 text-sm">Walking Shoes</p>
@@ -148,7 +136,6 @@ permalink: /content/morning-light.html
                     </div>
                     <div class="h-px bg-slate-100"></div>
 
-                    <!-- Note -->
                     <div class="bg-slate-50 p-3 rounded-lg">
                         <p class="text-xs text-slate-500 italic">
                             "The most important thing is regularity. Make sure you do it every day around the same time."

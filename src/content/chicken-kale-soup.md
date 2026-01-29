@@ -4,6 +4,9 @@ title: One-Pot Chicken Sausage & Kale Soup | HeartHealth Brands
 description: A soul-warming soup that swaps heavy pork for lean chicken sausage. Packed with Vitamin K-rich kale and pearl couscous.
 image: /images/chicken-kale-soup.png
 permalink: /content/chicken-kale-soup.html
+date: 2026-01-20
+tags: ['recipe', 'soup', 'dinner', 'one-pot']
+badges: ['Seasonal Protocol', 'Lean Protein', 'One Pot']
 ---
 
 <div class="bg-white">
@@ -153,7 +156,7 @@ permalink: /content/chicken-kale-soup.html
                         <span><strong>1</strong> Yellow Onion</span>
                     </div>
 
-                     <div class="flex items-center gap-3 pb-3 border-b border-slate-50">
+                      <div class="flex items-center gap-3 pb-3 border-b border-slate-50">
                         <input type="checkbox" class="rounded border-slate-300 text-primary focus:ring-primary">
                         <span><strong>2 Cloves</strong> Garlic</span>
                     </div>

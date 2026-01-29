@@ -4,6 +4,9 @@ title: The HeartHealth Oat Bowl | HeartHealth Brands
 description: A high-protein, medical-grade fiber breakfast designed to actively lower LDL cholesterol and keep you full for hours.
 image: /images/oat-bowl-hero.png
 permalink: /content/oat-bowl-recipe.html
+date: 2026-01-28
+tags: ['recipe', 'breakfast', 'high-protein', 'high-fiber', 'oats']
+badges: ['Signature Recipe', 'High Protein', '26g Fiber']
 ---
 
 <div class="bg-white">

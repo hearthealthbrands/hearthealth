@@ -1,9 +1,12 @@
 ---
 layout: base.njk
-title: "The Travel Protocol: A TSA-Approved Heart Kit | HeartHealth Brands"
+title: "The Travel Protocol: A TSA-Approved Heart Kit"
 description: Airports are food deserts for heart health. Here is the exact "Snack Kit" I pack to avoid sodium bombs and seed oils while traveling.
 image: /images/travel-kit-hero.png
 permalink: /content/travel-protocol.html
+date: 2026-01-29
+tags: ['guide', 'travel', 'lifestyle', 'snack']
+badges: ['Lifestyle Protocol', 'Travel Safe', 'Low Sodium']
 ---
 
 <div class="bg-white">

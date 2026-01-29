@@ -1,12 +1,14 @@
 ---
 layout: base.njk
-title: "The Snacking Protocol: Environment > Willpower | HeartHealth Brands"
+title: "The Snacking Protocol: Environment > Willpower"
 description: Why relying on willpower to stop snacking fails, and how to design your environment for heart health using the 'Atomic Habits' approach.
 image: /images/snacking-hero.png
 permalink: /content/snacking-environment.html
+date: 2026-01-15
+tags: ['guide', 'lifestyle', 'snacking', 'habit-formation']
+badges: ['Behavioral Protocol', 'Atomic Habits', 'Environment Design']
 ---
 
-<!-- TITLE HEADER -->
 <div class="bg-white">
     <div class="container mx-auto px-6 pt-12 pb-8 text-center max-w-4xl">
         <span class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-amber-800 uppercase bg-amber-50 border border-amber-100 rounded-full">
@@ -21,22 +23,18 @@ permalink: /content/snacking-environment.html
     </div>
 </div>
 
-<!-- HERO IMAGE -->
 <div class="container mx-auto px-6 max-w-5xl mb-12">
     <div class="relative rounded-2xl overflow-hidden shadow-xl aspect-video md:aspect-[21/9] bg-slate-100">
         <img src="/images/snacking-hero.png" alt="Healthy snacking environment" class="absolute inset-0 w-full h-full object-cover">
     </div>
 </div>
 
-<!-- MAIN CONTENT WRAPPER -->
 <div class="container mx-auto px-6 max-w-6xl pb-24">
     
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
         
-        <!-- LEFT COLUMN: Article Content (8/12 width) -->
         <div class="lg:col-span-8">
             
-            <!-- The James Clear Hook -->
             <div class="prose prose-lg prose-slate max-w-none mb-12 font-serif text-slate-700">
                 <p class="lead text-2xl italic text-slate-900 border-l-4 border-primary pl-6 my-8">
                     "Environment is the invisible hand that shapes human behavior. We tend to believe our habits are a product of our motivation... But the surprising thing is, your personal characteristics tend to get overpowered by your environment."
@@ -49,7 +47,6 @@ permalink: /content/snacking-environment.html
                 </p>
             </div>
 
-            <!-- The Strategy Box -->
             <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 mb-12">
                 <h3 class="text-lg font-bold text-slate-900 mb-6 font-sans uppercase tracking-wider">The Strategy: Automate The Decision</h3>
                 
@@ -72,7 +69,6 @@ permalink: /content/snacking-environment.html
                 </div>
             </div>
 
-            <!-- The Heart Healthy Swaps -->
             <div class="prose prose-lg prose-slate max-w-none mb-12">
                 <h2 class="font-serif font-bold text-3xl text-slate-900">The Lipid-Lowering List</h2>
                 <p class="font-sans text-base">
@@ -80,10 +76,8 @@ permalink: /content/snacking-environment.html
                 </p>
             </div>
 
-            <!-- Nut Cards -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                 
-                <!-- Walnut Card -->
                 <div class="bg-white border border-slate-200 rounded-xl p-6 hover:border-primary/50 transition-colors">
                     <div class="flex items-center justify-between mb-4">
                         <h3 class="font-bold text-xl text-slate-900 font-serif">Walnuts</h3>
@@ -95,7 +89,6 @@ permalink: /content/snacking-environment.html
                     <div class="text-xs text-slate-400 font-mono">Recommended: Trader Joe's Raw Halves</div>
                 </div>
 
-                <!-- Almond Card -->
                 <div class="bg-white border border-slate-200 rounded-xl p-6 hover:border-primary/50 transition-colors">
                     <div class="flex items-center justify-between mb-4">
                         <h3 class="font-bold text-xl text-slate-900 font-serif">Almonds</h3>
@@ -109,24 +102,20 @@ permalink: /content/snacking-environment.html
 
             </div>
 
-             <!-- Share Bar Include -->
              <div class="pt-8 border-t border-slate-200">
                 {% include "share-bar.njk" %}
              </div>
 
         </div>
 
-        <!-- RIGHT COLUMN: Sidebar / Sourcing (4/12 width) -->
         <div class="lg:col-span-4 space-y-8">
             
-            <!-- Sourcing Card -->
             <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 sticky top-24">
                 <h2 class="text-lg font-serif font-bold text-slate-900 mb-4">The Pantry List</h2>
                 <p class="text-sm text-slate-500 mb-6 font-sans">Keep these visible. Hide everything else.</p>
                 
                 <div class="space-y-4 font-sans">
                     
-                    <!-- Walnuts -->
                     <div class="flex justify-between items-start">
                         <div>
                             <p class="font-semibold text-slate-800 text-sm">Walnuts (Raw)</p>
@@ -136,7 +125,6 @@ permalink: /content/snacking-environment.html
                     </div>
                     <div class="h-px bg-slate-100"></div>
 
-                    <!-- Almonds -->
                     <div class="flex justify-between items-start">
                         <div>
                             <p class="font-semibold text-slate-800 text-sm">Almonds (Unsalted)</p>
@@ -146,7 +134,6 @@ permalink: /content/snacking-environment.html
                     </div>
                     <div class="h-px bg-slate-100"></div>
 
-                    <!-- Recommended Reading (Affiliate) -->
                     <div class="bg-slate-50 p-4 rounded-lg mt-6 border border-slate-100">
                         <h4 class="font-bold text-slate-900 text-sm mb-2">Inspiration</h4>
                         <p class="text-xs text-slate-500 italic mb-3">

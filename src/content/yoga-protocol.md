@@ -4,6 +4,9 @@ title: The Yoga Protocol | HeartHealth Brands
 description: New research suggests yoga lowers LDL cholesterol as effectively as brisk walking. Here is the science behind the mind-body connection to heart health.
 image: /images/yoga-hero.png
 permalink: /content/yoga-protocol.html
+date: 2026-02-01
+tags: ['protocol', 'exercise', 'lifestyle', 'yoga']
+badges: ['Movement Protocol', 'Stress Reduction', 'Heart Health']
 ---
 
 <div class="bg-white">

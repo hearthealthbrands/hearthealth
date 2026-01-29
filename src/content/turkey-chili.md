@@ -4,6 +4,9 @@ title: The "Fiber-First" Turkey Chili | HeartHealth Brands
 description: A modification of the internet-famous Ambitious Kitchen recipe. We swap the sour cream for Greek Yogurt to lower saturated fat while keeping 100% of the flavor.
 image: /images/turkey-chili-hero.png
 permalink: /content/turkey-chili.html
+date: 2026-01-29
+tags: ['recipe', 'dinner', 'high-fiber', 'chili']
+badges: ['Heart Healthy', 'High Fiber', 'Protein Packed']
 ---
 
 <div class="bg-white">
@@ -119,7 +122,7 @@ permalink: /content/turkey-chili.html
                 </div>
             </div>
 
-             <div class="pt-8 border-t border-slate-200">
+             <div class="pt-8 border-t border-slate-200 mt-12">
                 {% include "share-bar.njk" %}
              </div>
 
@@ -128,55 +131,71 @@ permalink: /content/turkey-chili.html
         <div class="lg:col-span-4 space-y-8">
             
             <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 sticky top-24">
-                <h2 class="text-lg font-serif font-bold text-slate-900 mb-4">Sourcing</h2>
-                <p class="text-sm text-slate-500 mb-6">Specific brands we use for this protocol.</p>
+                <h2 class="text-lg font-serif font-bold text-slate-900 mb-6">Ingredients</h2>
                 
-                <div class="space-y-4">
+                <div class="space-y-3 text-sm text-slate-700">
                     
-                    <div class="flex justify-between items-start">
-                        <div>
-                            <p class="font-semibold text-slate-800 text-sm">Greek Yogurt</p>
-                            <p class="text-xs text-slate-500">Fage Total 0%</p>
-                        </div>
-                        <a href="https://www.amazon.com/FAGE-TOTAL-Plain-Greek-Yogurt/dp/B006WBVSV6/ref=sr_1_1_us_f3_0o_wf?tag=hearthealthbr-20" target="_blank" class="text-xs font-bold text-primary hover:text-primary-dark border border-primary/30 px-3 py-1 rounded hover:bg-green-50 transition-colors">View</a>
+                    <div class="flex items-center gap-3 pb-3 border-b border-slate-50">
+                        <input type="checkbox" class="rounded border-slate-300 text-primary focus:ring-primary">
+                        <span><strong>1 lb</strong> Extra Lean Ground Turkey (99% Fat Free)</span>
                     </div>
-                    <div class="h-px bg-slate-100"></div>
 
-                    <div class="flex justify-between items-start">
-                        <div>
-                            <p class="font-semibold text-slate-800 text-sm">Kidney Beans</p>
-                            <p class="text-xs text-slate-500">Eden Foods (Organic)</p>
-                        </div>
-                        <a href="https://www.amazon.com/Eden-Foods-Organic-Kidney-Beans/dp/B00060PDFQ?tag=hearthealthbr-20" target="_blank" class="text-xs font-bold text-primary hover:text-primary-dark border border-primary/30 px-3 py-1 rounded hover:bg-green-50 transition-colors">View</a>
+                    <div class="flex items-center gap-3 pb-3 border-b border-slate-50">
+                        <input type="checkbox" class="rounded border-slate-300 text-primary focus:ring-primary">
+                        <span><strong>1</strong> Yellow Onion & <strong>1</strong> Red Bell Pepper (Chopped)</span>
                     </div>
-                    <div class="h-px bg-slate-100"></div>
 
-                    <div class="flex justify-between items-start">
-                        <div>
-                            <p class="font-semibold text-slate-800 text-sm">Tomatoes</p>
-                            <p class="text-xs text-slate-500">Cento San Marzano</p>
-                        </div>
-                        <a href="https://www.amazon.com/Cento-Certified-Marzano-Peeled-Tomatoes/dp/B08HRCF91P?tag=hearthealthbr-20" target="_blank" class="text-xs font-bold text-primary hover:text-primary-dark border border-primary/30 px-3 py-1 rounded hover:bg-green-50 transition-colors">View</a>
+                    <div class="flex items-center gap-3 pb-3 border-b border-slate-50">
+                        <input type="checkbox" class="rounded border-slate-300 text-primary focus:ring-primary">
+                        <span><strong>2 cans (15oz)</strong> Dark Red Kidney Beans (Rinsed)</span>
                     </div>
-                    <div class="h-px bg-slate-100"></div>
 
-                    <div class="flex justify-between items-start">
-                        <div>
-                            <p class="font-semibold text-slate-800 text-sm">Chicken Broth</p>
-                            <p class="text-xs text-slate-500">Pacific Foods (Low Sodium)</p>
-                        </div>
-                        <a href="https://www.amazon.com/Pacific-Foods-Organic-Sodium-Chicken/dp/B0BYQPBF44?tag=hearthealthbr-20" target="_blank" class="text-xs font-bold text-primary hover:text-primary-dark border border-primary/30 px-3 py-1 rounded hover:bg-green-50 transition-colors">View</a>
+                    <div class="flex items-center gap-3 pb-3 border-b border-slate-50">
+                        <input type="checkbox" class="rounded border-slate-300 text-primary focus:ring-primary">
+                        <span><strong>1 can (15oz)</strong> Sweet Corn (Rinsed)</span>
                     </div>
-                    <div class="h-px bg-slate-100"></div>
+
+                    <div class="flex items-center gap-3 pb-3 border-b border-slate-50">
+                        <input type="checkbox" class="rounded border-slate-300 text-primary focus:ring-primary">
+                        <span><strong>1 can (28oz)</strong> Crushed Tomatoes</span>
+                    </div>
+
+                    <div class="flex items-center gap-3 pb-3 border-b border-slate-50">
+                        <input type="checkbox" class="rounded border-slate-300 text-primary focus:ring-primary">
+                        <span><strong>1.5 cups</strong> Chicken Broth (Low Sodium)</span>
+                    </div>
+
+                    <div class="flex items-center gap-3 pb-3 border-b border-slate-50">
+                        <input type="checkbox" class="rounded border-slate-300 text-primary focus:ring-primary">
+                        <span><strong>Spices:</strong> Chili Powder (2 tbsp), Cumin (2 tsp), Oregano (1 tsp), Cayenne (dash)</span>
+                    </div>
+
+                </div>
+                
+                <div class="mt-8 bg-slate-50 p-4 rounded-lg border border-slate-100">
+                    <p class="text-xs font-bold text-slate-900 mb-4 uppercase tracking-wider">HeartHealth Approved Brands</p>
                     
-                    <div class="flex justify-between items-start">
-                        <div>
-                            <p class="font-semibold text-slate-800 text-sm">Chili Powder</p>
-                            <p class="text-xs text-slate-500">McCormick Organic</p>
-                        </div>
-                        <a href="https://www.amazon.com/McCormick-Gourmet-Organic-Chili-Powder/dp/B01F5IB4Q0?tag=hearthealthbr-20" target="_blank" class="text-xs font-bold text-primary hover:text-primary-dark border border-primary/30 px-3 py-1 rounded hover:bg-green-50 transition-colors">View</a>
+                    <div class="space-y-1">
+                        <p class="text-sm font-semibold text-slate-700">The Protein:</p>
+                        <a href="https://amzn.to/3NvZ7Re" class="block text-xs text-primary font-bold hover:underline" target="_blank" rel="noopener">
+                            JENNIE-O Fresh Extra Lean Ground Turkey (99%) →
+                        </a>
                     </div>
 
+                    <div class="space-y-1 pt-3 border-t border-slate-200 mt-3">
+                        <p class="text-sm font-semibold text-slate-700">The Fiber:</p>
+                        <a href="https://amzn.to/4r2hpI7" class="block text-xs text-primary font-bold hover:underline" target="_blank" rel="noopener">
+                            Goya Organic Red Kidney Beans (Low Sodium) →
+                        </a>
+                    </div>
+
+                    <div class="space-y-1 pt-3 border-t border-slate-200 mt-3">
+                        <p class="text-sm font-semibold text-slate-700">The Spice:</p>
+                        <a href="https://amzn.to/4r2yS3k" class="block text-xs text-primary font-bold hover:underline" target="_blank" rel="noopener">
+                            McCormick Gourmet Organic Chili Powder →
+                        </a>
+                    </div>
+                    
                     <div class="mt-4 pt-4 border-t border-slate-100">
                         <p class="text-xs text-slate-400 mb-2">Original Recipe Credit:</p>
                         <a href="https://www.ambitiouskitchen.com/seriously-the-best-healthy-turkey-chili/" target="_blank" class="block w-full bg-slate-900 text-white text-center font-bold py-3 rounded-lg hover:bg-slate-700 transition-colors text-sm">
