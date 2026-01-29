@@ -7,218 +7,177 @@ permalink: /content/oat-bowl-recipe.html
 date: 2026-01-28
 tags: ['recipe', 'breakfast', 'high-protein', 'high-fiber', 'oats']
 badges: ['Signature Recipe', 'High Protein', '26g Fiber']
+stats:
+  - { icon: 'time', text: '5 Min Prep' }
+  - { icon: 'energy', text: 'High Energy' }
+  - { icon: 'serving', text: '1 Serving' }
+nutrition:
+  - { label: 'Protein', value: '42g', color: 'text-slate-800' }
+  - { label: 'Fiber', value: '26g', color: 'text-green-600' }
+ingredients:
+  - { amount: '1/2 cup', name: 'Organic Ancient Grain Oats' }
+  - { amount: '2 tbsp', name: 'Psyllium Husk' }
+  - { amount: '1 tbsp', name: 'Chia Seeds' }
+  - { amount: '1 scoop', name: 'Protein Powder (Unflavored)' }
+  - { amount: '1 tbsp', name: 'Almond Butter' }
+  - { amount: '2 tbsp', name: 'Greek Yogurt' }
+  - { amount: '1/2 cup', name: 'Fresh Blueberries' }
+  - { amount: '1.5 cups', name: 'Water' }
+instructions:
+  - { title: 'The Cook', text: 'Combine Oats, Psyllium, Chia, and Water in a small pot. Bring to a simmer.' }
+  - { title: 'The Simmer', text: 'Cook for 3-5 minutes, stirring frequently. Add water if it becomes too thick.' }
+  - { title: 'The Protein', text: 'Remove from heat. Wait 60 seconds, then stir in protein powder to avoid clumping.' }
+  - { title: 'The Toppings', text: 'Transfer to a bowl and top with almond butter, yogurt, and blueberries.' }
+sourcing:
+  - { product: 'Psyllium Husk', brand: 'NOW Foods', url: 'https://www.amazon.com/dp/B000OSSUP0', type: 'link' }
+  - { product: 'Protein Powder', brand: 'Isopure (Unflavored)', url: 'https://www.amazon.com/dp/B002TG3QPO', type: 'link' }
+  - { product: 'Ancient Grain Oats', brand: "Trader Joe's", type: 'store' }
 ---
 
 <div class="bg-white">
-    <div class="container mx-auto px-6 pt-12 pb-8 text-center max-w-4xl">
-        <span class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-primary uppercase bg-green-50 border border-green-100 rounded-full">
-            Signature Recipe
-        </span>
-        <h1 class="text-4xl md:text-6xl font-serif font-bold text-slate-900 leading-tight mb-6">
-            The <span class="text-primary italic">HeartHealth</span> Oat Bowl
-        </h1>
-        <p class="text-lg md:text-xl text-slate-600 leading-relaxed max-w-2xl mx-auto mb-6 font-light">
-            This isn't just oatmeal. It's a strategic blend of ancient grains, soluble fiber, and protein designed to actively bind to cholesterol.
-        </p>
-        
-        <div class="flex flex-wrap justify-center gap-4 sm:gap-8 border-t border-b border-slate-100 py-4 w-full max-w-md mx-auto">
-            <div class="flex items-center gap-2 text-slate-700 font-medium">
-                <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                <span>5 Min Prep</span>
-            </div>
-            <div class="w-px h-6 bg-slate-200 hidden sm:block"></div>
-            <div class="flex items-center gap-2 text-slate-700 font-medium">
-                <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                <span>High Energy</span>
-            </div>
-             <div class="w-px h-6 bg-slate-200 hidden sm:block"></div>
-            <div class="flex items-center gap-2 text-slate-700 font-medium">
-                <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
-                <span>1 Serving</span>
-            </div>
-        </div>
+  <div class="container mx-auto px-6 pt-20 pb-12 text-center max-w-4xl">
+    <span class="inline-block px-3 py-1 mb-6 text-xs font-bold tracking-widest text-green-700 uppercase bg-green-50 border border-green-100 rounded-full">
+      {{ badges[0] }}
+    </span>
+    <h1 class="text-4xl md:text-6xl font-serif font-bold text-slate-900 leading-tight mb-6">
+      The <span class="text-green-600 italic">HeartHealth</span> Oat Bowl
+    </h1>
+    <p class="text-lg md:text-xl text-slate-500 leading-relaxed max-w-2xl mx-auto mb-10 font-light">
+      {{ description }}
+    </p>
+    
+    <div class="flex flex-wrap justify-center gap-6 sm:gap-10 border-y border-slate-100 py-6 w-full max-w-2xl mx-auto">
+      {% for stat in stats %}
+      <div class="flex items-center gap-2 text-slate-600 text-sm font-bold uppercase tracking-wider">
+        {% if stat.icon == 'time' %}
+        <svg class="w-5 h-5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        {% elsif stat.icon == 'energy' %}
+        <svg class="w-5 h-5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+        {% else %}
+        <svg class="w-5 h-5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+        {% endif %}
+        <span>{{ stat.text }}</span>
+      </div>
+      {% endfor %}
     </div>
+  </div>
 </div>
 
 <div class="container mx-auto px-6 max-w-5xl mb-12">
-    <div class="relative rounded-2xl overflow-hidden shadow-xl aspect-video md:aspect-[21/9] bg-slate-100">
-        <img src="/images/oat-bowl-hero.png" alt="The HeartHealth Oat Bowl with blueberries and almond butter" class="absolute inset-0 w-full h-full object-cover">
-    </div>
+  <div class="relative rounded-3xl overflow-hidden shadow-2xl aspect-video md:aspect-[21/9] bg-slate-100">
+    <img src="{{ image }}" alt="The HeartHealth Oat Bowl" class="absolute inset-0 w-full h-full object-cover">
+  </div>
 </div>
 
 <div class="container mx-auto px-6 max-w-6xl pb-24">
-    
-    <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 mb-12 max-w-4xl mx-auto relative overflow-hidden">
-        <div class="absolute top-0 left-0 w-1 h-full bg-primary"></div>
-        <div class="grid grid-cols-2 gap-4 divide-x divide-slate-100">
-            <div class="text-center px-2">
-                <p class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Protein</p>
-                <p class="text-3xl md:text-4xl font-serif font-bold text-slate-800">42g</p>
-            </div>
-            <div class="text-center px-2">
-                <p class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Fiber</p>
-                <p class="text-3xl md:text-4xl font-serif font-bold text-primary">26g</p>
-            </div>
-        </div>
+  
+  <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 mb-16 max-w-4xl mx-auto relative overflow-hidden">
+    <div class="absolute top-0 left-0 w-1.5 h-full bg-green-500"></div>
+    <div class="grid grid-cols-2 gap-8 divide-x divide-slate-100">
+      {% for item in nutrition %}
+      <div class="text-center">
+        <p class="text-xs font-black text-slate-400 uppercase tracking-widest mb-2">{{ item.label }}</p>
+        <p class="text-4xl md:text-5xl font-serif font-bold {{ item.color }}">{{ item.value }}</p>
+      </div>
+      {% endfor %}
     </div>
+  </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
+    <div class="lg:col-span-8 space-y-16">
+      
+      <div class="bg-white rounded-3xl shadow-sm border border-slate-200 overflow-hidden">
+        <div class="p-8 md:p-12">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+            <div>
+              <h3 class="text-2xl font-serif font-bold text-slate-900 mb-8">Ingredients</h3>
+              <ul class="space-y-4 text-slate-700">
+                {% for item in ingredients %}
+                <li class="pb-3 border-b border-slate-50 last:border-0 flex justify-between">
+                  <span class="text-slate-500 font-medium">{{ item.amount }}</span>
+                  <span class="text-slate-900 font-bold text-right">{{ item.name }}</span>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="text-2xl font-serif font-bold text-slate-900 mb-8">Method</h3>
+              <ol class="space-y-8 text-slate-700 list-none relative">
+                {% for step in instructions %}
+                <li class="relative pl-12">
+                  <span class="absolute left-0 top-0.5 flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white text-xs font-black">
+                    {{ forloop.index }}
+                  </span>
+                  <p class="font-bold text-slate-900 mb-1">{{ step.title }}</p>
+                  <p class="text-slate-600 leading-relaxed">{{ step.text }}</p>
+                </li>
+                {% endfor %}
+              </ol>
+            </div>
+          </div>
+        </div>
         
-        <div class="lg:col-span-8 space-y-12">
-            
-            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
-                <div class="p-8">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-                        <div>
-                            <h3 class="text-xl font-serif font-bold text-slate-900 mb-6 flex items-center gap-2">
-                                <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
-                                Ingredients
-                            </h3>
-                            <ul class="space-y-3 text-slate-700">
-                                <li class="pb-2 border-b border-slate-50"><span class="font-bold text-slate-900">1/2 cup</span> Organic Ancient Grain Oats</li>
-                                <li class="pb-2 border-b border-slate-50"><span class="font-bold text-slate-900">2 tbsp</span> Psyllium Husk</li>
-                                <li class="pb-2 border-b border-slate-50"><span class="font-bold text-slate-900">1 tbsp</span> Chia Seeds</li>
-                                <li class="pb-2 border-b border-slate-50"><span class="font-bold text-slate-900">1 scoop</span> Protein Powder (Unflavored or Vanilla)</li>
-                                <li class="pb-2 border-b border-slate-50"><span class="font-bold text-slate-900">1 tbsp</span> Almond Butter</li>
-                                <li class="pb-2 border-b border-slate-50"><span class="font-bold text-slate-900">2 tbsp</span> Greek Yogurt</li>
-                                <li class="pb-2 border-b border-slate-50"><span class="font-bold text-slate-900">1/2 cup</span> Sun Belle Blueberries</li>
-                                <li><span class="font-bold text-slate-900">1.5 - 2 cups</span> Water (Adjust for texture)</li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <h3 class="text-xl font-serif font-bold text-slate-900 mb-6 flex items-center gap-2">
-                                <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6h45m-4-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
-                                Hot Prep Method
-                            </h3>
-                            <ol class="space-y-6 text-slate-700 list-none relative">
-                                <li class="relative pl-8">
-                                    <span class="absolute left-0 top-0 flex items-center justify-center w-6 h-6 rounded-full bg-slate-100 text-xs font-bold text-slate-600">1</span>
-                                    <strong>The Cook:</strong> In a small pot, combine the Oats, Psyllium Husk, Chia Seeds, and Water. Bring to a simmer.
-                                </li>
-                                <li class="relative pl-8">
-                                    <span class="absolute left-0 top-0 flex items-center justify-center w-6 h-6 rounded-full bg-slate-100 text-xs font-bold text-slate-600">2</span>
-                                    <strong>The Simmer:</strong> Cook for 3-5 minutes, stirring frequently. If it gets too thick, add more water. 
-                                </li>
-                                <li class="relative pl-8">
-                                    <span class="absolute left-0 top-0 flex items-center justify-center w-6 h-6 rounded-full bg-slate-100 text-xs font-bold text-slate-600">3</span>
-                                    <strong>The Protein:</strong> Remove from heat. <em>Wait 60 seconds.</em> Stir in the protein powder. (Adding it while boiling makes it clumpy).
-                                </li>
-                                <li class="relative pl-8">
-                                    <span class="absolute left-0 top-0 flex items-center justify-center w-6 h-6 rounded-full bg-slate-100 text-xs font-bold text-slate-600">4</span>
-                                    <strong>The Toppings:</strong> Transfer to a bowl and top with almond butter, yogurt, and berries.
-                                </li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="bg-amber-50 px-8 py-6 border-t border-amber-100 flex gap-4 items-start">
-                    <svg class="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-                    <div>
-                        <h4 class="font-bold text-amber-900 text-sm uppercase tracking-wide mb-1">Texture Tip</h4>
-                        <p class="text-amber-800 text-sm">
-                            Psyllium and Chia absorb a huge amount of liquid. If the mixture looks "gummy" or too thick, don't be afraid to add an extra splash of water or almond milk to loosen it up.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bg-green-50 rounded-2xl p-8 border border-green-100">
-                <h2 class="text-2xl font-serif font-bold text-slate-900 mb-4">Why This Works (The Fiber Matrix)</h2>
-                <p class="text-slate-700 mb-6">Most oatmeal breakfasts have about 4g of fiber. This bowl has <strong>26g</strong>. Here is why that matters for your heart.</p>
-                
-                <ul class="space-y-4">
-                    <li class="flex gap-4">
-                        <div class="flex-shrink-0 w-6 h-6 rounded-full bg-green-200 flex items-center justify-center">
-                            <svg class="w-4 h-4 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="block text-slate-900 font-bold">Psyllium Husk (The Heavy Lifter)</strong>
-                            <span class="text-slate-700">This is pure soluble fiber. It turns into a gel in your gut that binds to bile acids (made from cholesterol) and removes them from your body.</span>
-                        </div>
-                    </li>
-                    <li class="flex gap-4">
-                        <div class="flex-shrink-0 w-6 h-6 rounded-full bg-green-200 flex items-center justify-center">
-                             <svg class="w-4 h-4 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="block text-slate-900 font-bold">Ancient Grain Oats</strong>
-                            <span class="text-slate-700">Contains Beta-glucan, a specific type of fiber proven to lower LDL. The addition of Amaranth and Quinoa adds texture and extra amino acids.</span>
-                        </div>
-                    </li>
-                    <li class="flex gap-4">
-                        <div class="flex-shrink-0 w-6 h-6 rounded-full bg-green-200 flex items-center justify-center">
-                             <svg class="w-4 h-4 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="block text-slate-900 font-bold">Chia Seeds</strong>
-                            <span class="text-slate-700">Provides insoluble fiber for digestion and healthy Omega-3 fatty acids, which support overall heart inflammation levels.</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-             <div class="pt-8 border-t border-slate-200">
-                {% include "share-bar.njk" %}
-             </div>
-
+        <div class="bg-amber-50 px-8 py-8 border-t border-amber-100 flex gap-5 items-start">
+          <div class="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center flex-shrink-0 text-amber-600">
+             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+          </div>
+          <div>
+            <h4 class="font-black text-amber-900 text-xs uppercase tracking-widest mb-1">Texture Tip</h4>
+            <p class="text-amber-800 text-sm leading-relaxed">
+              Psyllium and Chia are "thirsty" fibers. If the bowl looks gummy, add a splash of almond milk. Aim for a "thick pudding" consistency.
+            </p>
+          </div>
         </div>
+      </div>
 
-        <div class="lg:col-span-4 space-y-8">
-            
-            <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 sticky top-24">
-                <h2 class="text-lg font-serif font-bold text-slate-900 mb-4">The Specific Brands</h2>
-                <p class="text-sm text-slate-500 mb-6">To get the macro-nutrients listed, these are the specific products we use.</p>
-                
-                <div class="space-y-4">
-                    
-                    <div class="flex justify-between items-start">
-                        <div>
-                            <p class="font-semibold text-slate-800 text-sm">Psyllium Husk</p>
-                            <p class="text-xs text-slate-500">NOW Foods (Whole Husks)</p>
-                        </div>
-                        <a href="https://www.amazon.com/NOW-Psyllium-Husks-Whole-24-Ounce/dp/B000OSSUP0/ref=sr_1_1?tag=hearthealthbr-20" target="_blank" class="text-xs font-bold text-primary hover:text-primary-dark border border-primary/30 px-3 py-1 rounded hover:bg-green-50 transition-colors">View</a>
-                    </div>
-                    <div class="h-px bg-slate-100"></div>
-
-                    <div class="flex justify-between items-start">
-                        <div>
-                            <p class="font-semibold text-slate-800 text-sm">Protein Powder</p>
-                            <p class="text-xs text-slate-500">Isopure (Unflavored)</p>
-                        </div>
-                        <a href="https://www.amazon.com/dp/B002TG3QPO?tag=hearthealthbr-20" target="_blank" class="text-xs font-bold text-primary hover:text-primary-dark border border-primary/30 px-3 py-1 rounded hover:bg-green-50 transition-colors">View</a>
-                    </div>
-                    <div class="h-px bg-slate-100"></div>
-
-                    <div class="flex justify-between items-start">
-                        <div>
-                            <p class="font-semibold text-slate-800 text-sm">Ancient Grain Oats</p>
-                            <p class="text-xs text-slate-500">Trader Joe's (Organic)</p>
-                        </div>
-                        <span class="text-xs font-bold text-slate-400 border border-slate-200 px-3 py-1 rounded bg-slate-50 cursor-default">In Store</span>
-                    </div>
-                    <div class="h-px bg-slate-100"></div>
-
-                    <div class="flex justify-between items-start">
-                        <div>
-                            <p class="font-semibold text-slate-800 text-sm">Blueberries</p>
-                            <p class="text-xs text-slate-500">Sun Belle</p>
-                        </div>
-                        <span class="text-xs font-bold text-slate-400 border border-slate-200 px-3 py-1 rounded bg-slate-50 cursor-default">In Store</span>
-                    </div>
-                    <div class="h-px bg-slate-100"></div>
-
-                    <div class="flex justify-between items-start">
-                        <div>
-                            <p class="font-semibold text-slate-800 text-sm">Chia Seeds</p>
-                            <p class="text-xs text-slate-500">Trader Joe's (Organic)</p>
-                        </div>
-                         <span class="text-xs font-bold text-slate-400 border border-slate-200 px-3 py-1 rounded bg-slate-50 cursor-default">In Store</span>
-                    </div>
-                </div>
+      <div class="bg-slate-900 rounded-3xl p-10 text-white shadow-2xl shadow-slate-200">
+        <h2 class="text-3xl font-serif font-bold mb-4">The Fiber Matrix</h2>
+        <p class="text-slate-400 mb-10 leading-relaxed">Standard oatmeal has 4g of fiber. This bowl has 26g. Here's the heart-health math:</p>
+        
+        <div class="space-y-8">
+          <div class="flex gap-6">
+            <div class="w-12 h-12 rounded-2xl bg-green-500/20 flex items-center justify-center flex-shrink-0 text-green-400">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
             </div>
-
+            <div>
+              <p class="font-bold text-lg mb-1">Psyllium Husk</p>
+              <p class="text-slate-400 text-sm">Forms a viscous gel that traps cholesterol and clears it from the system.</p>
+            </div>
+          </div>
+          <div class="flex gap-6">
+            <div class="w-12 h-12 rounded-2xl bg-green-500/20 flex items-center justify-center flex-shrink-0 text-green-400">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+            </div>
+            <div>
+              <p class="font-bold text-lg mb-1">Beta-Glucan Matrix</p>
+              <p class="text-slate-400 text-sm">Oats provide specific fibers proven to lower LDL without affecting HDL.</p>
+            </div>
+          </div>
         </div>
+      </div>
+
     </div>
+
+    <div class="lg:col-span-4">
+      <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 sticky top-24">
+        <h2 class="text-xl font-serif font-bold text-slate-900 mb-6">Sourcing Guide</h2>
+        <div class="space-y-6">
+          {% for item in sourcing %}
+          <div class="flex justify-between items-center group">
+            <div>
+              <p class="font-bold text-slate-800 text-sm">{{ item.product }}</p>
+              <p class="text-[10px] text-slate-400 uppercase tracking-widest font-black">{{ item.brand }}</p>
+            </div>
+            {% if item.type == 'link' %}
+            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="text-xs font-black text-green-600 hover:text-green-700 transition-colors uppercase tracking-widest">Buy</a>
+            {% else %}
+            <span class="text-[10px] font-bold text-slate-300 uppercase tracking-widest">Store</span>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
