@@ -43,34 +43,58 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
         <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 p-8 mb-16 relative overflow-hidden">
             <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-teal-500 via-emerald-400 to-teal-500"></div>
 
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-y-8 md:gap-y-0 md:divide-x divide-slate-100">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-y-12 md:gap-y-0 md:divide-x divide-slate-100">
                 
                 <div class="flex flex-col items-center text-center px-2">
-                    <span class="text-3xl mb-3">🐟</span>
-                    <span class="block text-3xl font-serif font-bold text-slate-900">3g+</span>
-                    <span class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Omega-3s</span>
-                    <span class="text-xs text-slate-500">EPA/DHA & ALA</span>
+                    <div class="h-12 flex items-center justify-center mb-2">
+                        <span class="text-4xl">🐟</span>
+                    </div>
+                    <div class="h-10 flex items-center justify-center w-full">
+                        <span class="text-3xl font-serif font-bold text-slate-900 leading-none">3g+</span>
+                    </div>
+                    <div class="mt-2">
+                        <span class="block text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Omega-3s</span>
+                        <span class="block text-xs text-slate-500">EPA/DHA & ALA</span>
+                    </div>
                 </div>
 
                 <div class="flex flex-col items-center text-center px-2">
-                    <span class="text-3xl mb-3">🥜</span>
-                    <span class="block text-3xl font-serif font-bold text-slate-900">Sterols</span>
-                    <span class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Plant Defense</span>
-                    <span class="text-xs text-slate-500">Blocks Absorption</span>
+                    <div class="h-12 flex items-center justify-center mb-2">
+                        <span class="text-4xl">🥜</span>
+                    </div>
+                    <div class="h-10 flex items-center justify-center w-full">
+                        <span class="text-2xl font-serif font-bold text-slate-900 leading-none">Sterols</span>
+                    </div>
+                    <div class="mt-2">
+                        <span class="block text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Plant Defense</span>
+                        <span class="block text-xs text-slate-500">Blocks Absorption</span>
+                    </div>
                 </div>
 
                 <div class="flex flex-col items-center text-center px-2">
-                    <span class="text-3xl mb-3">💪</span>
-                    <span class="block text-3xl font-serif font-bold text-slate-900">36g</span>
-                    <span class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Protein</span>
-                    <span class="text-xs text-slate-500">Complete Profile</span>
+                    <div class="h-12 flex items-center justify-center mb-2">
+                        <span class="text-4xl">💪</span>
+                    </div>
+                    <div class="h-10 flex items-center justify-center w-full">
+                        <span class="text-3xl font-serif font-bold text-slate-900 leading-none">36g</span>
+                    </div>
+                    <div class="mt-2">
+                        <span class="block text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Protein</span>
+                        <span class="block text-xs text-slate-500">Complete Profile</span>
+                    </div>
                 </div>
 
                 <div class="flex flex-col items-center text-center px-2">
-                    <span class="text-3xl mb-3">⏱️</span>
-                    <span class="block text-3xl font-serif font-bold text-slate-900">25m</span>
-                    <span class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Total Time</span>
-                    <span class="text-xs text-slate-500">Sheet Pan Meal</span>
+                    <div class="h-12 flex items-center justify-center mb-2">
+                        <span class="text-4xl">⏱️</span>
+                    </div>
+                    <div class="h-10 flex items-center justify-center w-full">
+                        <span class="text-3xl font-serif font-bold text-slate-900 leading-none">25m</span>
+                    </div>
+                    <div class="mt-2">
+                        <span class="block text-xs font-bold text-teal-600 uppercase tracking-widest mb-1">Total Time</span>
+                        <span class="block text-xs text-slate-500">Sheet Pan Meal</span>
+                    </div>
                 </div>
 
             </div>
