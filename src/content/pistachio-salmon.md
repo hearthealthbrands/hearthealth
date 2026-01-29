@@ -43,9 +43,9 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
         <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 p-8 mb-16 relative overflow-hidden">
             <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-teal-500 via-emerald-400 to-teal-500"></div>
 
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-y-12 md:gap-y-0 md:divide-x divide-slate-100">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-y-12 md:gap-y-0 md:divide-x divide-slate-100 items-start">
                 
-                <div class="flex flex-col items-center text-center px-2">
+                <div class="flex flex-col items-center text-center px-2 justify-start h-full">
                     <div class="h-12 flex items-center justify-center mb-2">
                         <span class="text-4xl">🐟</span>
                     </div>
@@ -58,7 +58,7 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                     </div>
                 </div>
 
-                <div class="flex flex-col items-center text-center px-2">
+                <div class="flex flex-col items-center text-center px-2 justify-start h-full">
                     <div class="h-12 flex items-center justify-center mb-2">
                         <span class="text-4xl">🥜</span>
                     </div>
@@ -71,7 +71,7 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                     </div>
                 </div>
 
-                <div class="flex flex-col items-center text-center px-2">
+                <div class="flex flex-col items-center text-center px-2 justify-start h-full">
                     <div class="h-12 flex items-center justify-center mb-2">
                         <span class="text-4xl">💪</span>
                     </div>
@@ -84,7 +84,7 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                     </div>
                 </div>
 
-                <div class="flex flex-col items-center text-center px-2">
+                <div class="flex flex-col items-center text-center px-2 justify-start h-full">
                     <div class="h-12 flex items-center justify-center mb-2">
                         <span class="text-4xl">⏱️</span>
                     </div>
