@@ -5,13 +5,12 @@ description: A delicious, nutrient-dense, high-fiber smoothie recipe designed to
 image: /images/smoothie-hero.png
 permalink: /content/smoothie-recipe.html
 date: 2026-01-28
-templateEngineOverride: njk, md
 tags: ['recipe', 'breakfast', 'smoothie', 'high-protein', 'high-fiber']
 badges: ['Breakfast Recipe', 'High Fiber', 'Antioxidant Rich']
 nutrition:
-  calories: { label: 'Calories', value: '~313', color: 'text-slate-800' }
-  protein: { label: 'Protein', value: '35g', color: 'text-slate-800' }
-  fiber: { label: 'Fiber', value: '9g', color: 'text-green-600' }
+  - { label: 'Calories', value: '~313', color: 'text-slate-800' }
+  - { label: 'Protein', value: '35g', color: 'text-slate-800' }
+  - { label: 'Fiber', value: '9g', color: 'text-green-600' }
 ingredients:
   - { amount: '1 scoop', name: 'Protein Powder (Unflavored)' }
   - { amount: '1 tbsp', name: 'Almond Butter (Unsweetened)' }
@@ -39,7 +38,7 @@ sourcing:
       {% endfor %}
     </div>
     <h1 class="text-3xl md:text-5xl font-extrabold text-slate-900 leading-tight mb-6">
-      {{ title | replace(" | HeartHealth Brands", "") }}
+      {{ title | replace: " | HeartHealth Brands", "" }}
     </h1>
     <p class="text-lg md:text-xl text-slate-600 leading-relaxed">
       {{ description }}
@@ -53,14 +52,14 @@ sourcing:
 
 <div class="container mx-auto px-6 max-w-5xl mb-12">
   <div class="relative rounded-3xl overflow-hidden shadow-2xl aspect-video md:aspect-[21/9]">
-    <img src="{{ image }}" alt="A delicious and vibrant heart-healthy berry smoothie in a glass." class="absolute inset-0 w-full h-full object-cover">
+    <img src="{{ image }}" alt="A delicious berry smoothie." class="absolute inset-0 w-full h-full object-cover">
   </div>
 </div>
 
 <div class="container mx-auto px-6 max-w-6xl pb-24">
   <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 mb-12 max-w-4xl mx-auto">
     <div class="grid grid-cols-3 gap-4 divide-x divide-slate-100">
-      {% for key, item in nutrition %}
+      {% for item in nutrition %}
       <div class="text-center px-2">
         <p class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">{{ item.label }}</p>
         <p class="text-2xl md:text-3xl font-extrabold tabular-nums {{ item.color }}">{{ item.value }}</p>
@@ -97,7 +96,7 @@ sourcing:
                 {% for step in instructions %}
                 <li class="relative pl-10">
                   <span class="absolute left-0 top-0.5 flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-xs font-bold text-slate-600">
-                    {{ loop.index }}
+                    {{ forloop.index }}
                   </span>
                   {{ step }}
                 </li>
@@ -106,37 +105,18 @@ sourcing:
             </div>
           </div>
         </div>
-
-        <div class="bg-blue-50 px-8 py-6 border-t border-blue-100 flex gap-4 items-start">
-          <svg class="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-          <div>
-            <h4 class="font-bold text-blue-900 text-sm uppercase tracking-wide mb-1">Prep Tip</h4>
-            <p class="text-blue-800 text-sm">Pre-portion the dry ingredients and spinach into freezer-safe bags for a 30-second morning routine.</p>
-          </div>
-        </div>
       </div>
 
       <div class="bg-green-50 rounded-2xl p-8 border border-green-100">
         <h2 class="text-2xl font-bold text-slate-900 mb-4">Why This Works for Heart Health</h2>
-        <p class="text-slate-700 mb-6">Every component is selected to support cardiovascular function and cholesterol management.</p>
-
         <ul class="space-y-6">
           <li class="flex gap-4">
             <div class="flex-shrink-0 w-6 h-6 rounded-full bg-green-200 flex items-center justify-center mt-1">
-              <svg class="w-4 h-4 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <svg class="w-4 h-4 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
             </div>
             <div>
               <strong class="block text-slate-900 font-bold">Monounsaturated Fats</strong>
-              <span class="text-slate-700">Almond butter provides heart-healthy fats that help improve your lipid profile.</span>
-            </div>
-          </li>
-          <li class="flex gap-4">
-            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-green-200 flex items-center justify-center mt-1">
-              <svg class="w-4 h-4 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-            </div>
-            <div>
-              <strong class="block text-slate-900 font-bold">Soluble Fiber Action</strong>
-              <span class="text-slate-700">The fiber in berries and spinach acts as a "sponge" for cholesterol in the digestive tract.</span>
+              <span class="text-slate-700">Almond butter provides fats that support healthy cholesterol levels.</span>
             </div>
           </li>
         </ul>
@@ -150,8 +130,6 @@ sourcing:
     <div class="lg:col-span-4">
       <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 sticky top-24">
         <h2 class="text-lg font-bold text-slate-900 mb-4">Ingredient Sourcing</h2>
-        <p class="text-sm text-slate-500 mb-6">Tested and recommended brands for maximum purity.</p>
-
         <div class="space-y-4">
           {% for item in sourcing %}
           <div class="flex justify-between items-start gap-4">
@@ -159,11 +137,8 @@ sourcing:
               <p class="font-semibold text-slate-800 text-sm">{{ item.product }}</p>
               <p class="text-xs text-slate-500">{{ item.brand }}</p>
             </div>
-            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ item.product }} sourcing" class="text-xs font-bold text-green-600 hover:text-green-700 border border-green-200 px-3 py-1 rounded hover:bg-green-50 transition-colors shrink-0">
-              View
-            </a>
+            <a href="{{ item.url }}" target="_blank" class="text-xs font-bold text-green-600 border border-green-200 px-3 py-1 rounded hover:bg-green-50 transition-colors shrink-0">View</a>
           </div>
-          {% if not loop.last %}<div class="h-px bg-slate-100"></div>{% endif %}
           {% endfor %}
         </div>
       </div>
