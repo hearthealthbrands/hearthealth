@@ -43,41 +43,41 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
         <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 p-8 mb-16 relative overflow-hidden">
             <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-teal-500 via-emerald-400 to-teal-500"></div>
 
-            <div class="flex flex-wrap md:flex-nowrap items-start md:divide-x divide-slate-100">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-y-12 md:gap-y-0 md:divide-x divide-slate-100 items-start">
                 
-                <div class="w-1/2 md:w-1/4 flex flex-col items-center text-center px-2 mb-8 md:mb-0">
-                    <span class="text-4xl mb-3 block">🐟</span>
-                    <span class="text-3xl font-serif font-bold text-slate-900 leading-none mb-2">3g+</span>
-                    <div class="flex flex-col">
-                        <span class="text-[10px] font-bold text-teal-600 uppercase tracking-widest mb-1">Omega-3s</span>
-                        <span class="text-[10px] text-slate-500">EPA/DHA & ALA</span>
+                <div class="flex flex-col items-center text-center px-2">
+                    <span class="text-4xl mb-4 block">🐟</span>
+                    <span class="text-3xl font-serif font-bold text-slate-900 leading-none mb-3">3g+</span>
+                    <div class="min-h-[40px]">
+                        <span class="block text-[10px] font-bold text-teal-600 uppercase tracking-widest mb-1">Omega-3s</span>
+                        <span class="block text-[10px] text-slate-500">EPA/DHA & ALA</span>
                     </div>
                 </div>
 
-                <div class="w-1/2 md:w-1/4 flex flex-col items-center text-center px-2 mb-8 md:mb-0">
-                    <span class="text-4xl mb-3 block">🥜</span>
-                    <span class="text-3xl font-serif font-bold text-slate-900 leading-none mb-2">Sterols</span>
-                    <div class="flex flex-col">
-                        <span class="text-[10px] font-bold text-teal-600 uppercase tracking-widest mb-1">Plant Defense</span>
-                        <span class="text-[10px] text-slate-500">Blocks Absorption</span>
+                <div class="flex flex-col items-center text-center px-2">
+                    <span class="text-4xl mb-4 block">🥜</span>
+                    <span class="text-3xl font-serif font-bold text-slate-900 leading-none mb-3">Sterols</span>
+                    <div class="min-h-[40px]">
+                        <span class="block text-[10px] font-bold text-teal-600 uppercase tracking-widest mb-1">Plant Defense</span>
+                        <span class="block text-[10px] text-slate-500">Blocks Absorption</span>
                     </div>
                 </div>
 
-                <div class="w-1/2 md:w-1/4 flex flex-col items-center text-center px-2">
-                    <span class="text-4xl mb-3 block">💪</span>
-                    <span class="text-3xl font-serif font-bold text-slate-900 leading-none mb-2">36g</span>
-                    <div class="flex flex-col">
-                        <span class="text-[10px] font-bold text-teal-600 uppercase tracking-widest mb-1">Protein</span>
-                        <span class="text-[10px] text-slate-500">Complete Profile</span>
+                <div class="flex flex-col items-center text-center px-2">
+                    <span class="text-4xl mb-4 block">💪</span>
+                    <span class="text-3xl font-serif font-bold text-slate-900 leading-none mb-3">36g</span>
+                    <div class="min-h-[40px]">
+                        <span class="block text-[10px] font-bold text-teal-600 uppercase tracking-widest mb-1">Protein</span>
+                        <span class="block text-[10px] text-slate-500">Complete Profile</span>
                     </div>
                 </div>
 
-                <div class="w-1/2 md:w-1/4 flex flex-col items-center text-center px-2">
-                    <span class="text-4xl mb-3 block">⏱️</span>
-                    <span class="text-3xl font-serif font-bold text-slate-900 leading-none mb-2">25m</span>
-                    <div class="flex flex-col">
-                        <span class="text-[10px] font-bold text-teal-600 uppercase tracking-widest mb-1">Total Time</span>
-                        <span class="text-[10px] text-slate-500">Sheet Pan Meal</span>
+                <div class="flex flex-col items-center text-center px-2">
+                    <span class="text-4xl mb-4 block">⏱️</span>
+                    <span class="text-3xl font-serif font-bold text-slate-900 leading-none mb-3">25m</span>
+                    <div class="min-h-[40px]">
+                        <span class="block text-[10px] font-bold text-teal-600 uppercase tracking-widest mb-1">Total Time</span>
+                        <span class="block text-[10px] text-slate-500">Sheet Pan Meal</span>
                     </div>
                 </div>
 
@@ -217,53 +217,66 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
             </div>
         </div>
 
-        <div class="mt-16 grid lg:grid-cols-2 gap-8 print:hidden">
-            <div class="bg-slate-900 rounded-xl p-8 text-white shadow-xl relative overflow-hidden">
-                <div class="absolute top-0 right-0 p-32 bg-teal-500 rounded-full blur-[100px] opacity-20"></div>
+        <div class="mt-16 grid lg:grid-cols-2 gap-8 items-stretch print:hidden">
+            
+            <div class="bg-slate-900 rounded-2xl p-8 text-white shadow-xl relative overflow-hidden flex flex-col">
+                <div class="absolute top-0 right-0 p-32 bg-teal-500 rounded-full blur-[100px] opacity-10"></div>
                 
-                <div class="flex items-center justify-between border-b border-slate-700 pb-4 mb-6 relative z-10">
-                    <h3 class="font-serif text-2xl font-bold">💳 Financial Audit</h3>
-                    <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 bg-slate-800 px-2 py-1 rounded">Cost Per Serving</span>
+                <div class="flex items-center justify-between border-b border-slate-700 pb-4 mb-8 relative z-10">
+                    <h3 class="font-serif text-2xl font-bold flex items-center gap-2">
+                        <span>💳</span> Financial Audit
+                    </h3>
+                    <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 bg-slate-800/50 px-2 py-1 rounded border border-slate-700">Cost Per Serving</span>
                 </div>
                 
-                <div class="relative z-10">
-                    <div class="flex items-baseline gap-2 mb-8">
-                        <span class="text-5xl font-bold text-teal-400">$7.33</span>
+                <div class="relative z-10 flex-grow">
+                    <div class="flex items-baseline gap-2 mb-10">
+                        <span class="text-6xl font-bold text-teal-400">$7.33</span>
                         <span class="text-sm font-bold text-slate-400">/ Plate</span>
                     </div>
 
-                    <div class="space-y-3 font-mono text-sm text-slate-300">
-                        <div class="flex justify-between border-b border-slate-800 pb-2 border-dashed">
+                    <div class="space-y-4 font-mono text-sm text-slate-300">
+                        <div class="flex justify-between border-b border-slate-800 pb-3 border-dashed">
                             <span>Wild Salmon (6oz)</span>
-                            <span>$4.50</span>
+                            <span class="text-white">$4.50</span>
                         </div>
-                        <div class="flex justify-between border-b border-slate-800 pb-2 border-dashed">
+                        <div class="flex justify-between border-b border-slate-800 pb-3 border-dashed">
                             <span>Pistachios & Walnuts</span>
-                            <span>$0.88</span>
+                            <span class="text-white">$0.88</span>
                         </div>
-                        <div class="flex justify-between pb-2">
+                        <div class="flex justify-between pb-3">
                             <span>Mustard/Maple/Citrus</span>
-                            <span>$0.69</span>
+                            <span class="text-white">$0.69</span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="bg-white border border-slate-200 rounded-xl p-8 shadow-sm">
-                <h3 class="font-serif text-2xl font-bold text-slate-900 mb-6">Nutrition Estimates</h3>
-                <div class="grid grid-cols-3 gap-4 text-center">
-                    <div class="p-4 bg-slate-50 rounded-lg">
-                        <span class="block text-2xl font-bold text-slate-900">460</span>
+            <div class="bg-white border border-slate-200 rounded-2xl p-8 shadow-sm flex flex-col">
+                <div class="flex items-center justify-between border-b border-slate-100 pb-4 mb-8">
+                    <h3 class="font-serif text-2xl font-bold text-slate-900 flex items-center gap-2">
+                        <span>📊</span> Nutrition Estimates
+                    </h3>
+                    <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 bg-slate-50 px-2 py-1 rounded border border-slate-200">Per Serving</span>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center flex-grow">
+                    <div class="flex flex-col justify-center p-6 bg-slate-50 rounded-xl border border-slate-100">
+                        <span class="block text-3xl font-bold text-slate-900 mb-1">460</span>
                         <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Calories</span>
                     </div>
-                    <div class="p-4 bg-teal-50 border border-teal-100 rounded-lg">
-                        <span class="block text-2xl font-bold text-teal-700">36g</span>
+                    <div class="flex flex-col justify-center p-6 bg-teal-50/50 border border-teal-100 rounded-xl">
+                        <span class="block text-3xl font-bold text-teal-700 mb-1">36g</span>
                         <span class="text-[10px] font-bold text-teal-600 uppercase tracking-wider">Protein</span>
                     </div>
-                    <div class="p-4 bg-slate-50 rounded-lg">
-                        <span class="block text-2xl font-bold text-slate-900">28g</span>
+                    <div class="flex flex-col justify-center p-6 bg-slate-50 rounded-xl border border-slate-100">
+                        <span class="block text-3xl font-bold text-slate-900 mb-1">28g</span>
                         <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Carbs</span>
                     </div>
+                </div>
+                
+                <div class="mt-8 pt-6 border-t border-slate-50 text-center">
+                    <p class="text-[10px] text-slate-400 italic">Values based on clinical nutritional databases.</p>
                 </div>
             </div>
         </div>
@@ -276,7 +289,7 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
             </h4>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <a href="https://amzn.to/46dMnFd" target="_blank" rel="noopener noreferrer" class="group block h-full bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                <a href="#" class="group block h-full bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-xl transition-all">
                     <div class="flex flex-col h-full">
                         <div class="flex items-center justify-between mb-4">
                             <span class="bg-yellow-100 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Binder</span>
@@ -284,15 +297,12 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                         </div>
                         <h5 class="font-bold text-slate-900 text-sm leading-snug mb-3 group-hover:text-teal-700">Bijan Mustardson Gourmet Dijon Mustard</h5>
                         <div class="mt-auto pt-4 border-t border-slate-100">
-                            <p class="text-xs text-slate-500 leading-relaxed">
-                                <strong class="text-slate-900 block mb-1">Why this brand:</strong>
-                                Bold flavor profile means you need less salt to make the dish pop.
-                            </p>
+                            <p class="text-xs text-slate-500 leading-relaxed">Bold flavor profile means you need less salt to make the dish pop.</p>
                         </div>
                     </div>
                 </a>
 
-                <a href="https://amzn.to/49cX9U" target="_blank" rel="noopener noreferrer" class="group block h-full bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                <a href="#" class="group block h-full bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-xl transition-all">
                     <div class="flex flex-col h-full">
                         <div class="flex items-center justify-between mb-4">
                             <span class="bg-teal-100 text-teal-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Shield</span>
@@ -300,15 +310,12 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                         </div>
                         <h5 class="font-bold text-slate-900 text-sm leading-snug mb-3 group-hover:text-teal-700">Fiddyment Farms Pistachios (1lb)</h5>
                         <div class="mt-auto pt-4 border-t border-slate-100">
-                            <p class="text-xs text-slate-500 leading-relaxed">
-                                <strong class="text-slate-900 block mb-1">Why this brand:</strong>
-                                Bulk pricing is efficient. Pistachios are the #1 nut for phytosterol content.
-                            </p>
+                            <p class="text-xs text-slate-500 leading-relaxed">Pistachios are the #1 nut for phytosterol content.</p>
                         </div>
                     </div>
                 </a>
                 
-                <a href="https://amzn.to/46dMssv" target="_blank" rel="noopener noreferrer" class="group block h-full bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                <a href="#" class="group block h-full bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-xl transition-all">
                     <div class="flex flex-col h-full">
                         <div class="flex items-center justify-between mb-4">
                             <span class="bg-slate-100 text-slate-800 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">The Base</span>
@@ -316,30 +323,9 @@ badges: ['Omega-3 Protocol', 'Phytosterols', 'Gluten Free']
                         </div>
                         <h5 class="font-bold text-slate-900 text-sm leading-snug mb-3 group-hover:text-teal-700">Viva Naturals Organic Quinoa</h5>
                         <div class="mt-auto pt-4 border-t border-slate-100">
-                            <p class="text-xs text-slate-500 leading-relaxed">
-                                <strong class="text-slate-900 block mb-1">Why this brand:</strong>
-                                Pre-washed helps remove bitterness. Contains all 9 essential amino acids.
-                            </p>
+                            <p class="text-xs text-slate-500 leading-relaxed">Pre-washed helps remove bitterness. Contains all 9 essential amino acids.</p>
                         </div>
                     </div>
-                </a>
-            </div>
-        </div>
-
-        <div class="mt-16 text-center print:hidden border-t border-slate-200 pt-8">
-            <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Share this Protocol</h4>
-            <div class="flex justify-center gap-4">
-                <a href="https://twitter.com/intent/tweet?text=The%20Plaque-Stabilizing%20Salmon&url=https://hearthealthbrands.com/content/pistachio-crusted-salmon.html" target="_blank" class="flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-full text-slate-600 hover:bg-slate-900 hover:text-white hover:border-slate-900 transition-all font-bold text-sm">
-                    <span>𝕏</span> 
-                    <span>Post</span>
-                </a>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=https://hearthealthbrands.com/content/pistachio-crusted-salmon.html" target="_blank" class="flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-full text-slate-600 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all font-bold text-sm">
-                    <span>f</span> 
-                    <span>Share</span>
-                </a>
-                <a href="mailto:?subject=Pistachio%20Salmon%20Recipe&body=Check%20out%20this%20clinical%20nutrition%20recipe:%20https://hearthealthbrands.com/content/pistachio-crusted-salmon.html" class="flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-full text-slate-600 hover:bg-green-600 hover:text-white hover:border-green-600 transition-all font-bold text-sm">
-                    <span>✉️</span> 
-                    <span>Email</span>
                 </a>
             </div>
         </div>
